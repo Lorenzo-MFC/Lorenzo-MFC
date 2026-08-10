@@ -59,7 +59,7 @@ Società di private equity statunitense specializzata nel settore **consumer**, 
 
 La partnership Azimut–HighPost non nasce ora: parte nel **2021** con due veicoli di private equity — *Azimut ELTIF – Private Equity Highpost* e *AZ RAIF II – Private Equity Highpost*. HIPstr rappresenta l'estensione **venture capital** di quella relazione, e HIPstr II ne è la seconda annata.
 
-> **Nota di metodo.** La notorietà del cognome Bezos è un fatto di marketing, non una fonte di rendimento. Mark Bezos ha un profilo di marketing, non di venture capital istituzionale. Va valutato il track record del team, non il cognome.
+> **Nota di metodo — da leggere insieme al §3.4.** Sul piano del *brand del gestore*, la notorietà del cognome Bezos è un fatto di marketing: Mark Bezos ha un profilo di marketing, non di venture capital istituzionale, e il track record da valutare è quello del team. Il legame con **Jeff** Bezos è però di natura diversa e va tenuto separato: non riguarda chi gestisce il fondo, ma **che cosa il fondo compra** (§3.4).
 
 ---
 
@@ -96,6 +96,71 @@ Questa è **venture capital early-stage sul consumer discretionary**: la combina
 - L'*early stage* implica tassi di mortalità elevati: la distribuzione dei rendimenti è governata da pochi outlier, non dalla mediana.
 - Il *consumer discretionary* è **ciclico** ed è il primo comparto a soffrire quando il reddito disponibile si comprime.
 - I due fattori **non si compensano**: si sommano.
+
+### 3.4 Project Prometheus: la posizione che definisce il fondo
+
+⚠️ *Fonte: materiale di collocamento riferito dall'investitore. **Il KID non nomina Prometheus** e questa allocazione non è stata verificata su documentazione ufficiale del fondo.*
+
+Secondo il materiale di collocamento, il comparto investirà **il 15–20% del portafoglio in Project Prometheus**, la società di AI fisica fondata da Jeff Bezos. HighPost viene presentata come *«joint venture con il family office dei Bezos»*.
+
+Se confermato, questo elemento **ridefinisce il prodotto**: non è un fondo di venture diversificato con dentro una partecipazione notevole, è in misura sostanziale una scommessa su una sola società, con un portafoglio venture attorno.
+
+#### Che cos'è Prometheus
+
+| Voce | Dato |
+|---|---|
+| Fondazione | Novembre 2025 — Jeff Bezos con **Vik Bajaj** (co-fondatore di Verily, Alphabet) |
+| Lancio | **6,2 Mld $** di finanziamento iniziale |
+| Round successivo | 11 giugno 2026: **12 Mld $ a valutazione ~41 Mld $** |
+| Raccolto totale | oltre **18 Mld $** in circa sette mesi |
+| Organico | **~150 dipendenti**, con assunzioni da OpenAI, DeepMind, Nvidia |
+| Ricavi noti | **Nessuno**; nessun cliente reso pubblico |
+| Co-investitori | JPMorgan, Goldman Sachs, BlackRock, DST Global, Arch Venture Partners |
+| Attività | *«Artificial general engineer»* — AI che progetta e industrializza oggetti fisici: motori a reazione, chip, ponti, molecole |
+
+Bezos ne è **co-CEO operativo**: il primo ruolo operativo da quando ha lasciato la guida di Amazon nel 2021. Ha inoltre precisato personalmente che la società *«non ha niente a che vedere con la robotica»* e l'ha descritta come *«una versione molto, molto moderna del CAD»*.
+
+#### I quattro rilievi
+
+**a) Concentrazione al tetto regolamentare.** Il KID consente un massimo del **20% del capitale su un singolo emittente**. Una quota del 15–20% colloca il fondo **esattamente sul limite**. Su un investimento di 5.000 €, fra 750 e 1.000 € finirebbero in una sola società.
+
+**b) Fuori dal mandato descritto nel KID.** Il KID è datato **22 ottobre 2025** e descrive «investimenti **early stage**» in «società dei **beni di consumo** e di abilitazione della **tecnologia di consumo**». Prometheus è nata a **novembre 2025** — *dopo* la redazione del documento — e opera nell'AI industriale per aerospazio, automotive, chip e farmaceutica. Non è early stage e non è consumer.
+
+**c) Operazione con parte correlata.** Il gestore delegato è una joint venture con il family office dei Bezos, e allocherebbe un quinto del capitale retail in una società fondata e co-diretta da Jeff Bezos. Il co-investimento con parti correlate è prassi diffusa ed è anche la **fonte dell'accesso**; ma il prezzo d'ingresso non può essere determinato dalla stessa parte che siede dall'altro lato del tavolo.
+
+**d) Prezzo d'ingresso.** Da 6,2 a 41 Mld $ in sette mesi sono circa **6,6x**, senza ricavi dichiarati, con ~150 dipendenti — ovvero **~273 M$ di valutazione per dipendente**. Entrando a 41 Mld $:
+
+| Multiplo sulla quota | Valutazione necessaria | Ordine di grandezza |
+|---|---|---|
+| 3× | ~123 Mld $ | scala Uber |
+| 5× | ~205 Mld $ | scala Adobe / Intel |
+| 10× | ~410 Mld $ | scala Meta / Broadcom |
+
+A questo prezzo non si compra *optionality* da venture: si compra **rischio late-stage growth**, con liquidità, orizzonte e commissioni da venture capital. Chi è entrato a 6,2 Mld $ nel novembre 2025 ha comprato una cosa diversa.
+
+#### Il lato favorevole, per equilibrio
+
+- **Bezos è operativo**, non è un nome su una carta intestata; Vik Bajaj ha già portato scienza dura dentro un prodotto in Alphabet
+- **Capitale istituzionale serio** ha fatto la propria due diligence a 38–41 Mld $
+- **L'accesso è reale**: a un round privato da 12 Mld $ un investitore retail non entra in alcun altro modo
+- Su quella quota **il rischio *blind pool* sparisce**: si sa esattamente cosa si compra, a differenza del restante 80% del fondo
+
+#### Il contro, per equilibrio
+
+- Nessun ricavo, nessun cliente pubblico: a 41 Mld $ si paga interamente l'aspettativa
+- Diversi analisti hanno osservato pubblicamente che la valutazione *«rompe diverse convenzioni della matematica del venture»*
+- Il campo si affolla: **PhysicsX** ha chiuso una Serie C da 300 M$ sui *Large Physics Models*; Nvidia spinge la piattaforma **Cosmos**; i *world model* sono la corsa del 2026
+- Vendere software critico ad aerospazio, automotive e farmaceutico richiede **anni**, non trimestri
+
+> Sul rischio di bolla, la posizione di Bezos è: *«le buone idee pagheranno per tutti i perdenti»*. È un'affermazione plausibile a livello di sistema e **irrilevante a livello di singola posizione**: chi sottoscrive non compra l'indice dell'AI, compra una società.
+
+#### La domanda che ne deriva
+
+Il quesito non è più «HIPstr II oppure Secure Europe», ma:
+
+> **Vale 3,9% l'anno più il 20% di carried interest, per dodici anni senza possibilità di uscita e senza beneficio PIR, accedere a Prometheus a 41 Mld $ con un quinto del capitale?**
+
+Se la risposta è sì, ciò che si acquista è **l'accesso**, e il restante 80% del fondo va valutato separatamente come accessorio.
 
 ---
 
@@ -149,7 +214,9 @@ Di conseguenza:
 | **Rischio valutario** | 🟠 Medio-alto | Investimenti **principalmente in USD**. Il KID dice che il gestore *«potrà»* coprire: è una facoltà, non un obbligo |
 | **Costo complessivo** | 🔴 Alto | **3,9%/anno** di costi correnti + carried **20% sopra hurdle 6%**. Vedi §6.1 |
 | **Illiquidità** | 🔴 Alto | **Nessun rimborso possibile fino al 14 maggio 2038** — circa dodici anni. Nessun gate, nessuna finestra (§1.1) |
-| **Concentrazione per emittente** | 🟠 Medio-alto | Il regolamento consente fino al **20% su un singolo emittente** |
+| **Concentrazione per emittente** | 🔴 Alto | Il regolamento consente fino al 20% su un singolo emittente, e il materiale di collocamento indica **15–20% in Project Prometheus**: il fondo si siederebbe sul tetto (§3.4) |
+| **Operazione con parte correlata** | 🔴 Alto | Il gestore è JV con il family office dei Bezos e allocherebbe un quinto del capitale in una società di Jeff Bezos. Prezzo d'ingresso da verificare (§3.4) |
+| **Coerenza col mandato** | 🟠 Medio-alto | Prometheus non è early stage né consumer: il KID descrive un mandato diverso (§3.4) |
 | **Curva a J** | 🟠 Medio | Commissioni dal giorno uno, valore tardivo. NAV sotto il costo per anni: normale, ma va messo in conto |
 | **Opacità valutativa** | 🟠 Medio | Partecipate non quotate valorizzate dal gestore. Il NAV è una stima finché non c'è un exit |
 | **Fiscalità** | 🔴 Alto | Nessun beneficio PIR nel KID (§5), su un vincolo di dodici anni |
@@ -200,6 +267,13 @@ Il KID ha risolto le voci su commissioni, durata, liquidità e forma del fondo. 
 - [ ] **Periodo d'investimento** e finestra di collocamento
 - [ ] Cosa accade se il target di raccolta non viene raggiunto
 
+### Project Prometheus (§3.4)
+- [ ] **A quale valutazione entra il fondo**, e chi l'ha determinata — c'è una valutazione indipendente o si applica quella dell'ultimo round?
+- [ ] Il **carried interest del 20% si applica anche alla quota Prometheus**? Su un'allocazione a parte correlata il gestore non sta facendo *sourcing*
+- [ ] Il **15–20% è vincolo contrattuale o intenzione**? Nel secondo caso la concentrazione effettiva è decisa dopo la sottoscrizione
+- [ ] **Come si concilia Prometheus con il mandato «early stage consumer»** del KID?
+- [ ] Il family office o HighPost ricevono **benefici** dal collocamento di questa quota?
+
 ### Portafoglio e gestione
 - [ ] **Numero atteso di partecipate** e ticket medio → con il limite del 20% per emittente, la concentrazione effettiva può essere molto alta
 - [ ] Politica di allocazione fra HIPstr II e gli altri veicoli HighPost
@@ -242,6 +316,7 @@ I tre elementi che pesano di più nella valutazione:
 1. **Non c'è track record.** Il secondo fondo viene raccolto prima che il primo abbia prodotto un solo realizzo. Non è irregolare — è prassi diffusa — ma significa che si sta comprando una tesi, non una performance.
 2. **Il beneficio fiscale non compare nel KID**, mentre il vincolo è **il più lungo dei due prodotti**: dodici anni, senza alcuna possibilità di rimborso.
 3. **I costi sono ora noti e sono elevati**: 3,9% annuo di costi correnti, con carried al 20% su un hurdle del 6% — più basso, quindi il carry scatta prima. È il prodotto più caro dei due di circa **1,3 punti l'anno**.
+4. **Prometheus cambia la natura del prodotto** (§3.4). Con il 15–20% in una sola società — al tetto regolamentare, in operazione con parte correlata, a una valutazione di 41 Mld $ senza ricavi — questo non è un fondo di venture diversificato. È un veicolo di **accesso a una singola posizione**, con un portafoglio consumer attorno. Va giudicato come tale.
 
 **Raccomandazione operativa:** le condizioni economiche non sono più il problema — sono note e vanno pesate. Restano da ottenere il **DPI realizzato di HIPstr Fund I**, la conferma sullo status PIR e la prassi effettiva di copertura valutaria. Se il collocatore non fornisce il DPI, è di per sé un'informazione.
 
@@ -267,6 +342,8 @@ I tre elementi che pesano di più nella valutazione:
 
 Il documento è costruito su fonti pubbliche accessibili ad agosto 2026. **Il KID ufficiale** (Classe A EUR, ISIN LU3172424171, datato 22 ottobre 2025) è stato consultato e integrato: da esso derivano scadenza, SRI, classificazione SFDR, limiti d'investimento, costi (§6.1) e scenari (§6.2). **Non sono stati consultati il Prospetto né il regolamento di gestione**, che prevalgono su qualunque affermazione contenuta qui.
 
-Sono **valutazioni dell'analista**, non dati: la lettura sullo status PIR (§5, inferita dall'assenza nel KID), la matrice dei rischi (§6), il profilo di adeguatezza (§8) e le conclusioni (§9).
+L'allocazione **15–20% in Project Prometheus** (§3.4) proviene dal **materiale di collocamento riferito dall'investitore** e non compare in alcun documento ufficiale del fondo consultato: va verificata prima di attribuirle qualunque peso decisionale. I dati su Prometheus derivano da fonti giornalistiche pubbliche (TechCrunch, CNBC, GeekWire, Bloomberg, Axios); i confronti di capitalizzazione sono ordini di grandezza indicativi, non quotazioni puntuali.
+
+Sono **valutazioni dell'analista**, non dati: la lettura sullo status PIR (§5, inferita dall'assenza nel KID), i rilievi su Prometheus (§3.4), la matrice dei rischi (§6), il profilo di adeguatezza (§8) e le conclusioni (§9).
 
 Capitale a rischio. I rendimenti passati di altri veicoli Azimut o HighPost non sono indicativi di quelli futuri.
