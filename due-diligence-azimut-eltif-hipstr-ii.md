@@ -2,7 +2,7 @@
 
 > Documento di due diligence redatto ad **agosto 2026** sulla base di **sole fonti pubbliche**.
 > Non costituisce consulenza finanziaria né sollecitazione all'investimento.
-> ⚠️ Le condizioni economiche (commissioni, minimi, durata) **non sono pubblicamente disponibili**: vanno lette su KID e Prospetto prima di qualunque decisione. Vedi §7.
+> ✅ **Aggiornato con il KID ufficiale** (Classe A EUR, ISIN LU3172424171, documento datato 22 ottobre 2025). Le condizioni economiche non sono più stimate: sono quelle dichiarate. Resta da verificare quanto indicato al §7.
 
 ---
 
@@ -19,15 +19,21 @@
 | Gestione delegata | **HighPost Capital LLC** (USA) |
 | Collocamento in Italia | Azimut Capital Management SGR S.p.A. |
 | Predecessore | AZIMUT ELTIF – Venture Capital HIPstr (I) — **chiuso** alle sottoscrizioni |
+| ISIN (Classe A EUR) | `LU3172424171` |
+| Forma | ELTIF, fondo comune di investimento (FCP), OIC di diritto lussemburghese |
+| Autorizzazione | Lussemburgo — vigilanza CSSF |
+| Depositario | BNP Paribas, Luxembourg Branch |
+| **Scadenza** | **14 maggio 2038** |
+| Indicatore di rischio (SRI) | **6 su 7** — seconda classe più alta |
+| Classificazione SFDR | **Articolo 6** (nessuna promozione di caratteristiche ESG) |
 
-### 1.1 Discrepanza da chiarire subito
+### 1.1 Risolta la discrepanza sulla forma del fondo
 
-Le fonti pubbliche si contraddicono sulla forma del fondo:
+Le fonti pubbliche si contraddicevano (ELTIF chiuso secondo la documentazione del comparto I, *open-end fund* secondo Bloomberg). **Il KID chiude la questione**, e nel modo più restrittivo:
 
-- La documentazione relativa al comparto HIPstr (I) lo descrive come ELTIF **chiuso**, non riservato.
-- La scheda Bloomberg del HIPstr II lo riporta come **open-end fund**.
+> «A causa della natura **chiusa** del Fondo, non è possibile chiedere un rimborso prima del periodo di detenzione obbligatorio minimo. Non è possibile chiedere il rimborso del prodotto. **Avete l'obbligo di mantenere l'investimento nel prodotto dalla data della vostra sottoscrizione fino alla scadenza del prodotto.**»
 
-Non è un dettaglio formale: determina **se e quando si può uscire**. È la prima domanda da porre al collocatore, con risposta da verificare sul Prospetto.
+Non esiste finestra di rimborso, gate o sacca di liquidità: il capitale è vincolato fino al **14 maggio 2038**, cioè circa **dodici anni** da agosto 2026. La scheda Bloomberg è fuorviante.
 
 ---
 
@@ -59,11 +65,18 @@ La partnership Azimut–HighPost non nasce ora: parte nel **2021** con due veico
 
 ## 3. Strategia d'investimento
 
-### 3.1 Mandato dichiarato
+### 3.1 Mandato dichiarato (dal KID)
 
-Il fondo investe **almeno il 55% e fino al 100%** del capitale, direttamente o indirettamente, in *equity*, strumenti *equity-related* e *quasi-equity* emessi da **società non quotate** nella regione d'investimento.
+Il fondo investe **almeno il 55% e fino al 100%** del capitale, direttamente o indirettamente, in *equity*, strumenti *equity-related* e *quasi-equity* (inclusi i convertibili) emessi da **società non quotate** nella regione d'investimento. Punta ad acquisire quote di minoranza e di maggioranza qualificata, e può coinvestire con altri fondi.
 
-Il criterio di selezione dichiarato: aziende ad **alto potenziale di crescita**, con gruppi imprenditoriali dinamici e orientamento al miglioramento ambientale e sociale.
+**Regione d'investimento:** Nord America, Europa occidentale, Medio Oriente. Fino al **25%** può essere investito in società con sede e operatività fuori da queste aree.
+
+**Limiti rilevanti dal KID:**
+
+- Massimo **20% del capitale** su un singolo emittente o gruppo di emittenti — un quinto del fondo può concentrarsi su una sola società
+- Fino al **20%** in liquidità, titoli di debito e strumenti monetari
+- Può investire in OICVM e OICR **gestiti da società del Gruppo Azimut** — potenziale conflitto, verificare se genera commissioni aggiuntive
+- Gli investimenti sono **principalmente denominati in USD**; il gestore *«potrà coprire»* il rischio di cambio — è una **facoltà, non un obbligo**
 
 ### 3.2 Settori (dal Fondo I)
 
@@ -105,7 +118,7 @@ Da verificare separatamente il track record **realizzato** dei due veicoli Priva
 
 ---
 
-## 5. Il nodo fiscale: il PIR Alternativo probabilmente **non** si applica
+## 5. Il nodo fiscale: il PIR Alternativo **non** compare nel KID
 
 Questo è il punto che distingue in modo netto HIPstr II dall'altro ELTIF Azimut in collocamento (Secure Europe Technologies).
 
@@ -113,13 +126,15 @@ Questo è il punto che distingue in modo netto HIPstr II dall'altro ELTIF Azimut
 
 **HIPstr II** ha un gestore statunitense, una strategia consumer con focus dichiarato su Nord America, Europa e Medio Oriente, e un fondo predecessore il cui portafoglio è prevalentemente USA.
 
-➡️ **Inferenza forte: il comparto non può soddisfare la soglia PIR.** Di conseguenza:
+➡️ **Il KID conferma l'inferenza per assenza.** Il documento non nomina mai il PIR. Il confronto è diretto e netto: il KID di *Secure Europe Technologies* dedica un intero paragrafo agli «**Investimenti qualificati PIR**», citando l'articolo 73 del TUIR e la soglia del 70% sul territorio italiano. Nel KID di HIPstr II non c'è nulla di equivalente — coerentemente con una strategia su Nord America, Europa occidentale e Medio Oriente.
+
+Di conseguenza:
 
 - Nessuna esenzione dal **26%** su plusvalenze e proventi
 - Nessuna esenzione da imposta di successione
-- Il vincolo di illiquidità resta **identico**, ma **senza** il beneficio fiscale che lo compensa
+- Il vincolo di illiquidità è **più lungo** di quello di Secure Europe (2038 contro 2035), **senza** il beneficio fiscale che lo compensa
 
-⚠️ *Questa è un'inferenza basata sulla strategia dichiarata, non una lettura del Prospetto.* Va verificata — ma se confermata, cambia radicalmente il confronto con Secure Europe: **stessa illiquidità, stesso orizzonte, metà dei vantaggi.**
+⚠️ *L'assenza dal KID è un indizio molto forte ma non una dichiarazione esplicita di non conformità.* Va chiesta conferma scritta.
 
 ---
 
@@ -131,45 +146,69 @@ Questo è il punto che distingue in modo netto HIPstr II dall'altro ELTIF Azimut
 | **Ciclicità settoriale** | 🔴 Alto | Consumer discretionary, primo a soffrire in contrazione dei consumi |
 | **Blind pool** | 🔴 Alto | Si sottoscrive prima che il portafoglio esista |
 | **Assenza di track record** | 🔴 Alto | Vedi §4 — nessun realizzo, secondo fondo raccolto sul primo non ancora maturo |
-| **Rischio valutario** | 🟠 Medio-alto | Sottostante prevalentemente in USD, investitore in EUR. **Verificare se esiste copertura e chi ne paga il costo** |
-| **Stratificazione commissionale** | 🟠 Medio-alto | ELTIF Azimut + gestione delegata HighPost + collocamento Azimut CM: **verificare se le fee si sommano** |
-| **Illiquidità** | 🟠 Medio-alto | Da chiarire la forma (chiuso vs open-end, §1.1). In assenza di prova contraria, assumere capitale immobilizzato |
+| **Rischio valutario** | 🟠 Medio-alto | Investimenti **principalmente in USD**. Il KID dice che il gestore *«potrà»* coprire: è una facoltà, non un obbligo |
+| **Costo complessivo** | 🔴 Alto | **3,9%/anno** di costi correnti + carried **20% sopra hurdle 6%**. Vedi §6.1 |
+| **Illiquidità** | 🔴 Alto | **Nessun rimborso possibile fino al 14 maggio 2038** — circa dodici anni. Nessun gate, nessuna finestra (§1.1) |
+| **Concentrazione per emittente** | 🟠 Medio-alto | Il regolamento consente fino al **20% su un singolo emittente** |
 | **Curva a J** | 🟠 Medio | Commissioni dal giorno uno, valore tardivo. NAV sotto il costo per anni: normale, ma va messo in conto |
 | **Opacità valutativa** | 🟠 Medio | Partecipate non quotate valorizzate dal gestore. Il NAV è una stima finché non c'è un exit |
-| **Fiscalità** | 🟠 Medio | Probabile assenza del beneficio PIR (§5) |
+| **Fiscalità** | 🔴 Alto | Nessun beneficio PIR nel KID (§5), su un vincolo di dodici anni |
 | **Conflitto di interesse** | 🟡 Da verificare | Azimut è **gestore, collocatore e distributore**. Verificare come sono allocate le opportunità fra HIPstr II e i veicoli istituzionali di HighPost |
+
+### 6.1 I costi, dal KID
+
+| Voce | Valore |
+|---|---|
+| Costi di ingresso | **1,0%** dell'importo sottoscritto |
+| Costi di uscita | 0% |
+| **Commissioni di gestione e altri costi correnti** | **3,9%** del valore dell'investimento **all'anno** |
+| Costi di transazione | 0,0% (stima) |
+| **Carried interest** | **20%** sui rendimenti oltre un **hurdle del 6% annuo** — impatto stimato **4,2%/anno** |
+| Commissione massima di distribuzione | 0,0% |
+| **Incidenza annuale totale dei costi** | **2,9% ogni anno** |
+
+Su 10.000 € e dieci anni, in scenario moderato, il KID stima **34.145 € di costi totali**: il rendimento medio annuo passa dal **25,8% lordo al 22,9% netto**.
+
+> ⚠️ **Come leggere questa cifra.** L'incidenza del 2,9% appare contenuta solo perché è calcolata su un NAV che il modello assume in fortissima crescita. In valore assoluto i costi valgono **oltre tre volte il capitale inizialmente investito**. Se il fondo si limitasse a restituire il capitale, l'erosione relativa sarebbe molto più severa di quanto il 2,9% suggerisca.
+
+### 6.2 Scenari di performance (10.000 €, uscita a 10 anni)
+
+| Scenario | Rimborso | Rendimento medio annuo |
+|---|---|---|
+| Stress | **3.287 €** | −10,5% |
+| Sfavorevole | 19.978 € | +7,2% |
+| Moderato | 78.383 € | +22,9% |
+| Favorevole | 155.676 € | +31,6% |
+
+> ⚠️ **Gli scenari non sono statistica di mercato.** Il KID dichiara che sono *«generati in base al **business plan del Fondo**»*. Lo scenario moderato al +22,9% netto annuo è l'ipotesi del gestore, non una probabilità osservata. Un venture fund early-stage che consegni il 22,9% netto per dieci anni si collocherebbe nel quartile superiore della categoria a livello mondiale.
 
 ---
 
-## 7. Informazioni mancanti — da ottenere **per iscritto** prima di sottoscrivere
+## 7. Informazioni ancora mancanti — da ottenere **per iscritto** prima di sottoscrivere
 
-Nessuna delle voci seguenti è pubblicamente disponibile. Sono tutte determinanti sul rendimento netto.
+Il KID ha risolto le voci su commissioni, durata, liquidità e forma del fondo. Restano aperte le seguenti.
 
 ### Condizioni economiche
-- [ ] **Commissione di gestione** annua — e se è calcolata su capitale *committed* o *investito*
-- [ ] **Carried interest**: percentuale, *hurdle rate*, presenza di *catch-up*
-- [ ] **Commissione di sottoscrizione** e retrocessione al collocatore
-- [ ] **Doppia commissione**: HighPost preleva a livello di fondo sottostante *in aggiunta* alle fee ELTIF?
-- [ ] **TER complessivo** stimato
+- [ ] Il 3,9% è calcolato su capitale *committed* o *investito*?
+- [ ] Presenza di **catch-up** sul carried interest (il KID non lo specifica)
+- [ ] **Doppia commissione**: HighPost preleva a livello di veicolo sottostante *in aggiunta* al 3,9%?
+- [ ] Costi degli **OICR del Gruppo Azimut** in cui il comparto può investire — generano fee aggiuntive?
 
-### Struttura e liquidità
-- [ ] Forma giuridica definitiva: **chiuso o open-end** (§1.1)
-- [ ] **Durata** del fondo ed eventuali proroghe
-- [ ] **Periodo d'investimento**
-- [ ] Condizioni di rimborso: periodo minimo di detenzione, preavviso, frequenza, *gates*, dimensione della sacca di liquidità
-- [ ] Meccanica di richiamo: versamento unico o *capital call*, penali per mancato versamento
-- [ ] **Investimento minimo**
-- [ ] Finestra di collocamento, date di closing, e cosa accade se il target di raccolta non viene raggiunto
+### Struttura
+- [ ] **Investimento minimo** — non indicato nel KID
+- [ ] Meccanica di versamento: unico o *capital call*; penale per richiamo non onorato
+- [ ] **Periodo d'investimento** e finestra di collocamento
+- [ ] Cosa accade se il target di raccolta non viene raggiunto
 
 ### Portafoglio e gestione
-- [ ] **Numero atteso di partecipate** e ticket medio → determina la concentrazione effettiva
+- [ ] **Numero atteso di partecipate** e ticket medio → con il limite del 20% per emittente, la concentrazione effettiva può essere molto alta
 - [ ] Politica di allocazione fra HIPstr II e gli altri veicoli HighPost
 - [ ] **DPI realizzato** di HIPstr Fund I e dei veicoli Private Equity Highpost 2021
-- [ ] Copertura valutaria: esiste? A carico di chi?
+- [ ] **Copertura valutaria**: il KID dice che il gestore *«potrà»* coprire. In pratica lo fa? Con quale grado? A carico di chi è il costo?
 
 ### Fiscalità
-- [ ] Conferma scritta sullo **status PIR Alternativo** (§5)
-- [ ] Trattamento fiscale in capo all'investitore italiano in assenza di PIR
+- [ ] Conferma scritta che il comparto **non** è PIR compliant (§5)
+- [ ] Trattamento fiscale per l'investitore italiano in assenza di PIR
 
 ---
 
@@ -181,7 +220,7 @@ Nessuna delle voci seguenti è pubblicamente disponibile. Sono tutte determinant
 - Allocazione **satellite** — indicativamente **1–3%** del portafoglio, mai una posizione core
 - Chi ha **già** esposizione a private equity e comprende la distribuzione dei rendimenti del venture
 - Chi cerca specificamente esposizione consumer early-stage non replicabile sui mercati quotati
-- Denaro senza alcuna destinazione prevista per almeno **10 anni**
+- Denaro senza alcuna destinazione prevista **fino al 2038**
 
 ### Non adatto a
 
@@ -201,10 +240,10 @@ HIPstr II è un prodotto **coerente con quello che dichiara di essere**: venture
 I tre elementi che pesano di più nella valutazione:
 
 1. **Non c'è track record.** Il secondo fondo viene raccolto prima che il primo abbia prodotto un solo realizzo. Non è irregolare — è prassi diffusa — ma significa che si sta comprando una tesi, non una performance.
-2. **Il beneficio fiscale probabilmente non c'è.** Se confermato, si assume l'illiquidità decennale tipica dell'ELTIF senza la compensazione che la rende accettabile nel formato retail italiano.
-3. **La struttura commissionale è ignota** e passa per due livelli societari. Su un orizzonte decennale è la singola variabile con l'impatto maggiore sul rendimento netto.
+2. **Il beneficio fiscale non compare nel KID**, mentre il vincolo è **il più lungo dei due prodotti**: dodici anni, senza alcuna possibilità di rimborso.
+3. **I costi sono ora noti e sono elevati**: 3,9% annuo di costi correnti, con carried al 20% su un hurdle del 6% — più basso, quindi il carry scatta prima. È il prodotto più caro dei due di circa **1,3 punti l'anno**.
 
-**Raccomandazione operativa:** non sottoscrivere prima di aver ottenuto per iscritto le voci del §7 — in particolare commissioni, status PIR e DPI realizzato di HIPstr I. Se il collocatore non fornisce il DPI, è di per sé un'informazione.
+**Raccomandazione operativa:** le condizioni economiche non sono più il problema — sono note e vanno pesate. Restano da ottenere il **DPI realizzato di HIPstr Fund I**, la conferma sullo status PIR e la prassi effettiva di copertura valutaria. Se il collocatore non fornisce il DPI, è di per sé un'informazione.
 
 ---
 
@@ -226,8 +265,8 @@ I tre elementi che pesano di più nella valutazione:
 
 ## Nota metodologica
 
-Il documento è costruito su fonti pubbliche accessibili ad agosto 2026. **Non sono stati consultati Prospetto, KID, regolamento di gestione o materiale di collocamento**, che non sono pubblicamente reperibili e che prevalgono su qualunque affermazione contenuta qui.
+Il documento è costruito su fonti pubbliche accessibili ad agosto 2026. **Il KID ufficiale** (Classe A EUR, ISIN LU3172424171, datato 22 ottobre 2025) è stato consultato e integrato: da esso derivano scadenza, SRI, classificazione SFDR, limiti d'investimento, costi (§6.1) e scenari (§6.2). **Non sono stati consultati il Prospetto né il regolamento di gestione**, che prevalgono su qualunque affermazione contenuta qui.
 
-Sono **inferenze dell'analista**, non dati verificati: lo status PIR (§5), la valutazione dei rischi (§6) e le conclusioni (§9). La discrepanza sulla forma giuridica (§1.1) riflette una contraddizione fra fonti pubbliche, non un'omissione.
+Sono **valutazioni dell'analista**, non dati: la lettura sullo status PIR (§5, inferita dall'assenza nel KID), la matrice dei rischi (§6), il profilo di adeguatezza (§8) e le conclusioni (§9).
 
 Capitale a rischio. I rendimenti passati di altri veicoli Azimut o HighPost non sono indicativi di quelli futuri.
