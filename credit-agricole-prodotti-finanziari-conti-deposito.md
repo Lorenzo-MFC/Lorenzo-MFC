@@ -1,6 +1,6 @@
 # Crédit Agricole Italia — Prodotti finanziari e rendimenti dei conti deposito
 
-> Ricerca aggiornata ad **agosto 2026**. I tassi dei conti deposito cambiano spesso e le
+> Ricerca aggiornata al **24 agosto 2026**. I tassi dei conti deposito cambiano spesso e le
 > promozioni hanno scadenza: prima di aprire un prodotto verificare sempre le condizioni
 > ufficiali su [credit-agricole.it](https://www.credit-agricole.it/privati/investimenti/conto-deposito)
 > e i relativi fogli informativi. Questo documento ha scopo informativo e non costituisce
@@ -15,25 +15,40 @@
 | Durata vincolo | Tasso annuo lordo | Note |
 |---|---|---|
 | 4 mesi | **fino al 3,75%** | Offerta riservata a nuovi clienti o a clienti che apportano nuova liquidità da altre banche |
-| 6 mesi | **3,25%** | Su importi fino a 1.000.000 € |
-| 6 mesi (condizioni standard) | 3,00% | Fuori promozione, secondo alcune fonti comparative |
+| 6 mesi | **3,25%** | Tasso promozionale |
+| 6 mesi (condizioni standard) | 2,50–3,00% | Fuori promozione, secondo le fonti comparative |
 | 9 mesi | 2,75% | |
+| 3 mesi (condizioni standard) | 2,00% | Fuori promozione, secondo alcune fonti comparative |
 
 Le fonti comparative riportano valori leggermente diversi tra loro (il 3,75% viene indicato
-a 4 mesi da alcune e a 6 mesi da altre): fa fede esclusivamente il foglio informativo
-sul sito della banca al momento della sottoscrizione.
+a 4 mesi da alcune e a 6 mesi da altre; i tassi standard fuori promozione oscillano tra il
+2% e il 3% a seconda della fonte e della data di rilevazione): fa fede esclusivamente il
+foglio informativo sul sito della banca al momento della sottoscrizione.
+
+### Importi
+
+| Voce | Valore |
+|---|---|
+| Importo minimo per vincolo | 5.000 € |
+| Importo massimo per sottoscrizione | 500.000 € |
+| Sottoscrizioni multiple | Possibili: ogni cliente può aprire più Conti Deposito CA |
+| Accredito interessi | Alla scadenza del vincolo |
 
 ### Condizioni principali
 
 - **Requisito di accesso**: è necessario essere titolari di un conto corrente
-  Crédit Agricole Italia (il conto deposito è un prodotto di appoggio).
-- **Costi**: nessuna spesa di apertura o gestione.
+  Crédit Agricole Italia di appoggio, acceso presso la stessa filiale e con la
+  medesima intestazione.
+- **Apertura**: gratuita e digitale, da app o home banking (oppure in filiale
+  con firma digitale).
+- **Costi**: nessuna spesa di apertura o gestione (resta dovuta l'imposta di bollo).
 - **Offerta promozionale**: i tassi più alti sono riservati a nuovi clienti o a clienti
   esistenti che portano **nuova liquidità** proveniente da banche diverse da
   Crédit Agricole Italia.
-- **Svincolo anticipato**: possibile; la banca restituisce le somme in un'unica soluzione
-  entro il giorno lavorativo successivo ai 32 giorni dalla richiesta, ma **senza
-  riconoscere gli interessi maturati** sulla somma svincolata.
+- **Svincolo anticipato**: possibile con **preavviso di 32 giorni**; la banca
+  restituisce le somme in un'unica soluzione entro il giorno lavorativo successivo
+  ai 32 giorni dalla richiesta, ma **senza riconoscere gli interessi maturati**
+  sulla somma svincolata.
 
 ### Fiscalità e rendimento reale
 
@@ -107,6 +122,7 @@ certificates, fondi pensione).
 - [Conto Deposito Crédit Agricole — SOStariffe.it](https://www.sostariffe.it/conto-deposito/credit-agricole-italia/)
 - [Conto deposito Crédit Agricole: il 3,25% reale nel 2026 — SF Advisor](https://www.sfadvisor.it/conto-deposito-credit-agricole-recensione/)
 - [Crédit Agricole conto deposito: recensione — QualeBanca](https://www.qualebanca.com/conti/recensioni/conto-deposito-credit-agricole-opinioni)
+- [Conto Crédit Agricole: recensione 2026 — Finanza.com](https://www.finanza.com/focus/conti/conto-credit-agricole-recensione)
 - [Conto deposito Crédit Agricole Italia — Facile.it](https://www.facile.it/banche-finanziarie/cariparma/conti-deposito.html)
 - [Investimenti e risparmio — Crédit Agricole Italia](https://www.credit-agricole.it/privati/investimenti)
 - [Fondi, Sicav e PAC — Crédit Agricole Italia](https://www.credit-agricole.it/privati/investimenti/fondi-sicav-piani-accumulo)
