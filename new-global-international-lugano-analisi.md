@@ -9,6 +9,8 @@
 > dell'ambiente di lavoro. Le informazioni sulla società derivano quindi da estratti dei
 > motori di ricerca, non da fonte primaria. Ogni dato societario riportato nella Sezione 1
 > va **verificato all'origine** prima di qualunque decisione (vedi la checklist in Sezione 10).
+> **Documento collegato**: `new-global-international-valutazione-cliente-50k.md` valuta la
+> proposta dal punto di vista del cliente, con un esborso iniziale di 50'000.
 
 ---
 
