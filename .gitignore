@@ -1,0 +1,11 @@
+# Dati bancari e finanziari personali.
+# Estratti conto, movimenti e modelli di cassa contengono IBAN, nominativi di
+# clienti e dettaglio delle transazioni: non vanno versionati. La storia di Git
+# e' permanente e questi file sono comunque rigenerabili dagli estratti originali.
+*.xlsx
+*.xls
+*.csv
+Lista_Movimenti*
+Movimenti*
+*estratto-conto*
+*.pdf
