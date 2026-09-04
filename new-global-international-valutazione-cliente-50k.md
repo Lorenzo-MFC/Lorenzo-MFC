@@ -6,6 +6,10 @@
 > euro il ragionamento non cambia, cambiano solo le cifre di circa il 5-6%).
 > Non è consulenza fiscale, legale o finanziaria. Le soglie e i calcoli sono parametri
 > di mercato, da validare con un professionista abilitato prima di firmare.
+> **Aggiornamento**: la configurazione effettiva è stata poi chiarita come **consulenza
+> mensile su portafoglio autogestito**. Lo scenario B di questo documento è quindi quello
+> pertinente, ed è sviluppato in dettaglio in `consulenza-mensile-50k-valutazione.md`.
+> Gli scenari A e C restano utili come termine di paragone.
 
 ---
 
