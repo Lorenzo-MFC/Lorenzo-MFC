@@ -24,10 +24,10 @@ vs **Vontobel `DE000BD2KYU6`** (3 blue chip italiane, cedola 7,20% p.a.)
 | Autocall | da 03.05.2027, 100% → 50% (−1%/mese) | da 30.07.2027, 100% → 64,75% (−0,75%/mese) |
 | Scadenza | 11.08.2031 (val. 04.08.2031) | 06.08.2031 (val. 30.07.2031) |
 | Mercato | EuroTLX | SeDeX |
-| **Fair value stimato (modello)** | **93,0** (range 93–96,5) | **90,4** (range 90,5–94,8) |
-| Vita attesa (risk-neutral) | 2,90 anni | 3,36 anni |
+| **Fair value stimato (modello)** | **92,9** (range 92,9–96,5) | **90,3** (range 90,3–94,8) |
+| Vita attesa (risk-neutral) | 2,91 anni | 3,36 anni |
 | P(richiamo anticipato) | 64% | 55% |
-| P(perdita in conto capitale) — RN | 32% | 36% |
+| P(perdita in conto capitale) — RN | 31,7% | 36,1% |
 | P(perdita in conto capitale) — *real world* | 20,5% | 18,6% |
 | Cedola di equilibrio (FV = 100) | **15,4% p.a.** (paga 11,64%) | **10,5% p.a.** (paga 7,20%) |
 
@@ -50,7 +50,7 @@ secondario ≤ 95 per A e ≤ 93 per B**.
 | Sottostante | Strike | Spot | Perf. da strike | Barriera cedola 50% | Barriera capitale 40% | Spazio residuo al capitale |
 |---|---|---|---|---|---|---|
 | Banca MPS | 11,576 € | ~11,61 € | **+0,3%** | 5,788 € | 4,630 € | −60,1% |
-| BBVA | 24,680 € | ~25,06 € | **+1,5%** | 12,340 € | 9,872 € | −60,6% |
+| BBVA | 24,680 € | **25,04 €** | **+1,5%** | 12,340 € | 9,872 € | −60,6% |
 | Deutsche Bank | 32,195 € | 35,04 € | **+8,8%** | 16,098 € | 12,878 € | −63,2% |
 | **Société Générale** | 83,090 € | **73,49 €** | **−11,6%** | 41,545 € | 33,236 € | **−54,8%** |
 
@@ -58,9 +58,8 @@ secondario ≤ 95 per A e ≤ 93 per B**.
 
 Deutsche Bank e Société Générale sono ai prezzi della **borsa di riferimento corretta**
 (Xetra ed Euronext Paris): la verifica in §2.3 lo conferma al millesimo sugli strike.
-Il prezzo di BBVA è invece ricavato dall'ADR (29,08 USD, cambio EUR/USD 1,1605) e quello
-di MPS dall'ADR BMPSY (13,47 USD): sono **approssimazioni** da confermare su BME Madrid
-(riferimento per BBVA) e Borsa Italiana (riferimento per MPS).
+BBVA è alla quotazione XETRA (BOY.DEX), che coincide con il valore ricavato dall'ADR entro
+lo 0,08% (§2.3). MPS resta l'unico prezzo derivato da ADR, con il metodo però validato.
 
 Da notare: SocGen ha perso l'11,6% in cinque settimane, con due gap rilevanti
 (18–19 agosto, da 82,14 a 77,02) e un minimo intraday a 70,29 il 27 agosto. **Non ci sono
@@ -70,16 +69,17 @@ stacchi di dividendo nel periodo**: è un ribasso di mercato, non un effetto tec
 
 | Sottostante | Strike | Spot | Perf. da strike | Barriera cedola 60% | Barriera capitale 50% | Spazio residuo al capitale |
 |---|---|---|---|---|---|---|
-| **Enel** | 9,835 € | **8,897 €** | **−9,5%** | 5,901 € | 4,918 € | **−44,7%** |
-| Eni | 23,513 € | ~23,52 € | **+0,0%** | 14,108 € | 11,757 € | −50,0% |
-| UniCredit | 80,160 € | 83,69 € | **+4,4%** | 48,096 € | 40,080 € | −52,1% |
+| **Enel** | 9,835 € | **8,884 €** | **−9,7%** | 5,901 € | 4,918 € | **−44,6%** |
+| Eni | 23,513 € | 23,92 € | **+1,7%** | 14,108 € | 11,757 € | −50,8% |
+| UniCredit | 80,160 € | 82,31 € | **+2,7%** | 48,096 € | 40,080 € | −51,3% |
 
-*Worst-of attuale: **Enel a 90,5% dello strike**.*
+*Worst-of attuale: **Enel a 90,3% dello strike**.*
 
-I prezzi in tabella sono presi dalle linee XETRA (Enel, UniCredit) e Francoforte (Eni).
-La borsa di riferimento di questo certificato è però **Borsa Italiana**: vedi §2.3 per la
-verifica e per i valori corretti per la base (UniCredit **+2,69%** anziché +4,40%, Enel
-**−9,67%**). L'effetto sulla valutazione è di −0,3 punti.
+I prezzi in tabella sono **già corretti per la base** delle linee XETRA rispetto a Borsa
+Italiana, che è la borsa di riferimento di questo certificato (§2.3). Rispetto alla prima
+versione dell'analisi UniCredit scende da +4,40% a +2,69% ed Eni sale da +0,03% a +1,74%,
+perché la linea di Francoforte usata inizialmente (232 pezzi scambiati) è stata sostituita
+con quella XETRA (ENI.DEX, 30.053 pezzi).
 
 ### 2.3 Verifica della borsa di riferimento
 
@@ -107,27 +107,37 @@ XETRA usate come proxy portavano una base — trascurabile su Enel (+0,14%), sen
 UniCredit (+1,67%, su una linea tedesca molto sottile: 8.131 pezzi quel giorno contro i
 volumi milanesi).
 
-Correggendo i prezzi del certificato B per la base misurata alla data di strike:
+### Metodo di ricostruzione dei prezzi milanesi
 
-| Scenario | Fair value | P(autocall) | P(perdita) | Vita attesa | Worst-of |
-|---|---|---|---|---|---|
-| Proxy XETRA/Francoforte | 90,36 | 54,9% | 36,2% | 3,37 a | Enel −9,54% |
-| **Milano, base corretta** | **90,05** | 54,4% | 36,6% | 3,39 a | Enel −9,67% |
-| Milano + Eni a 23,08 € | 89,76 | 53,8% | 37,2% | 3,41 a | Enel −9,67% |
+Nessun sito di quotazione è raggiungibile da questo ambiente (Borsa Italiana, Il Sole 24 Ore,
+Yahoo Finance e stooq sono tutti bloccati dal proxy di rete) e Alpha Vantage, l'unica fonte
+disponibile, non copre Borsa Italiana. I prezzi di riferimento sono quindi **ricostruiti per
+calibrazione**, non copiati da una fonte milanese.
 
-Con i prezzi milanesi UniCredit scende da +4,40% a **+2,69%** dallo strike ed Enel resta il
-worst-of a **−9,67%**. **L'effetto sulla valutazione è marginale (−0,3 punti) e nessuna
-conclusione cambia.**
+Il procedimento sfrutta un'informazione che si ha già: **lo strike è per definizione il prezzo
+di chiusura sulla borsa di riferimento alla data di fixing**. Confrontandolo con la chiusura
+della linea secondaria dello stesso giorno si ottiene la base di quella linea, che applicata
+al prezzo di oggi restituisce una stima del prezzo di riferimento depurata dall'errore di
+listino e di cambio.
 
-Resta da verificare su fonte ufficiale, perché in questo ambiente i siti di quotazione
-(Borsa Italiana, Il Sole 24 Ore, Yahoo Finance) non sono raggiungibili:
+**Due controlli indipendenti confermano la tenuta del metodo:**
 
-- **Eni** — la mia fonte è una linea di Francoforte con 232 pezzi scambiati. Una ricerca
-  indica una chiusura milanese intorno a **23,08 €** (−3,3% in giornata): se confermata,
-  Eni è a −1,8% dallo strike e non in pari.
-- **MPS** — ricavato dall'ADR BMPSY (13,47 USD / 1,1605). Riferimento: Borsa Italiana.
-- **BBVA** — ricavato dall'ADR (29,08 USD / 1,1605). **Riferimento: BME Madrid**, non Milano,
-  anche se il titolo è negoziabile a Milano.
+1. **Deutsche Bank e Société Générale**: base pari a zero al millesimo (tabella sopra) —
+   il metodo riconosce correttamente quando la linea *è* già quella di riferimento.
+2. **BBVA**: l'ADR (29,08 USD / 1,1605 = **25,059 €**) e la quotazione XETRA
+   (BOY.DEX = **25,040 €**) differiscono dello **0,08%**. Poiché MPS è stimato con lo stesso
+   procedimento ADR, l'errore atteso su MPS è dello stesso ordine — irrilevante rispetto a
+   una barriera posta a −60%.
+
+**Residuo di incertezza.** La base di Eni non è misurata direttamente (manca la chiusura
+XETRA del 30.07.2026, esaurito il limite giornaliero della fonte dati): le è stata attribuita
+la base misurata su Enel, +0,14%. Un errore anche di dieci volte quella grandezza sposterebbe
+Eni di 0,3 punti percentuali, senza alcun effetto sulle conclusioni — Eni non è il worst-of
+né su Cert B né si avvicina a una barriera.
+
+Una ricerca web aveva suggerito una chiusura milanese di Eni intorno a 23,08 € (−3,3% in
+giornata): **il dato è smentito** dalla quotazione XETRA del 9 settembre, che segna 23,955 €
+in rialzo dell'1,91% su 30.053 pezzi. L'ipotesi è stata scartata.
 
 ### 2.4 Parametri di rischio stimati sui dati (100 sedute)
 
@@ -188,18 +198,18 @@ rilevata con tutti i titoli sopra barriera ed è quindi esclusa dalla valutazion
 
 | | **A — Barclays** | **B — Vontobel** |
 |---|---|---|
-| **Fair value** | **92,97 €** (± 0,06) | **90,43 €** (± 0,04) |
+| **Fair value** | **92,91 €** (± 0,08) | **90,28 €** (± 0,06) |
 | di cui PV gamba rimborso | 71,01 | 70,03 |
 | di cui PV gamba cedolare | 21,94 | 20,43 |
-| Vita attesa | 2,90 anni | 3,36 anni |
-| P(autocall) totale | 64,4% | 55,0% |
+| Vita attesa | 2,91 anni | 3,36 anni |
+| P(autocall) totale | 64,2% | 55,0% |
 | — entro 1 anno | 26,0% | 12,9% |
 | — entro 2 anni | 42,6% | 30,9% |
 | — entro 3 anni | 51,9% | 41,4% |
 | P(arrivo a scadenza) | 35,6% | 45,0% |
-| P(perdita capitale) | 31,6% | 36,1% |
+| P(perdita capitale) | 31,7% | 36,1% |
 | **Perdita media condizionata** | **−75,8%** | **−64,7%** |
-| Cedole cumulate attese (nominali) | 22,88 € | 22,09 € |
+| Cedole cumulate attese (nominali) | 22,93 € | 22,01 € |
 
 Da leggere insieme: **A ha una probabilità di perdita più bassa ma una coda più profonda**
 (−75,8% contro −64,7% quando la perdita si verifica). È la conseguenza diretta della
@@ -210,7 +220,7 @@ rotta lo è di molto.
 
 | Scenario | A — fair value | A — P(perdita) | B — fair value | B — P(perdita) |
 |---|---|---|---|---|
-| **Centrale** | 92,97 | 31,6% | 90,43 | 36,1% |
+| **Centrale** | 92,91 | 31,7% | 90,28 | 36,1% |
 | Volatilità +5 punti (skew/stress) | 87,35 | 36,6% | 83,32 | 42,8% |
 | Correlazione +0,15 | **95,51** | 27,0% | **91,96** | 32,3% |
 | Dividendi −1% | 94,8 | 29% | 92,7 | 32% |
@@ -382,9 +392,9 @@ zainetto fiscale (le minusvalenze scadono nel quarto anno successivo).
 
 | Evento | Titolo determinante | Livello | Distanza da oggi |
 |---|---|---|---|
-| Perdita della cedola mensile | **Enel** | 5,901 € | −33,7% |
-| Perdita del capitale (a scadenza) | **Enel** | 4,918 € | −44,7% |
-| Primo richiamo (30.07.2027) | **Enel** | 9,835 € | **+10,5%** |
+| Perdita della cedola mensile | **Enel** | 5,901 € | −33,6% |
+| Perdita del capitale (a scadenza) | **Enel** | 4,918 € | −44,6% |
+| Primo richiamo (30.07.2027) | **Enel** | 9,835 € | **+10,7%** |
 
 Entrambe le barriere sono **europee** (valutate solo alla data di valutazione finale): un
 crollo intermedio, anche profondo, non pregiudica il rimborso se il titolo recupera entro
@@ -394,7 +404,7 @@ il 2031. È una caratteristica materialmente favorevole rispetto alle barriere a
 
 ## 7. Raccomandazioni operative
 
-1. **Non acquistare a 100.** Il fair value modellistico è 93–96,5 (A) e 90,5–94,8 (B).
+1. **Non acquistare a 100.** Il fair value modellistico è 92,9–96,5 (A) e 90,3–94,8 (B).
    Prezzi di ingresso indicativi: **≤ 95 per A, ≤ 93 per B**.
 2. **Fra i due, A è preferibile** su base rischio/rendimento: cedola superiore del 62%,
    barriere più lontane, gradino di protezione 40–50%, emittente più solido, vita attesa
@@ -418,12 +428,12 @@ il 2031. È una caratteristica materialmente favorevole rispetto alle barriere a
 
 ## 8. Limiti dell'analisi
 
-- **Prezzi**: verificato (§2.3) che Deutsche Bank e Société Générale fissano su Xetra e
-  Parigi, dove i miei prezzi sono corretti al millesimo. Restano da confermare su fonte
-  ufficiale **Eni** (linea di Francoforte con 232 pezzi; una ricerca indica ~23,08 € a
-  Milano), **MPS** e **BBVA**, entrambi ricavati da ADR in dollari. BBVA fissa su BME
-  Madrid, non su Milano. In questo ambiente i siti di quotazione sono irraggiungibili per
-  restrizioni di rete.
+- **Prezzi**: nessuna fonte milanese è raggiungibile da questo ambiente, quindi i prezzi di
+  riferimento sono **ricostruiti per calibrazione sugli strike** (§2.3), non copiati. Il metodo
+  è validato da due controlli indipendenti (base nulla su Deutsche Bank e Société Générale;
+  scarto dello 0,08% fra ADR e XETRA su BBVA). L'unico prezzo con base stimata anziché misurata
+  è Eni, con impatto nullo sulle conclusioni. Una verifica sulle chiusure ufficiali di Borsa
+  Italiana resta comunque consigliabile prima di operare.
 - **Dividendi**: stimati, non presi da una curva di dividendi impliciti. È il parametro a
   cui il risultato è più sensibile (±2 punti di FV per punto di yield).
 - **Volatilità**: realizzata a 100 sedute, non implicita. Per un prodotto a 5 anni con
