@@ -56,9 +56,11 @@ secondario ≤ 95 per A e ≤ 93 per B**.
 
 *Worst-of attuale: **Société Générale a 88,4% dello strike**.*
 
-Il prezzo di BBVA è ricavato dall'ADR (29,08 USD, cambio EUR/USD 1,1605) e quello di MPS
-dall'ADR BMPSY (13,47 USD): sono quindi **approssimazioni**, coerenti ma da verificare
-sulle quotazioni di Borsa Italiana e BME.
+Deutsche Bank e Société Générale sono ai prezzi della **borsa di riferimento corretta**
+(Xetra ed Euronext Paris): la verifica in §2.3 lo conferma al millesimo sugli strike.
+Il prezzo di BBVA è invece ricavato dall'ADR (29,08 USD, cambio EUR/USD 1,1605) e quello
+di MPS dall'ADR BMPSY (13,47 USD): sono **approssimazioni** da confermare su BME Madrid
+(riferimento per BBVA) e Borsa Italiana (riferimento per MPS).
 
 Da notare: SocGen ha perso l'11,6% in cinque settimane, con due gap rilevanti
 (18–19 agosto, da 82,14 a 77,02) e un minimo intraday a 70,29 il 27 agosto. **Non ci sono
@@ -74,11 +76,60 @@ stacchi di dividendo nel periodo**: è un ribasso di mercato, non un effetto tec
 
 *Worst-of attuale: **Enel a 90,5% dello strike**.*
 
-Enel e UniCredit sono presi dalle linee XETRA (ENL.DEX, CRIN.DEX), Eni da Francoforte
-(linea sottile, ultimo scambio 08.09). Il controllo di coerenza è buono: ENL.DEX chiudeva
-a 9,849 € il 30.07.2026 contro uno strike fissato a 9,835 €.
+I prezzi in tabella sono presi dalle linee XETRA (Enel, UniCredit) e Francoforte (Eni).
+La borsa di riferimento di questo certificato è però **Borsa Italiana**: vedi §2.3 per la
+verifica e per i valori corretti per la base (UniCredit **+2,69%** anziché +4,40%, Enel
+**−9,67%**). L'effetto sulla valutazione è di −0,3 punti.
 
-### 2.3 Parametri di rischio stimati sui dati (100 sedute)
+### 2.3 Verifica della borsa di riferimento
+
+Tutti e sette i sottostanti sono negoziabili su Euronext Milan: Enel, Eni, UniCredit e MPS
+in quanto titoli italiani, Deutsche Bank, BBVA e Société Générale attraverso il segmento
+di Borsa Italiana dedicato alle azioni estere. **Negoziabilità e borsa di riferimento del
+certificato però non coincidono**: le barriere e gli strike si misurano sul *Reference
+Exchange* indicato nei Final Terms, che per un'azione estera è di norma il mercato primario.
+
+Il confronto fra gli strike delle schede e le chiusure delle singole piazze alla data di
+fixing lo dimostra senza ambiguità:
+
+| Certificato | Sottostante | Strike da scheda | Chiusura piazza alla data di strike | Scarto |
+|---|---|---|---|---|
+| **A** (03.08.2026) | Deutsche Bank | 32,195 € | XETRA **32,195 €** | **0,000%** |
+| **A** (03.08.2026) | Société Générale | 83,090 € | Euronext Paris **83,090 €** | **0,000%** |
+| **B** (30.07.2026) | Enel | 9,835 € | XETRA 9,849 € | +0,142% |
+| **B** (30.07.2026) | UniCredit | 80,160 € | XETRA 81,500 € | +1,672% |
+
+**Lettura.** Deutsche Bank e Société Générale coincidono al millesimo con Xetra e Parigi:
+il certificato A fissa i suoi livelli su quelle piazze, non su Milano. I prezzi usati in
+questa analisi per quei due titoli sono quindi già quelli corretti. Per il certificato B
+lo scarto non nullo conferma il contrario: **il riferimento è Borsa Italiana**, e le linee
+XETRA usate come proxy portavano una base — trascurabile su Enel (+0,14%), sensibile su
+UniCredit (+1,67%, su una linea tedesca molto sottile: 8.131 pezzi quel giorno contro i
+volumi milanesi).
+
+Correggendo i prezzi del certificato B per la base misurata alla data di strike:
+
+| Scenario | Fair value | P(autocall) | P(perdita) | Vita attesa | Worst-of |
+|---|---|---|---|---|---|
+| Proxy XETRA/Francoforte | 90,36 | 54,9% | 36,2% | 3,37 a | Enel −9,54% |
+| **Milano, base corretta** | **90,05** | 54,4% | 36,6% | 3,39 a | Enel −9,67% |
+| Milano + Eni a 23,08 € | 89,76 | 53,8% | 37,2% | 3,41 a | Enel −9,67% |
+
+Con i prezzi milanesi UniCredit scende da +4,40% a **+2,69%** dallo strike ed Enel resta il
+worst-of a **−9,67%**. **L'effetto sulla valutazione è marginale (−0,3 punti) e nessuna
+conclusione cambia.**
+
+Resta da verificare su fonte ufficiale, perché in questo ambiente i siti di quotazione
+(Borsa Italiana, Il Sole 24 Ore, Yahoo Finance) non sono raggiungibili:
+
+- **Eni** — la mia fonte è una linea di Francoforte con 232 pezzi scambiati. Una ricerca
+  indica una chiusura milanese intorno a **23,08 €** (−3,3% in giornata): se confermata,
+  Eni è a −1,8% dallo strike e non in pari.
+- **MPS** — ricavato dall'ADR BMPSY (13,47 USD / 1,1605). Riferimento: Borsa Italiana.
+- **BBVA** — ricavato dall'ADR (29,08 USD / 1,1605). **Riferimento: BME Madrid**, non Milano,
+  anche se il titolo è negoziabile a Milano.
+
+### 2.4 Parametri di rischio stimati sui dati (100 sedute)
 
 | | Volatilità realizzata annualizzata |
 |---|---|
@@ -367,8 +418,12 @@ il 2031. È una caratteristica materialmente favorevole rispetto alle barriere a
 
 ## 8. Limiti dell'analisi
 
-- **Prezzi**: BBVA e MPS derivati da ADR in dollari, Eni da una linea di Francoforte poco
-  scambiata. Da verificare sulle quotazioni ufficiali di BME e Borsa Italiana.
+- **Prezzi**: verificato (§2.3) che Deutsche Bank e Société Générale fissano su Xetra e
+  Parigi, dove i miei prezzi sono corretti al millesimo. Restano da confermare su fonte
+  ufficiale **Eni** (linea di Francoforte con 232 pezzi; una ricerca indica ~23,08 € a
+  Milano), **MPS** e **BBVA**, entrambi ricavati da ADR in dollari. BBVA fissa su BME
+  Madrid, non su Milano. In questo ambiente i siti di quotazione sono irraggiungibili per
+  restrizioni di rete.
 - **Dividendi**: stimati, non presi da una curva di dividendi impliciti. È il parametro a
   cui il risultato è più sensibile (±2 punti di FV per punto di yield).
 - **Volatilità**: realizzata a 100 sedute, non implicita. Per un prodotto a 5 anni con
