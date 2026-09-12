@@ -14,11 +14,11 @@ La posizione previdenziale vale oggi **27.102,08 €** a fronte di **24.992,00 �
 
 1. **Il capitale è arrivato in Allianz INSIEME solo il 13/05/2026.** Prima stava in **Orizzonte Previdenza — P.I.P.**, il piano pensionistico assicurativo **della stessa Allianz**. Praticamente tutto il rendimento storico (1.286,30 €) è stato prodotto lì, non qui.
 
-2. **Come investimento, il PIP è stato un fallimento.** 24.992 € di versamenti hanno prodotto 1.286,30 € in tutta la durata: **+5,15% cumulato**, cioè circa **1% l'anno** su un orizzonte stimato di 10-12 anni. Rendimento reale **negativo**: il capitale ha perso potere d'acquisto. Un conto deposito avrebbe reso di più, senza rischio.
+2. **Come investimento, il PIP è stato un fallimento.** Dal **02/12/2019** al 07/05/2026 — sei anni e cinque mesi, 324,57 €/mese — i 24.992 € versati hanno prodotto 1.286,30 €: **+5,15% cumulato, pari all'1,56% l'anno**. Nello stesso periodo l'inflazione italiana è stata del **+20,86%**. Il rendimento reale è **−0,71% l'anno** e la perdita di potere d'acquisto è di **1.237,74 €**: al netto dell'inflazione l'intestataria ha oggi meno di quanto ha versato.
 
-3. **La causa principale sono i costi, non i mercati.** Il profilo di rendimento combacia con la linea garantita *Formula Sicura* (0,80%/anno a 10 anni, ISC 1,50%). Con un ISC dell'1,50% su un rendimento lordo di circa 2,30%, **circa il 65% di quanto prodotto è stato assorbito dai costi**. In dieci anni i costi hanno superato il rendimento netto incassato.
+3. **Le cause sono due: la linea sbagliata e i costi.** Il rendimento è compatibile con una linea a rischio minimo (garantita o obbligazionaria). Su un capitale medio di 13.066 €, i costi cumulati sono di circa **1.260 €** contro **1.286 €** di rendimento netto: **quasi metà del rendimento lordo prodotto è rimasta al gestore**, e per ogni euro finito in tasca all'intestataria quasi un euro è finito in commissioni. Gli stessi versamenti sulla linea azionaria del fondo aperto valdrebbero oggi **34.581 €** invece di 26.278: **8.303 € in meno**, un terzo del capitale versato.
 
-4. **Nonostante tutto, l'operazione complessiva è in utile — grazie alla fiscalità, non alla gestione.** I contributi sono stati dedotti (confermato dall'intestataria), quindi il capitale realmente immobilizzato è di 14.245-19.244 € a seconda dell'aliquota marginale, non 24.992 €. Il rendimento effettivo su quella cifra è stato fra il **6% e il 15% annuo**, e anche scontando l'imposta finale **l'operazione chiude con 7.000-10.000 € di utile netto**. È il contenitore fiscale ad aver funzionato; il gestore no.
+4. **Nonostante tutto, l'operazione complessiva è in utile — grazie alla fiscalità, non alla gestione.** I contributi sono stati dedotti (confermato dall'intestataria), quindi il capitale realmente immobilizzato è di 14.245-19.244 € a seconda dell'aliquota marginale, non 24.992 €. Il rendimento effettivo su quella cifra è stato fra il **9,7% e il 19,1% annuo**, e anche scontando l'imposta finale **l'operazione chiude con 7.000-10.000 € di utile netto**. È il contenitore fiscale ad aver funzionato; il gestore no.
 
 **Il trasferimento del 2026 è una decisione corretta** e taglia i costi di oltre la metà. Resta aperta una sola domanda, che i documenti non possono risolvere: il passaggio da linea garantita a **100% azionario** è coerente con l'età e l'orizzonte pensionistico dell'intestataria?
 
@@ -94,42 +94,67 @@ Coerente con una linea azionaria globale. **Nel periodo in cui i soldi sono qui,
 
 ## 4. Il rendimento reale del PIP
 
-### 4.1 Il dato lordo
+### 4.1 La durata, ora nota
+
+**Primo versamento: 02/12/2019.** Con questo dato la posizione smette di essere un insieme di scenari.
+
+| Da | A | Durata |
+|---|---|---|
+| 02/12/2019 | 13/02/2026 (richiesta trasferimento) | 2.265 gg = **6,20 anni** |
+| 02/12/2019 | 07/05/2026 (valorizzazione) | 2.348 gg = **6,43 anni** |
+| 02/12/2019 | 09/09/2026 (oggi) | 2.473 gg = **6,77 anni** |
 
 ```
-1.286,30 € su 24.992,00 € = +5,15% CUMULATO sull'intera durata
+24.992,00 € in 6,43 anni  =  3.887,70 €/anno  =  324,57 €/mese su 77 mesi
 ```
 
-Non annuo: **cumulato**. Il dato che manca per convertirlo in rendimento annuo è la durata della contribuzione.
+Il versamento medio annuo (3.888 €) resta sotto il tetto di deducibilità di 5.164,57 €: **coerente con la deduzione integrale confermata dall'intestataria**, e conferma che non ci sono contributi eccedenti.
 
-### 4.2 Vincolo sulla durata minima
-
-Il tetto di deducibilità è 5.164,57 €/anno (art. 8 D.Lgs. 252/2005). Quindi:
+### 4.2 Il rendimento effettivo
 
 ```
-24.992,00 ÷ 5.164,57 = 4,84  ->  la posizione ha ALMENO 5 anni
+1.286,30 € su 24.992,00 € = +5,15% cumulato in 6,43 anni
 ```
 
-Questo è un **limite matematico, non una stima**: anche versando il massimo deducibile ogni anno, servono cinque anni per accumulare quella cifra.
+IRR money-weighted con versamenti mensili costanti:
 
-### 4.3 IRR per durata ipotizzata
+| Misura | Valore |
+|---|---|
+| **IRR del periodo PIP** (fino al 07/05/2026) | **1,56%/anno** |
+| variante con versamenti fermati alla richiesta di trasferimento | 1,51%/anno |
+| IRR complessivo fino a oggi (include 4 mesi di linea azionaria) | **2,29%/anno** |
 
-Rendimento money-weighted, versamenti costanti, convenzione di metà anno:
+L'1,56% è migliore dell'1,00% che avevo stimato nello scenario decennale — semplicemente perché il periodo è più breve di quanto ipotizzato. **Resta comunque un rendimento da conto corrente vincolato, non da fondo pensione.**
 
-| Durata | Versamento/anno | **IRR nominale** | Reale (inflaz. ~3%) |
-|---|---|---|---|
-| 5 anni *(minimo possibile)* | 4.998 € | **2,01%** | −0,96% |
-| 6 anni | 4.165 € | 1,67% | −1,29% |
-| 8 anni | 3.124 € | **1,25%** | −1,70% |
-| 10 anni | 2.499 € | **1,00%** | −1,94% |
-| 12 anni | 2.083 € | 0,83% | −2,10% |
-| 15 anni | 1.666 € | 0,67% | −2,27% |
+### 4.3 Il rendimento reale: il numero che conta
 
-**Il 2,01% è un tetto, non una stima.** Richiede versamenti quasi al massimo deducibile per cinque anni consecutivi. Ogni ipotesi più realistica scende sotto l'1,7%.
+Il periodo dicembre 2019 – maggio 2026 comprende lo shock inflattivo del 2022-2023. Inflazione NIC italiana:
 
-In tutti gli scenari oltre i 5 anni, **il rendimento reale è negativo**.
+| Anno | Variazione | Indice cumulato |
+|---|---|---|
+| 2020 | −0,20% | 0,9980 |
+| 2021 | +1,90% | 1,0170 |
+| 2022 | **+8,10%** | 1,0993 |
+| 2023 | **+5,70%** | 1,1620 |
+| 2024 | +1,00% | 1,1736 |
+| 2025 | +1,80% *(stima)* | 1,1947 |
+| 2026 (5 mesi) | +2,8% annuo *(stima)* | **1,2086** |
 
-Due piani di versamento molto "puliti" cadono esattamente sul totale osservato: **2.500 €/anno per 10 anni** oppure **250 €/mese per 100 mesi**, entrambi a 8 € dal totale reale. Se è uno di questi, l'IRR è **1,00%** e il rendimento reale è **−1,94% l'anno**.
+```
+INFLAZIONE CUMULATA dic-2019 -> mag-2026 : +20,86%  =  +2,99%/anno
+RENDIMENTO DELLA POSIZIONE               :  +5,15%  =  +1,56%/anno
+```
+
+Tradotto in potere d'acquisto:
+
+| | Importo |
+|---|---|
+| Versato (nominale) | 24.992,00 € |
+| **Quanto serviva per non perderci** (stessi versamenti solo indicizzati) | **27.516,04 €** |
+| Montante effettivo al 07/05/2026 | 26.278,30 € |
+| **PERDITA DI POTERE D'ACQUISTO** | **−1.237,74 €** |
+
+> **Rendimento reale: −0,71% l'anno.** Al netto dell'inflazione l'intestataria ha meno di quanto ha versato. Il fondo pensione — lo strumento che per definizione esiste per proteggere il potere d'acquisto su orizzonti lunghi — ha fatto esattamente il contrario.
 
 ---
 
@@ -143,9 +168,9 @@ Orizzonte Previdenza offre otto comparti: una linea garantita, una obbligazionar
 | Obbligazionario puro | 1,80% | +0,39% nel 2025 |
 | Formula Attiva (più aggressiva fra le storiche) | — | 2,37%/anno a 10 anni; +1,38% nel 2025 |
 
-**Convergenza:** l'IRR calcolato per lo scenario 10-12 anni (1,00% - 0,83%) coincide quasi esattamente con lo 0,80%/anno dichiarato di Formula Sicura.
+**Convergenza:** l'IRR effettivo è **1,56%/anno** su dicembre 2019 – maggio 2026. In quel periodo una linea bilanciata avrebbe dovuto fare molto meglio (2021, 2023 e 2024 sono stati anni forti sui mercati azionari), mentre una gestione separata o una linea obbligazionaria è esattamente nell'ordine di grandezza osservato. Il valore è coerente con **Formula Sicura** o con la **linea obbligazionaria pura**, non con un comparto bilanciato.
 
-> **Conclusione (da confermare documentalmente):** il capitale è stato con ogni probabilità per un decennio sulla **linea garantita** di un PIP — il profilo di rischio più basso disponibile, abbinato al contenitore più caro del mercato previdenziale italiano.
+> **Conclusione (da confermare documentalmente):** il capitale è stato per sei anni e mezzo su una linea a **rischio minimo** di un PIP — il profilo più prudente disponibile, abbinato al contenitore più caro del mercato previdenziale italiano.
 
 È la combinazione peggiore possibile: **si paga il costo di un prodotto assicurativo per ottenere il rendimento di un conto corrente.**
 
@@ -167,27 +192,25 @@ Entrambi i prodotti sono **di Allianz**. Non è stato un trasferimento verso un 
 
 ### 6.2 Quanto è costato
 
-Ipotizzando Formula Sicura:
+Con la durata nota, il calcolo è puntuale. Il capitale medio investito lungo i 77 mesi di versamenti è di **13.066 €**.
+
+| Ipotesi di linea | ISC | **Costi cumulati** | Rendimento netto incassato | Costi / rendimento |
+|---|---|---|---|---|
+| Formula Sicura (garantita) | 1,50% | **1.260 €** | 1.286 € | **98%** |
+| Obbligazionario puro | 1,80% | **1.512 €** | 1.286 € | **118%** |
 
 ```
-rendimento NETTO incassato       ~0,80%/anno
-ISC della linea                   1,50%/anno
-rendimento LORDO necessario      ~2,30%/anno
+capitale medio investito          13.066 €
+costi cumulati (ISC 1,50%)         1.260 €
+rendimento netto incassato         1.286 €
+rendimento LORDO prodotto          2.546 €  =  3,03%/anno
 
-quota del rendimento lordo assorbita dai costi:  1,50 / 2,30 = 65%
+quota del rendimento lordo assorbita dai costi:  1.260 / 2.546 = 49%
 ```
 
-> **Circa due terzi di tutto ciò che la gestione ha prodotto sono rimasti al gestore.**
+> **Circa metà di tutto ciò che la gestione ha prodotto è rimasta al gestore** — e in valore assoluto i costi hanno quasi eguagliato il guadagno dell'intestataria: per ogni euro finito in tasca a lei, quasi un euro è finito in commissioni.
 
-In termini assoluti, su un capitale medio di circa 13.000 € lungo il periodo:
-
-| Durata | Costi cumulati stimati | Rendimento netto incassato |
-|---|---|---|
-| 8 anni | ~1.574 € | 1.286 € |
-| 10 anni | **~1.968 €** | **1.286 €** |
-| 12 anni | ~2.362 € | 1.286 € |
-
-**I costi hanno superato il rendimento.** Non di poco: in dieci anni sono circa il 150% di quanto l'intestataria ha effettivamente guadagnato.
+Se la linea era quella obbligazionaria (ISC 1,80%), **i costi hanno superato il rendimento**.
 
 ### 6.3 Il risparmio futuro del trasferimento
 
@@ -199,22 +222,37 @@ Passando da ~1,50% a ~0,70%, il risparmio è di **0,80 punti percentuali l'anno*
 | 10 anni | 50.735 € | 47.060 € | **+3.675 €** |
 | 20 anni | 97.954 € | 84.278 € | **+13.676 €** |
 
-Il trasferimento, da solo, vale più di mezzo anno di versamenti.
+Sul capitale attuale il risparmio immediato è di **217 €/anno**, cioè più di metà di un mese di versamenti recuperato ogni anno senza fare nulla. Il trasferimento, da solo, vale più di tre anni e mezzo di versamenti proiettato a vent'anni.
 
 ---
 
 ## 7. Costo-opportunità
 
-Se gli stessi 24.992 € fossero stati investiti diversamente, a parità di durata:
+Con date e importi reali si può fare il confronto puntuale invece che per scenari. Simulazione di un PAC di **324,57 €/mese da dicembre 2019 a maggio 2026** sulla LINEA AZIONARIA di Allianz INSIEME, usando la serie dei valori quota ricostruita dai rendimenti annui dichiarati:
 
-| Destinazione (ipotesi 10 anni, versamenti costanti) | Montante | Differenza vs reale |
+| Anno | Rendimento linea azionaria | NAV ricostruito a fine anno |
 |---|---|---|
-| **Posizione reale (PIP Formula Sicura)** | **26.278 €** | — |
-| Conto deposito / BTP a 2,2% netto | 27.919 € | **+1.641 €** |
-| Solo inflazione (3%/anno) | 29.077 € | **+2.799 €** |
-| LINEA AZIONARIA Allianz INSIEME (7,48%/anno) | **36.620 €** | **+10.342 €** |
+| dic 2019 | — | 18,41 |
+| 2020 | +6,0% *(stima)* | 19,51 |
+| 2021 | +19,38% | 23,29 |
+| 2022 | **−14,68%** | 19,87 |
+| 2023 | +15,25% | 22,90 |
+| 2024 | +17,67% | 26,95 |
+| 2025 | +12,96% | 30,44 |
+| mag 2026 | +3,0% *(stima)* | **31,36** |
 
-Il confronto che pesa di più non è l'ultimo, ma il primo: **un conto deposito senza rischio avrebbe reso di più di un fondo pensione**. Un prodotto previdenziale che su un decennio non batte la liquidità remunerata ha mancato la sua unica funzione.
+Crescita della linea nel periodo: **+70,4% = +8,64%/anno.**
+
+| Destinazione, stessi versamenti e stesse date | Montante al 07/05/2026 | Differenza |
+|---|---|---|
+| **Posizione reale (PIP, linea prudente)** | **26.278 €** | — |
+| Solo indicizzato all'inflazione | 27.516 € | **+1.238 €** |
+| **LINEA AZIONARIA Allianz INSIEME** | **34.581 €** | **+8.303 €** |
+| *la stessa differenza, in potere d'acquisto di oggi* | | *+6.870 €* |
+
+**8.303 € è un terzo di tutto il capitale versato.** È il prezzo pagato per essere stati sulla linea prudente del prodotto caro invece che sulla linea azionaria del prodotto economico — dentro la stessa compagnia, sotto lo stesso marchio.
+
+E va sottolineato il confronto più severo, quello con la riga di mezzo: **non è stato battuto nemmeno il semplice mantenimento del potere d'acquisto.** Un prodotto previdenziale che in sei anni e mezzo non tiene il passo dell'inflazione ha mancato la sua unica funzione.
 
 ---
 
@@ -240,18 +278,15 @@ Questo cambia completamente il calcolo del rendimento, perché **il capitale rea
 
 ### 8.1 IRR effettivo post-deduzione
 
-| Durata | Aliquota | Esborso netto reale | IRR lordo | **IRR effettivo** |
-|---|---|---|---|---|
-| 8 anni | 23% | 19.244 € | 1,25% | **7,71%** |
-| 8 anni | 35% | 16.245 € | 1,25% | **11,86%** |
-| 8 anni | 43% | 14.245 € | 1,25% | **15,06%** |
-| 10 anni | 23% | 19.244 € | 1,00% | **6,12%** |
-| 10 anni | 35% | 16.245 € | 1,00% | **9,38%** |
-| 10 anni | 43% | 14.245 € | 1,00% | **11,87%** |
-| 12 anni | 35% | 16.245 € | 0,83% | 7,75% |
-| 12 anni | 43% | 14.245 € | 0,83% | 9,80% |
+Con date e durata reali, il calcolo è puntuale. L'esborso effettivo è il versamento al netto della deduzione:
 
-> **Il prodotto è stato un pessimo investimento e comunque un buon affare.** Non per merito del gestore: per merito del legislatore.
+| Aliquota marginale | Esborso netto reale | IRR nominale | **IRR effettivo sul periodo PIP** | **IRR effettivo a oggi** |
+|---|---|---|---|---|
+| 23% | 19.244 € | 1,56% | **9,70%** | **9,70%** |
+| 35% | 16.245 € | 1,56% | **14,98%** | **14,53%** |
+| 43% | 14.245 € | 1,56% | **19,09%** | **18,30%** |
+
+> **Il prodotto è stato un pessimo investimento e comunque un ottimo affare.** Non per merito del gestore: per merito del legislatore.
 
 Questo però **non assolve il PIP** — al contrario. Il vantaggio fiscale era disponibile su *qualsiasi* forma di previdenza complementare, compresi i fondi negoziali con ISC allo 0,50% e i fondi aperti allo 0,70%. **Il beneficio fiscale non era il premio per aver scelto quel prodotto: era un diritto che sarebbe spettato comunque.** I costi del PIP si sono mangiati una parte di un vantaggio che il fisco aveva già regalato.
 
@@ -399,9 +434,9 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 
 | Dato | Dove | Perché serve |
 |---|---|---|
-| **Numero di anni di contribuzione** | **Dichiarazioni dei redditi** (730 rigo E27 / Redditi PF quadro RP), o cassetto fiscale dell'Agenzia delle Entrate | Trasforma tutte le tabelle IRR da scenari a numeri definitivi. **È il dato che manca.** Vedi la nota sotto |
-| Date e importi dei versamenti | `Dettaglio Contributi` | IRR esatto invece che per scenari. Da provare per primo: alcuni fondi riportano lo storico ereditato col trasferimento |
-| Certificazioni fiscali del periodo PIP | Documenti Orizzonte Previdenza, o dichiarazioni dei redditi | Una per anno di versamento |
+| ~~Numero di anni di contribuzione~~ | — | **RISOLTO** — primo versamento 02/12/2019, durata 6,43 anni al trasferimento |
+| Andamento dei versamenti nel tempo | `Dettaglio Contributi` | L'analisi assume versamenti mensili costanti di 324,57 €. Se il piano è stato irregolare, l'IRR cambia — tipicamente al rialzo se i versamenti sono concentrati di recente |
+| Certificazioni fiscali del periodo PIP | Documenti Orizzonte Previdenza, o dichiarazioni dei redditi | Giustificano le deduzioni fruite in caso di controllo |
 | Linea di provenienza nel PIP | `Dett.` accanto al trasferimento | Conferma o smentisce l'ipotesi Formula Sicura |
 | Eventuali costi di uscita | `Dett.` accanto al trasferimento | Verifica che i 26.278,30 € siano al lordo o al netto |
 | ~~Contributi non dedotti~~ | — | **RISOLTO** — l'intestataria conferma che i contributi sono stati dedotti |
@@ -443,15 +478,18 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 | Aspetto | Valutazione |
 |---|---|
 | Scelta del prodotto originario (PIP Orizzonte Previdenza) | **Gravemente inadeguata** — contenitore più caro del mercato |
-| Scelta della linea (garantita, ipotesi) | **Inadeguata** per un orizzonte decennale |
-| Rendimento della gestione | **Insufficiente** — reale negativo, sotto un conto deposito |
-| Struttura dei costi | **Critica** — 65% del rendimento lordo assorbito |
-| Sfruttamento del beneficio fiscale | **Buono** — è ciò che ha salvato l'operazione |
-| Decisione di trasferire (2026) | **Corretta** — vale 3.700 € a 10 anni, 13.700 € a 20 |
-| Esecuzione del trasferimento | **Regolare** — nei termini, senza costi, anzianità salva |
+| Scelta della linea (rischio minimo per 6,5 anni) | **Inadeguata** — costata 8.303 € rispetto alla linea azionaria |
+| Rendimento della gestione | **Insufficiente** — 1,56% nominale, **−0,71% reale** |
+| Struttura dei costi | **Critica** — ~1.260 € di costi contro 1.286 € di rendimento |
+| Protezione del potere d'acquisto | **Fallita** — −1.238 € in termini reali |
+| Sfruttamento del beneficio fiscale | **Buono** — IRR effettivo 9,7%-19,1%; è ciò che ha salvato l'operazione |
+| Decisione di trasferire (2026) | **Corretta** — 217 €/anno subito, 13.676 € a vent'anni |
+| Esecuzione del trasferimento | **Regolare** — 89 giorni, senza costi, anzianità salva |
 | Scelta della nuova linea (100% azionaria) | **Da verificare** — dipende dall'orizzonte |
 
-**In una riga:** dieci anni di previdenza complementare hanno reso circa l'1% l'anno perché il prodotto costava più di quanto rendeva; il trasferimento del maggio 2026 corregge la causa strutturale del problema, e il vantaggio fiscale — che spettava comunque — ha impedito che l'errore diventasse una perdita.
+**In una riga:** sei anni e mezzo di previdenza complementare hanno reso l'1,56% l'anno contro un'inflazione del 2,99%, perché metà del rendimento lordo se lo sono preso i costi e la linea scelta era la più prudente disponibile; il trasferimento del maggio 2026 corregge la causa strutturale, e il vantaggio fiscale — che spettava comunque, su qualsiasi fondo — ha impedito che l'errore diventasse una perdita.
+
+**Il numero da ricordare:** gli stessi versamenti, negli stessi giorni, sulla linea azionaria del fondo aperto Allianz varrebbero oggi **34.581 €** invece di 26.278. La differenza — **8.303 €** — è un terzo di tutto ciò che è stato versato, e non dipende dai mercati: dipende da quale prodotto della stessa compagnia è stato venduto.
 
 ---
 
@@ -459,7 +497,9 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 
 **Limiti da dichiarare:**
 
-- La durata della contribuzione **non è nota**. Tutti gli IRR sono calcolati per scenari di durata, non su flussi reali. Il vincolo dei 5 anni minimi è invece matematicamente certo.
+- La **durata è nota** (primo versamento 02/12/2019), ma **la distribuzione dei versamenti no**: l'analisi assume 324,57 €/mese costanti su 77 mesi. Un piano irregolare sposterebbe l'IRR, tipicamente al rialzo se i versamenti fossero concentrati negli ultimi anni.
+- La serie dei valori quota della linea azionaria (§7) è **ricostruita a ritroso** dai rendimenti annui dichiarati, con due stime: il 2020 (+6,0%) e il parziale gennaio-maggio 2026 (+3,0%). Non è una serie ufficiale.
+- L'inflazione 2025 (+1,8%) e il parziale 2026 sono stime; i dati 2020-2024 sono ISTAT NIC definitivi.
 - L'identificazione della linea di provenienza come *Formula Sicura* è **un'inferenza** dal profilo di rendimento, non un dato documentale.
 - I dati su costi e rendimenti di Orizzonte Previdenza provengono da **fonti secondarie**: l'accesso diretto ai set informativi Allianz è stato impedito dal proxy di rete. **Prima di qualsiasi uso formale (reclamo, contenzioso) vanno verificati sulla Scheda dei Costi e sul Documento sulle Erogazioni ufficiali.**
 - I versamenti sono ipotizzati costanti. Versamenti irregolari modificherebbero l'IRR, tipicamente al rialzo se concentrati di recente.
@@ -477,6 +517,8 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 - [ISC — Indicatore Sintetico dei Costi, COVIP](https://www.covip.it/per-il-cittadino/educazione-previdenziale/glossario/isc-indicatore-sintetico-dei-costi)
 - [Comparatore ISC dinamico, COVIP](https://www.covip.it/isc_dinamico/)
 - [I fondi negoziali si confermano quelli con i costi più bassi — Fondo Telemaco](https://www.fondotelemaco.it/2026/03/04/fondi-negoziali-costi-piu-bassi/)
+- [Prezzi al consumo: indici NIC, FOI e IPCA — ISTAT](https://www.istat.it/tavole-di-dati/prezzi-al-consumo-dati/)
+- [Serie storica inflazione media annuale in Italia — Rivaluta](https://www.rivaluta.it/serie-inflazione-media.asp)
 
 **Riferimenti normativi:** D.Lgs. 252/2005 artt. 8 (deducibilità), 11 c. 6 (tassazione della prestazione), 12 (fondi pensione aperti), 13 (PIP), 14 c. 6 (trasferimento e anzianità).
 
