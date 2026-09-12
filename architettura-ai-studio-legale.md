@@ -4,7 +4,8 @@
 > [analisi-offerta-workstation-dell-precision-7-t1.md](./analisi-offerta-workstation-dell-precision-7-t1.md).
 > Nasce dalla definizione dell'uso previsto: analisi contrattuale e due diligence con AI,
 > dashboard gestionale e di cassa, previsioni economico-finanziarie, analisi di strumenti
-> finanziari in tempo reale.
+> finanziari in tempo reale. **Postazione domestica, utente singolo, dati e progetti
+> propri** — vedi §9, che aggiorna i §3, §5 e §6.
 >
 > **Le considerazioni normative sono un elenco di questioni da affrontare, non un parere
 > legale.** Vanno validate dal professionista competente — con l'avvertenza che in questo
@@ -277,6 +278,8 @@ ogni furto. Minimo indispensabile:
 
 ## 6. Il costo reale del progetto — l'hardware è il 5-20%
 
+> ℹ️ Stime per 1-3 utenti. Per il caso a **utente singolo** vedi il §9.7, che le rivede.
+
 Stima su 5 anni, 1-3 utenti. Ordini di grandezza, da affinare sui preventivi reali.
 
 | Voce | Minimo | Massimo | Note |
@@ -345,16 +348,199 @@ Ordinata per rapporto valore/rischio, non per entusiasmo.
 
 ---
 
-## 9. In una riga
+## 9. Aggiornamento — postazione domestica, utente singolo, dati propri
 
-**Comprare la workstation senza scheda grafica, portarla a 64 GB dual channel con un
-secondo disco, investire i 510 € risparmiati in backup e continuità, adottare
-un'architettura AI ibrida, e risolvere l'art. 4 dello Statuto dei Lavoratori prima
-ancora di aprire l'editor per la dashboard.**
+> Due precisazioni ricevute dopo la stesura: **il PC lo usa una sola persona, che lavora
+> da casa e non in studio**, e **i progetti e i dati trattati sono propri, non divulgati**.
+> Cambiano parecchio. Questa sezione aggiorna i §3, §5 e §6.
+
+### 9.1 Il quadro aggiornato
+
+| Aspetto | Prima | Ora |
+|---|---|---|
+| Architettura AI | Ibrida obbligata dalla riservatezza | 🟢 **Cloud diretto**: molto più semplice |
+| Segreto professionale sui documenti | 🔴 Questione centrale | 🟢 Non si pone sui dati propri |
+| Verifica mandati e NDA clienti | 🔴 Bloccante | 🟢 Non necessaria finché i dati restano propri |
+| Pseudonimizzazione pre-invio | 🔴 Raccomandata | 🟡 Facoltativa |
+| **Art. 4 Statuto dei Lavoratori** | 🔴 Critico | 🔴 **Invariato, critico** — §9.3 |
+| Sicurezza fisica e backup | 🟡 Standard di studio | 🔴 **Da costruire da zero in casa** — §9.4 |
+| Connettività | 🟡 Dettaglio | 🔴 **Potenzialmente bloccante** — §9.5 |
+| Deducibilità fiscale | Data per piena | 🔴 **Da chiarire: vale ~900 €** — §9.6 |
+
+### 9.2 Cosa si semplifica molto: l'architettura
+
+Se i documenti analizzati sono propri, **cade la ragione principale che imponeva
+l'architettura ibrida**. L'Opzione A — AI in cloud con i modelli migliori disponibili —
+diventa la scelta giusta: qualità massima, nessun investimento hardware, nessuna
+complessità di gestione. Restano opportune le condizioni contrattuali ordinarie
+(zero data retention, nessun addestramento sui dati), ma come buona pratica, non come
+adempimento.
+
+Due precisazioni che conviene fissare adesso:
+
+- **I contratti dei fornitori contengono dati di controparti.** Sono terzi, non "tuoi".
+  Il trattamento è lecito e ordinario (esecuzione del contratto, interesse legittimo), ma
+  non è a rigore "dati propri": non serve nulla di speciale, serve non dimenticarsene.
+- **Definire da subito la regola per il futuro**: documenti propri → cloud diretto;
+  documenti di clienti → regime rigoroso del §5.2. Scritta adesso che il caso non si pone,
+  costa nulla; scritta dopo, si scrive di fretta.
+
+### 9.3 Cosa non cambia: i dati dei dipendenti non sono "tuoi"
+
+Su questo punto conviene essere netti, perché è il ragionamento che più facilmente scivola.
+
+"I dati sono miei" è vero nel senso della **proprietà dell'attività e dei suoi archivi**.
+Non è vero nel senso del **GDPR e dello Statuto dei Lavoratori**: rispetto ai dati dei
+dipendenti, i dipendenti sono gli interessati e conservano i loro diritti, e il titolare
+del trattamento è il datore di lavoro — cioè, in questo caso, **personalmente tu**. Che il
+PC sia tuo, sia a casa tua e sia usato solo da te non sposta la questione di un millimetro:
+l'art. 4 disciplina il **controllo del datore sui lavoratori**, non la proprietà o
+l'ubicazione dell'hardware.
+
+Anzi, **un dato aspetto peggiora**: le informazioni sui dipendenti escono dal perimetro
+controllato dello studio e finiscono su una macchina domestica. Se un domani si dovesse
+dimostrare l'adeguatezza delle misure di sicurezza, "era sul mio computer di casa" è una
+posizione più debole, non più forte.
+
+Restano quindi integralmente validi il **§5.1** (procedura ex art. 4, informativa,
+eventuale DPIA, riformulazione da "controllo dipendenti" a "carichi di lavoro e
+fatturazione") e il **§5.3** (AI Act, sistemi di gestione del personale ad alto rischio).
+
+### 9.4 Il nuovo rischio centrale: la casa non è lo studio
+
+Con l'archivio di lavoro su una macchina domestica, la sicurezza fisica e la continuità
+passano da "buona pratica" a "unica difesa esistente":
+
+- **Cifratura del disco (BitLocker): non più consigliata, obbligatoria.** Un furto in casa
+  senza cifratura significa consegnare l'intero archivio di lavoro.
+- **Account separato, macchina non condivisa** con familiari. Vale anche ai fini fiscali (§9.6).
+- **Rete domestica**: cambiare le credenziali di default del router, WPA3, aggiornamenti
+  firmware, rete ospiti separata per dispositivi di famiglia e IoT.
+- **Backup 3-2-1 senza infrastruttura di studio.** La copia "fuori sede" non può essere
+  un'altra stanza di casa: serve cloud cifrato, oppure un disco cifrato ruotato fisicamente
+  in studio o in cassetta di sicurezza.
+- **Assicurazione**: le polizze casa in genere **non** coprono attrezzatura professionale.
+  Da verificare, sono poche decine di euro l'anno di estensione.
+- **Piano di continuità**: se domani questa macchina sparisse, in quanto tempo si riprende
+  a lavorare? Se la risposta non è "poche ore", il backup non è adeguato.
+
+### 9.5 Il problema pratico che può diventare bloccante
+
+La scheda tecnica dichiara **Wireless: non presente — Bluetooth: no**. In un ufficio
+cablato è un dettaglio. **A casa spesso non lo è**: se il router non è dove sta la
+scrivania, la macchina non va in rete — e senza rete nessuno dei quattro casi d'uso
+funziona, perché l'AI in cloud vive di connettività.
+
+| Soluzione | Costo | Note |
+|---|---|---|
+| **Scheda PCIe Wi-Fi 6E + Bluetooth** ⭐ | 30-60 € | Usa uno slot libero. La scelta migliore |
+| Cavo Ethernet fino al router | 10-40 € | Ottimale se fattibile |
+| Powerline / adattatori di rete elettrica | 50-80 € | Se il cavo non è posabile |
+| Adattatore USB Wi-Fi | 20-40 € | Ripiego |
+
+Nota non ironica: **uno slot PCIe occupato da una scheda Wi-Fi da 40 € serve molto più
+di uno occupato da una GPU da 510 €.** Il Bluetooth, poi, serve per cuffie e periferiche
+senza fili — e per le videochiamate una cuffia decente conta più di quasi tutto il resto.
+
+### 9.6 Fisco: la domanda da ~900 € — più della GPU
+
+⚠️ **Questa parte corregge il §5.2 del [documento hardware](./analisi-offerta-workstation-dell-precision-7-t1.md)**,
+che assumeva un bene aziendale a deducibilità piena. Con un PC **a casa, usato da una sola
+persona**, si apre la questione dell'**uso promiscuo**.
+
+Per i professionisti, i beni mobili usati promiscuamente per l'attività e per fini
+personali o familiari sono deducibili **al 50%** (regola storicamente all'art. 54 TUIR,
+la cui numerazione è stata rivista dalla riforma del lavoro autonomo: **farsi confermare
+dal commercialista il riferimento vigente**). Specularmente l'IVA è detraibile in
+proporzione all'uso nell'attività.
+
+**Non è l'ubicazione a decidere, è l'esclusività dell'uso** — ma una macchina in casa
+solleva naturalmente la domanda, e l'onere di dimostrare l'uso esclusivo è del contribuente.
+
+Confronto sulla configurazione consigliata (workstation + 32 GB + SSD 2 TB + scheda
+Wi-Fi, **senza GPU**), ipotizzando aliquota marginale IRPEF del 43%:
+
+| | A — Uso esclusivo | B — Uso promiscuo (50%) |
+|---|---|---|
+| Imponibile | 2.795 € | 2.795 € |
+| IVA 22% | 614,90 € | 614,90 € |
+| **Esborso di cassa** | **3.409,90 €** | **3.409,90 €** |
+| IVA detraibile | −614,90 € | −307,45 € |
+| Risparmio da ammortamento | −1.201,85 € | −600,93 € |
+| **Costo reale** | **≈ 1.593 €** | **≈ 2.502 €** |
+
+**Differenza: ≈ 909 €.** Cioè **più del prezzo della scheda video** su cui si stava
+discutendo. È il singolo numero più rilevante dell'intera analisi.
+
+**Come si documenta l'uso esclusivo** (da validare con il commercialista — deve essere
+reale, non un esercizio di carta):
+- La macchina sta nel locale adibito a studio/ufficio in casa
+- Non è usata da familiari, account utente unico
+- **Non viene usata per fini personali**: posta privata, streaming, acquisti, svago
+
+Da cui una conseguenza pratica che si ripaga da sola: se questo fosse l'**unico** computer
+di casa e lo si usasse anche personalmente, l'uso sarebbe promiscuo. **Un secondo portatile
+economico per l'uso personale (300-400 €) recupera ~909 € di deduzione: netto positivo di
+circa 500 €**, oltre a separare nettamente il perimetro di sicurezza dei dati di lavoro.
+
+Due avvertenze:
+- Il risparmio da ammortamento si realizza **lungo il piano di ammortamento** (sei esercizi),
+  non subito. L'IVA invece rientra nella prima liquidazione utile.
+- In **regime forfettario** non si deduce nulla e l'IVA non si detrae: il costo resta
+  3.409,90 € pieni in entrambi gli scenari, e la questione non si pone.
+
+### 9.7 Costi e configurazione rivisti per utente singolo
+
+| Voce | Minimo | Massimo |
+|---|---|---|
+| Workstation + 64 GB dual channel + SSD 2 TB (**senza GPU**) | 2.735 € | 2.735 € |
+| Scheda PCIe Wi-Fi 6E + Bluetooth | 40 € | 60 € |
+| Backup: 2 dischi esterni cifrati + cloud cifrato (5 anni) | 500 € | 800 € |
+| UPS | 100 € | 150 € |
+| Licenze AI, **1 utente**, 5 anni | 1.200 € | 3.600 € |
+| Dati di mercato (5 anni) | 0 € | 6.000 € |
+| Sviluppo dashboard | 1.000 € | 8.000 € |
+| Compliance: art. 4, informative, eventuale DPIA | 800 € | 2.500 € |
+| **Totale 5 anni** | **≈ 6.375 €** | **≈ 23.845 €** |
+| **Peso dell'hardware** | **~44%** | **~12%** |
+
+Con un solo utente il costo fisso dell'hardware si spalma su meno teste e il suo peso sale.
+Resta però vero che **le decisioni che spostano il risultato non sono hardware**: sono
+l'inquadramento fiscale (§9.6, ~909 €), la procedura sull'art. 4 (§5.1) e la scelta sui
+dati di mercato (§2.4, fino a 6.000 €).
+
+### 9.8 Una domanda aperta sul formato
+
+Un tower da 49 × 40 × 34 cm e 11,2 kg è la scelta giusta **se la macchina non si muove mai**.
+Se invece capita di dover lavorare anche in studio o dai clienti, una workstation mobile
+della stessa famiglia costa all'incirca lo stesso e risolve il problema — a prezzo di meno
+espandibilità, che in questo scenario (nessuna GPU, due slot RAM comunque) si è visto
+contare poco. **Vale la pena rispondere alla domanda prima di ordinare.**
 
 ---
 
-## 10. Fonti e riferimenti
+## 10. In una riga
+
+**Comprare la workstation senza scheda grafica, portarla a 64 GB dual channel con un
+secondo disco e una scheda Wi-Fi/Bluetooth, investire i 510 € risparmiati in cifratura,
+backup e continuità, usare l'AI in cloud (i dati sono propri), e risolvere due cose prima
+di tutto il resto: come si documenta l'uso esclusivo della macchina — vale ~909 €, più
+della GPU — e la procedura dell'art. 4 dello Statuto dei Lavoratori, prima ancora di
+aprire l'editor per la dashboard.**
+
+Le tre decisioni che pesano davvero, in ordine:
+
+| # | Decisione | Valore |
+|---|---|---|
+| 1 | Uso esclusivo o promiscuo della macchina (§9.6) | ~909 € + un secondo PC personale che si ripaga |
+| 2 | Art. 4 sulla dashboard dipendenti (§5.1, §9.3) | Sanzioni penali e dati inutilizzabili |
+| 3 | Livello dei dati di mercato (§2.4) | Fino a 6.000 € su 5 anni |
+
+La scheda grafica da 510 €, al confronto, è il problema più piccolo dei quattro.
+
+---
+
+## 11. Fonti e riferimenti
 
 - [Analisi dell'offerta hardware](./analisi-offerta-workstation-dell-precision-7-t1.md) — documento complementare
 - [Ricerca interna sui conti deposito](./credit-agricole-prodotti-finanziari-conti-deposito.md) — costo opportunità del capitale

@@ -231,6 +231,13 @@ scalda di più e che, se si guasta, rende inutilizzabile il motivo per cui la si
 
 ### 5.2 Ammortamento e deducibilità (ipotesi: bene strumentale d'impresa)
 
+> ⚠️ **Superato dal §9.6 di [architettura-ai-studio-legale.md](./architettura-ai-studio-legale.md).**
+> Questa sezione ipotizza un bene aziendale a deducibilità piena in una SRL. La macchina è
+> invece destinata a un **professionista, a casa, in uso individuale**: si apre la questione
+> dell'**uso promiscuo** (deducibilità e detrazione IVA al 50%) e cambia l'aliquota di
+> riferimento (IRPEF marginale anziché IRES+IRAP). La differenza vale **circa 909 €**.
+> Il metodo di calcolo qui sotto resta valido; cambiano le ipotesi.
+
 Le macchine elettroniche d'ufficio si ammortizzano generalmente al **20% annuo**
 (D.M. 31/12/1988), con il primo esercizio ridotto al 50% → 10%. Piano su base 2.975 €:
 
