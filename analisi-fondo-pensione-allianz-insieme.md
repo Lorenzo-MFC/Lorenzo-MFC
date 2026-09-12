@@ -18,7 +18,7 @@ La posizione previdenziale vale oggi **27.102,08 €** a fronte di **24.992,00 �
 
 3. **La causa principale sono i costi, non i mercati.** Il profilo di rendimento combacia con la linea garantita *Formula Sicura* (0,80%/anno a 10 anni, ISC 1,50%). Con un ISC dell'1,50% su un rendimento lordo di circa 2,30%, **circa il 65% di quanto prodotto è stato assorbito dai costi**. In dieci anni i costi hanno superato il rendimento netto incassato.
 
-4. **Nonostante tutto, l'operazione complessiva è stata in utile — grazie alla fiscalità, non alla gestione.** Considerando la deduzione IRPEF già incassata sui versamenti, il rendimento effettivo del capitale realmente immobilizzato è stato fra il **6% e il 15% annuo** a seconda dell'aliquota marginale. È il contenitore fiscale ad aver funzionato; il gestore no.
+4. **Nonostante tutto, l'operazione complessiva è in utile — grazie alla fiscalità, non alla gestione.** I contributi sono stati dedotti (confermato dall'intestataria), quindi il capitale realmente immobilizzato è di 14.245-19.244 € a seconda dell'aliquota marginale, non 24.992 €. Il rendimento effettivo su quella cifra è stato fra il **6% e il 15% annuo**, e anche scontando l'imposta finale **l'operazione chiude con 7.000-10.000 € di utile netto**. È il contenitore fiscale ad aver funzionato; il gestore no.
 
 **Il trasferimento del 2026 è una decisione corretta** e taglia i costi di oltre la metà. Resta aperta una sola domanda, che i documenti non possono risolvere: il passaggio da linea garantita a **100% azionario** è coerente con l'età e l'orizzonte pensionistico dell'intestataria?
 
@@ -222,7 +222,11 @@ Il confronto che pesa di più non è l'ultimo, ma il primo: **un conto deposito 
 
 Qui l'analisi si ribalta, ed è la parte che nessun estratto conto mostra.
 
-I versamenti a previdenza complementare sono **deducibili dal reddito imponibile** fino a 5.164,57 €/anno (art. 8 D.Lgs. 252/2005). Sui 24.992 € versati, il risparmio IRPEF già incassato è:
+I versamenti a previdenza complementare sono **deducibili dal reddito imponibile** fino a 5.164,57 €/anno (art. 8 D.Lgs. 252/2005).
+
+> **Confermato dall'intestataria: i contributi sono stati dedotti.** Non si tratta quindi di un beneficio teorico ma di un risparmio fiscale effettivamente incassato, e non esiste il rischio di doppia tassazione all'uscita descritto in §13.
+
+Sui 24.992 € versati, il risparmio IRPEF incassato è:
 
 | Aliquota marginale | Risparmio IRPEF |
 |---|---|
@@ -231,6 +235,8 @@ I versamenti a previdenza complementare sono **deducibili dal reddito imponibile
 | 43% (oltre 50.000 €) | **10.747 €** |
 
 Questo cambia completamente il calcolo del rendimento, perché **il capitale realmente immobilizzato non è 24.992 €**: è quella cifra al netto della deduzione.
+
+**Conseguenza sulla durata.** Se tutti i versamenti sono stati dedotti, in nessun anno si è superato il tetto di 5.164,57 €. Il vincolo dei **5 anni minimi** (§4.2) è quindi confermato, non aggirabile. Va inoltre verificato che in ogni anno ci fosse **capienza fiscale** sufficiente: una deduzione su un reddito troppo basso produce meno beneficio di quello nominale.
 
 ### 8.1 IRR effettivo post-deduzione
 
@@ -274,6 +280,54 @@ La prestazione finale è tassata con **aliquota del 15%, ridotta dello 0,30% per
 | 43% | 35 anni | 9,00% | **34,0 punti** |
 
 È questo — non il rendimento della gestione — il vero motore di rendimento della previdenza complementare in Italia. **E si massimizza restando dentro il più a lungo possibile, al costo più basso possibile.** Esattamente ciò che il trasferimento del 2026 ha finalmente reso possibile.
+
+### 8.4 Il ciclo completo, al netto di tutto
+
+Con la deduzione confermata, si può chiudere il conto per intero. La base imponibile all'uscita sono i **contributi dedotti** (24.992 €); i rendimenti sono già stati tassati anno per anno e sono incorporati nel valore quota.
+
+**Cosa è stato realmente sborsato:**
+
+| Aliquota marginale | Deduzione incassata | **Esborso netto reale** | Valore oggi | Utile lordo |
+|---|---|---|---|---|
+| 23% | 5.748 € | 19.244 € | 27.102 € | +7.858 € |
+| 35% | 8.747 € | **16.245 €** | 27.102 € | **+10.857 €** |
+| 43% | 10.747 € | **14.245 €** | 27.102 € | **+12.857 €** |
+
+**Cosa resterebbe uscendo a scadenza (pensionamento), ai valori di oggi:**
+
+| Aliquota entrata | Anni partecipazione | Aliquota uscita | Imposta | Netto | **Guadagno netto** |
+|---|---|---|---|---|---|
+| 35% | 15 | 15,00% | 3.749 € | 23.353 € | **+7.108 €** |
+| 35% | 25 | 12,00% | 2.999 € | 24.103 € | +7.858 € |
+| 43% | 15 | 15,00% | 3.749 € | 23.353 € | **+9.108 €** |
+| 43% | 25 | 12,00% | 2.999 € | 24.103 € | +9.858 € |
+| 43% | 35 | 9,00% | 2.249 € | 24.853 € | **+10.607 €** |
+
+Anche nello scenario peggiore — dieci anni su una linea garantita dentro il contenitore più caro del mercato — **l'operazione chiude in utile di 7.000-10.000 €**. Tutto prodotto dalla fiscalità, non dalla gestione.
+
+### 8.5 Attenzione all'uscita anticipata
+
+Le aliquote agevolate (15% → 9%) valgono alla **prestazione pensionistica** e nei casi qualificati (art. 14 c. 2). Il riscatto per cause diverse (art. 14 c. 5) e le anticipazioni per esigenze generiche sono tassati al **23%**:
+
+| | Imposta | Netto |
+|---|---|---|
+| Uscita a scadenza (15%) | 3.749 € | 23.353 € |
+| **Riscatto non qualificato (23%)** | **5.748 €** | **21.354 €** |
+
+La differenza è di circa **2.000 €** ai valori attuali, e cresce col montante. **Il capitale va considerato vincolato fino alla pensione**: è la condizione che rende valido tutto il vantaggio fiscale calcolato sopra.
+
+### 8.6 Proiezione netta a scadenza
+
+Linea azionaria, 7,5% lordo, ISC 0,70%, ipotizzando 10 anni di anzianità già maturata:
+
+| Anni ancora da attendere | Montante lordo | Aliquota uscita | Imposta | **Netto in mano** |
+|---|---|---|---|---|
+| 10 | 52.326 € | 13,50% | 3.374 € | **48.952 €** |
+| 15 | 72.706 € | 12,00% | 2.999 € | **69.707 €** |
+| 20 | 101.025 € | 10,50% | 2.624 € | **98.401 €** |
+| 25 | 140.373 € | 9,00% | 2.249 € | **138.124 €** |
+
+Si noti che **l'imposta finale resta pressoché costante in valore assoluto** mentre il montante cresce: la base imponibile sono i contributi versati, non la plusvalenza. Più a lungo il capitale resta investito, più l'incidenza fiscale si diluisce — dal 6,4% del montante a 10 anni all'1,6% a 25 anni.
 
 ---
 
@@ -349,7 +403,7 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 | Date e importi dei versamenti | `Dettaglio Contributi` | IRR esatto invece che per scenari |
 | Linea di provenienza nel PIP | `Dett.` accanto al trasferimento | Conferma o smentisce l'ipotesi Formula Sicura |
 | Eventuali costi di uscita | `Dett.` accanto al trasferimento | Verifica che i 26.278,30 € siano al lordo o al netto |
-| Contributi non dedotti | `Contributi non dedotti` | **Rischio di doppia tassazione** — vedi §13 |
+| ~~Contributi non dedotti~~ | — | **RISOLTO** — l'intestataria conferma che i contributi sono stati dedotti |
 | Comunicazioni periodiche arretrate | `Documentazione` | Prova documentale di cosa sia stato comunicato e quando |
 | Altre posizioni | `Altre posizioni nello stesso prodotto` | Verifica che non ci siano altre giacenze dimenticate |
 
@@ -359,7 +413,7 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 
 **Priorità alta**
 
-1. **Verificare i contributi non dedotti.** Se esistono versamenti non portati in deduzione (perché eccedenti il tetto o per dimenticanza), vanno comunicati al fondo **entro il 31 dicembre dell'anno successivo** al versamento. In mancanza, quelle somme saranno **tassate una seconda volta all'uscita**, pur avendo già scontato l'IRPEF all'entrata. È una verifica di un minuto che può valere centinaia di euro.
+1. ~~**Verificare i contributi non dedotti.**~~ **RISOLTO.** L'intestataria conferma che i contributi sono stati dedotti: nessun rischio di doppia tassazione all'uscita, e il beneficio fiscale di §8 è acquisito. Resta da verificare, per completezza, che in ogni anno ci fosse **capienza fiscale** sufficiente ad assorbire l'intera deduzione.
 
 2. **Decidere se il 100% azionario è corretto**, sulla base dell'età e dell'orizzonte. È l'unica scelta che può ancora produrre o distruggere decine di migliaia di euro. Se l'orizzonte è breve, il cambio di linea va fatto subito, non dopo il prossimo ribasso.
 
@@ -404,7 +458,8 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 - L'identificazione della linea di provenienza come *Formula Sicura* è **un'inferenza** dal profilo di rendimento, non un dato documentale.
 - I dati su costi e rendimenti di Orizzonte Previdenza provengono da **fonti secondarie**: l'accesso diretto ai set informativi Allianz è stato impedito dal proxy di rete. **Prima di qualsiasi uso formale (reclamo, contenzioso) vanno verificati sulla Scheda dei Costi e sul Documento sulle Erogazioni ufficiali.**
 - I versamenti sono ipotizzati costanti. Versamenti irregolari modificherebbero l'IRR, tipicamente al rialzo se concentrati di recente.
-- L'aliquota marginale IRPEF dell'intestataria non è nota: il beneficio fiscale è presentato per scenari.
+- L'aliquota marginale IRPEF dell'intestataria non è nota: il beneficio fiscale è presentato per scenari (23% / 35% / 43%). La **fruizione** della deduzione è invece confermata.
+- Non è verificata la capienza fiscale anno per anno: se in qualche anno il reddito è stato insufficiente, il beneficio effettivo è inferiore a quello calcolato.
 
 **Fonti consultate:**
 
