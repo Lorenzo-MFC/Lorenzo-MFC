@@ -519,7 +519,101 @@ contare poco. **Vale la pena rispondere alla domanda prima di ordinare.**
 
 ---
 
-## 10. In una riga
+## 10. Verdetto finale: hardware e software sono adatti?
+
+Risposta diretta alle due domande, componente per componente.
+
+### 10.1 Hardware — adatto, con margine ampio e tre lacune
+
+| Componente | Adatto al lavoro descritto? | Nota |
+|---|---|---|
+| **CPU Intel Core Ultra 9 285** | 🟢 **Sì, sovrabbondante** | 24 core. Utile davvero solo sull'OCR massivo dell'archivio |
+| **Grafica integrata Intel** | 🟢 **Sì** | Documenti, dashboard, più monitor, videochiamate: le basta |
+| **32 GB di RAM** | 🟡 Quantità sì, **configurazione no** | Su un modulo solo → single channel. Portare a 64 GB su due moduli |
+| **SSD 1 TB singolo** | 🔴 **No** | Archivio di lavoro senza ridondanza. Serve un secondo disco |
+| **Assenza Wi-Fi e Bluetooth** | 🔴 **No, in una casa** | Senza rete non funziona nulla. Scheda PCIe 40 € |
+| **Alimentatore 360 W** | 🟢 Sì | Diventa un limite solo con una GPU, che non serve |
+| **GPU RTX A1000 (opzionale)** | 🔴 **Non serve** | Nessuno dei cinque lavori la usa |
+| **Windows 11 Pro** | 🟢 **Sì** | Porta BitLocker, indispensabile su una macchina domestica |
+| **Garanzia 36 mesi** | 🟢 Sì | Verificare se on-site: lavorando da soli, conta molto |
+| **Formato tower** | 🟡 Dipende | Giusto se non si muove mai (§9.8) |
+
+**Nessuno dei cinque lavori descritti è limitato dalla potenza di questa macchina.** Leggere
+documenti, chiamare API di AI in cloud, tenere un database, disegnare grafici, ricevere un
+feed di prezzi: sono carichi leggeri. Una macchina da 1.200-1.500 € li farebbe tutti.
+
+Il sovrapprezzo del Precision non compra prestazioni che servano: compra **affidabilità,
+garanzia 36 mesi e assistenza**. Per chi lavora da solo da casa questo ha un valore reale —
+è un punto singolo di guasto, e se si ferma la macchina si ferma l'attività. Con la
+deducibilità, la scelta è difendibile. Ma è bene che sia una scelta consapevole e non
+un equivoco sul fatto che serva tutta quella CPU.
+
+**Lacune non nell'offerta, che pesano più della CPU:**
+
+| Voce | Costo | Perché conta |
+|---|---|---|
+| **Due monitor 27"** | 300-500 € | Su lavoro documentale il secondo schermo rende **più di qualsiasi upgrade interno** |
+| Webcam e cuffie decenti | 100-200 € | Videochiamate con clienti: non inclusi, e il Bluetooth non c'è |
+| Scheda Wi-Fi/BT, RAM, secondo SSD | ~330 € | §9.5, §4 |
+
+### 10.2 Software — l'offerta non ne contiene di utile, ma quasi tutto è gratuito
+
+Questa è la parte che l'offerta non copre affatto. Cosa contiene davvero: **Windows 11 Pro**,
+un **Office in versione Trial** (cioè niente) e **zero mesi di antivirus**.
+
+Lo stack che serve davvero per i cinque lavori descritti:
+
+| Funzione | Soluzione | Costo |
+|---|---|---|
+| Sistema operativo | Windows 11 Pro | 🟢 **incluso** |
+| Cifratura del disco | BitLocker | 🟢 **incluso** in Pro |
+| Antivirus | Microsoft Defender | 🟢 **incluso e adeguato** |
+| Foglio di calcolo, documenti | Microsoft 365 Business | ~150 €/anno |
+| **AI per contratti e due diligence** | Abbonamento a un modello di frontiera | **20-100 €/mese** |
+| Dashboard | Power BI Desktop | 🟢 **gratuito** (Pro ~10 €/mese se serve condividere) |
+| Database della dashboard | PostgreSQL o SQLite | 🟢 **gratuito** |
+| Modelli e automazioni | Python | 🟢 **gratuito** |
+| Backup locale | Veeam Agent free o Macrium | 🟢 **gratuito** |
+| Backup cloud cifrato | Backblaze, rsync.net o simili | ~80 €/anno |
+| Gestore di password | Bitwarden | 🟢 gratuito (a pagamento ~40 €/anno) |
+| Dati di mercato | Da ritardati gratuiti al feed professionale | 0-1.200 €/anno |
+| Gestionale di studio | Se non già presente | 300-800 €/anno |
+
+**Costo software realistico: ~470 €/anno al minimo, ~990 €/anno in configurazione piena**
+(esclusi dati di mercato e gestionale). Su cinque anni **2.350-5.000 €: quanto o più
+dell'hardware.**
+
+Due osservazioni:
+
+- 🟢 **La buona notizia**: il grosso di ciò che serve è gratuito o già incluso. Defender
+  oggi è adeguato, BitLocker c'è, Power BI Desktop, PostgreSQL e Python non costano nulla.
+  L'unica spesa davvero incomprimibile è **l'abbonamento AI**, che è anche l'unica che
+  produce direttamente il valore cercato.
+- 🔴 **L'avvertenza**: **Office è solo in prova.** Se le previsioni economico-finanziarie
+  si fanno in Excel — ed è ragionevole — quella licenza va comprata, e non è nell'offerta.
+
+### 10.3 Il vero rischio non è né l'hardware né il software
+
+**La dashboard non si compra: si costruisce.** Non esiste un prodotto da installare che
+faccia controllo dei carichi di lavoro, flussi di cassa e previsioni su misura di questo
+studio. Power BI dà lo strumento, non il risultato: il modello dei dati, la connessione al
+gestionale e alla banca, la logica delle previsioni sono **un progetto di sviluppo**, la
+voce più costosa e più incerta di tutte (1.000-8.000 €, §9.7).
+
+È lì che il progetto riesce o fallisce — non sulla scelta della scheda video.
+
+### 10.4 In sintesi
+
+| Domanda | Risposta |
+|---|---|
+| **L'hardware è adatto?** | 🟢 **Sì, con margine.** Da correggere tre lacune (~330 €) e togliere la GPU (−510 €) |
+| **Il software nell'offerta è adatto?** | 🔴 **No**: c'è solo il sistema operativo. Office è in prova, antivirus assente |
+| **Esiste il software per farlo?** | 🟢 **Sì, e in gran parte gratuito.** Spesa vera: abbonamento AI e Office |
+| **Cosa manca davvero?** | Due monitor, webcam e cuffie, e soprattutto **lo sviluppo della dashboard** |
+
+---
+
+## 11. In una riga
 
 **Comprare la workstation senza scheda grafica, portarla a 64 GB dual channel con un
 secondo disco e una scheda Wi-Fi/Bluetooth, investire i 510 € risparmiati in cifratura,
@@ -540,7 +634,7 @@ La scheda grafica da 510 €, al confronto, è il problema più piccolo dei quat
 
 ---
 
-## 11. Fonti e riferimenti
+## 12. Fonti e riferimenti
 
 - [Analisi dell'offerta hardware](./analisi-offerta-workstation-dell-precision-7-t1.md) — documento complementare
 - [Ricerca interna sui conti deposito](./credit-agricole-prodotti-finanziari-conti-deposito.md) — costo opportunità del capitale
