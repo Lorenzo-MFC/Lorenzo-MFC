@@ -399,13 +399,18 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 
 | Dato | Dove | Perché serve |
 |---|---|---|
-| **Numero di anni di contribuzione** | `Certificazioni Fiscali` — conta le righe, una per anno | Trasforma tutte le tabelle IRR da scenari a numeri definitivi. **È il dato più veloce da ottenere.** |
-| Date e importi dei versamenti | `Dettaglio Contributi` | IRR esatto invece che per scenari |
+| **Numero di anni di contribuzione** | **Dichiarazioni dei redditi** (730 rigo E27 / Redditi PF quadro RP), o cassetto fiscale dell'Agenzia delle Entrate | Trasforma tutte le tabelle IRR da scenari a numeri definitivi. **È il dato che manca.** Vedi la nota sotto |
+| Date e importi dei versamenti | `Dettaglio Contributi` | IRR esatto invece che per scenari. Da provare per primo: alcuni fondi riportano lo storico ereditato col trasferimento |
+| Certificazioni fiscali del periodo PIP | Documenti Orizzonte Previdenza, o dichiarazioni dei redditi | Una per anno di versamento |
 | Linea di provenienza nel PIP | `Dett.` accanto al trasferimento | Conferma o smentisce l'ipotesi Formula Sicura |
 | Eventuali costi di uscita | `Dett.` accanto al trasferimento | Verifica che i 26.278,30 € siano al lordo o al netto |
 | ~~Contributi non dedotti~~ | — | **RISOLTO** — l'intestataria conferma che i contributi sono stati dedotti |
 | Comunicazioni periodiche arretrate | `Documentazione` | Prova documentale di cosa sia stato comunicato e quando |
 | Altre posizioni | `Altre posizioni nello stesso prodotto` | Verifica che non ci siano altre giacenze dimenticate |
+
+> **Nota sulla voce `Certificazioni Fiscali` del portale INSIEME.** Non è la fonte giusta per contare gli anni. Allianz INSIEME ha ricevuto la posizione il 13/05/2026: i 24.992 € di "contributi iscritto" sono un **saldo ereditato dal trasferimento**, non versamenti effettuati a questo fondo. Le certificazioni emesse da INSIEME coprono quindi solo il 2026 in avanti — e verosimilmente sono vuote, dato che il numero di quote è rimasto invariato fra maggio e settembre 2026 (nessun nuovo versamento). Le certificazioni del decennio precedente sono state emesse da **Orizzonte Previdenza**.
+>
+> La fonte affidabile sono le **dichiarazioni dei redditi**: una riga di deduzione per ogni anno di versamento. Sono reperibili presso il commercialista o nel cassetto fiscale dell'Agenzia delle Entrate (accesso SPID/CIE). Vanno comunque conservate per il periodo di accertamento — fino al 31 dicembre del quinto anno successivo a quello di presentazione (art. 43 DPR 600/1973).
 
 ---
 
@@ -417,7 +422,7 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 
 2. **Decidere se il 100% azionario è corretto**, sulla base dell'età e dell'orizzonte. È l'unica scelta che può ancora produrre o distruggere decine di migliaia di euro. Se l'orizzonte è breve, il cambio di linea va fatto subito, non dopo il prossimo ribasso.
 
-3. **Conservare la documentazione del trasferimento**: è la prova dell'anzianità che vale la riduzione dell'aliquota dal 15% verso il 9%.
+3. **Conservare la documentazione del trasferimento e le certificazioni fiscali**: la prima è la prova dell'anzianità che vale la riduzione dell'aliquota dal 15% verso il 9%; le seconde giustificano le deduzioni già fruite in caso di controllo dell'Agenzia delle Entrate (termine di accertamento: 31 dicembre del quinto anno successivo alla presentazione della dichiarazione, art. 43 DPR 600/1973).
 
 **Priorità media**
 
