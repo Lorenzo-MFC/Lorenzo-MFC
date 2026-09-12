@@ -377,60 +377,257 @@ Si noti che **l'imposta finale resta pressoché costante in valore assoluto** me
 
 ---
 
-## 10. Il rischio aperto: il salto a 100% azionario
+## 10. L'orizzonte: 19 anni alla pensione
 
-Si è passati **da una linea garantita a una linea interamente azionaria in un unico movimento**. È l'escursione massima possibile sulla scala del rischio.
+**Dato fornito dall'intestataria: mancano 19 anni al pensionamento (2045).** Questo chiude l'ultima domanda aperta dell'analisi.
 
-La LINEA AZIONARIA di Allianz INSIEME ha benchmark **95% MSCI World + 5% BOT**, con questi rendimenti annui:
+### 10.1 La risposta: il 100% azionario è corretto
 
-| Anno | Rendimento |
+Il salto da linea garantita a linea interamente azionaria è l'escursione massima sulla scala del rischio. Con 19 anni davanti, **è la scelta giusta** — e il documento la classifica ora come tale, non più come "da verificare".
+
+Il motivo è la capacità di recupero. La linea azionaria ha fatto **−14,68% nel 2022**. Quanto serve per riassorbire un colpo del genere:
+
+| Entità del crollo | Recupero a 7,5% lordo | Recupero a 5% |
+|---|---|---|
+| −14,68% *(il 2022)* | **2,4 anni** | 3,8 anni |
+| −25% | 4,4 anni | 6,8 anni |
+| −40% *(tipo 2008)* | **7,8 anni** | 12,1 anni |
+
+Anche un crollo di dimensione 2008 sarebbe riassorbito con **oltre undici anni di margine**. Su un orizzonte di 19 anni la volatilità azionaria non è un rischio: è il prezzo d'ingresso del rendimento.
+
+Il rischio vero, su questo orizzonte, è l'opposto: **restare prudenti**.
+
+### 10.2 Quanto costa la prudenza su 19 anni
+
+Solo sul capitale attuale (27.102 €), senza nuovi versamenti:
+
+| Linea | Rendimento lordo | Montante 2045 |
+|---|---|---|
+| **LINEA AZIONARIA** | 7,5% | **94.592 €** |
+| Bilanciata | 5,0% | 60.312 € |
+| Obbligazionaria | 3,0% | 41.748 € |
+| Garantita | 2,0% | 34.640 € |
+
+> **Restare prudenti per altri 19 anni costerebbe circa 60.000 €** — più del doppio del capitale attuale, e più di sette volte l'errore già commesso nel periodo PIP.
+
+### 10.3 De-risking: quando, e quanto costa
+
+Restare azionari fino all'ultimo giorno espone al **rischio di sequenza**: un crollo che arriva a ridosso del pensionamento colpisce il montante quando è più grande e non c'è tempo per recuperare. Su 240.000 €, un −40% significa −96.000 €.
+
+La difesa è ridurre gradualmente l'azionario negli ultimi anni. Il costo del percorso (con versamenti ripresi a 324,57 €/mese):
+
+| Strategia | Montante 2045 |
 |---|---|
-| 2021 | +19,38% |
-| 2022 | **−14,68%** |
-| 2023 | +15,25% |
-| 2024 | +17,67% |
-| 2025 | +12,96% |
+| Azionario fino alla fine | **241.618 €** |
+| Azionario 14 anni, poi bilanciato, prudente negli ultimi 4 | **200.375 €** |
+| Azionario 12 anni, poi bilanciato, prudente negli ultimi 4 | 192.281 € |
+| Azionario 8 anni, poi bilanciato, prudente negli ultimi 4 | 178.563 € |
+| Mai azionario | 161.164 € |
 
-Il 2022 è il dato da guardare. Se si ripetesse:
+Il de-risking a partire dal 2040 costa circa **41.000 €** in valore atteso, ed è il premio assicurativo contro un crollo finale da 96.000 €. È un prezzo ragionevole.
 
-| Capitale | Perdita | Residuo |
-|---|---|---|
-| 27.102 € (oggi) | −3.979 € | 23.123 € |
-| 40.000 € | −5.872 € | 34.128 € |
-| 60.000 € | −8.808 € | 51.192 € |
-
-**Se l'orizzonte pensionistico supera i 15 anni**, la scelta è corretta e recupera parte del terreno perduto. La volatilità è il prezzo del rendimento, e il tempo la assorbe.
-
-**Se la pensione è vicina (meno di 7-10 anni), la scelta è sbagliata** e va corretta: un drawdown a ridosso del pensionamento non ha tempo per essere recuperato. In quel caso la strada è un comparto bilanciato, o un percorso *life-cycle* che riduce gradualmente l'azionario.
-
-> È l'unica domanda dell'intera analisi che i documenti non possono risolvere. Dipende dall'età dell'intestataria e da quando quei soldi serviranno.
+> **Indicazione operativa: restare 100% azionari fino a circa il 2040, poi ridurre gradualmente.** Nessun intervento da fare adesso: la linea attuale è corretta. La scadenza da segnare in agenda è fra quattordici anni, non oggi.
 
 ---
 
-## 11. Proiezioni
+## 11. L'azione con il ritorno più alto: riprendere i versamenti
 
-Dal capitale attuale di 27.102 €, al netto di un ISC dello 0,70%:
+I dati indicano che i versamenti sono fermi — il numero di quote è rimasto invariato fra maggio e settembre 2026. **Con 19 anni davanti e un contenitore finalmente efficiente, questa è la leva più potente disponibile.**
 
-| Anni | Azionario (7,5% lordo) | Bilanciato (5%) | Garantito (2%) |
+### 11.1 Quanto costa davvero versare
+
+Riprendendo gli stessi 324,57 €/mese (3.894,84 €/anno, sotto il tetto di deducibilità):
+
+| Aliquota marginale | Risparmio IRPEF annuo | **Esborso netto reale** | Risparmio su 19 anni |
 |---|---|---|---|
-| 5 | 37.658 € | 33.452 € | 28.910 € |
-| 10 | 52.326 € | 41.290 € | 30.839 € |
-| 15 | 72.706 € | 50.964 € | 32.896 € |
-| 20 | **101.025 €** | 62.906 € | 35.091 € |
-| 25 | 140.373 € | 77.644 € | 37.432 € |
+| 23% | 896 € | 249,92 €/mese | 17.020 € |
+| 35% | 1.363 € | **210,97 €/mese** | **25.901 €** |
+| 43% | 1.675 € | **185,00 €/mese** | **31.821 €** |
 
-Aggiungendo 2.500 €/anno di nuovi versamenti:
+> Versare 324,57 € al mese, con aliquota al 35%, **costa realmente 211 € al mese.** Il resto lo mette lo Stato.
 
-| Anni | Azionario | Bilanciato |
-|---|---|---|
-| 10 | 87.686 € | 72.374 € |
-| 20 | **204.656 €** | 141.345 € |
+### 11.2 Cosa producono
 
-La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **circa 66.000 €** — è la misura di ciò che la scelta della linea vale su un orizzonte lungo. È lo stesso ordine di grandezza dell'errore già commesso, solo proiettato in avanti.
+| | Importo |
+|---|---|
+| Nuovi versamenti nominali (19 anni) | 74.002 € |
+| Montante generato sulla linea azionaria | **147.429 €** |
+| Netto dell'imposta finale | 138.719 € |
+| **IRR effettivo** (deduzione 35%, al netto dell'imposta di uscita) | **10,19%/anno** |
+| **IRR effettivo** (deduzione 43%) | **11,36%/anno** |
+
+Un rendimento effettivo a due cifre, garantito per la parte fiscale e atteso per la parte di mercato. **Non esiste un'alternativa a pari rischio che si avvicini.**
+
+### 11.3 Il quadro completo al 2045
+
+Capitale attuale + versamenti ripresi, linea azionaria:
+
+| | Importo |
+|---|---|
+| Montante lordo | **242.022 €** |
+| Base imponibile (contributi versati) | 98.994 € |
+| Anzianità alla scadenza | **25 anni interi** |
+| **Aliquota di uscita** (15% − 0,30% × 10) | **12,00%** |
+| Imposta | 11.879 € |
+| **NETTO IN MANO** | **230.142 €** |
+| Incidenza fiscale sul montante | **4,9%** |
+
+> *Correzione rispetto a una prima stima: l'art. 11 c. 6 conta **anni interi** di partecipazione, non frazioni. L'aliquota prudente è quindi 12,00% e non 11,77%. Impatto: 228 €.*
+
+Il confronto che riassume la posta in gioco:
+
+| Scelta | Montante 2045 |
+|---|---|
+| **Azionario + versamenti ripresi** | **242.022 €** |
+| Garantita + versamenti ripresi | 118.513 € |
+| **Differenza** | **+123.508 € (+104%)** |
 
 ---
 
-## 12. Dati mancanti e come recuperarli
+## 12. Uscire dal prodotto: tutte le opzioni
+
+Domanda posta esplicitamente: come uscire al meglio. Ecco ogni via percorribile, quantificata.
+
+### 12.1 Premessa: il prodotto da cui uscire è già stato lasciato
+
+Il prodotto caro era **Orizzonte Previdenza** (PIP, ISC 1,50-2,50%). L'uscita è avvenuta il 13/05/2026. Il prodotto attuale — **Allianz INSIEME**, fondo aperto, ISC 0,55-0,80% — è sotto la media COVIP dei fondi aperti (1,35%) e **non è un prodotto da cui convenga scappare**. Questo cambia la natura della domanda: non "come esco", ma "esiste qualcosa di meglio, e quanto costa arrivarci".
+
+### 12.2 Riscatto totale — la via peggiore
+
+| | Importo |
+|---|---|
+| Montante | 27.102,08 € |
+| Imposta 23% su 24.992 € *(art. 14 c. 5, cause diverse)* | −5.748,16 € |
+| **Netto subito** | **21.353,92 €** |
+
+Ammesso solo se il regolamento del fondo lo prevede. Ma il costo vero non è l'imposta immediata — è ciò che si perde dopo.
+
+**Confronto rigoroso, a parità di esborso netto mensile.** Dentro il fondo 324,57 €/mese costano realmente 210,97 € (deduzione 35%); fuori si versano 210,97 € senza deduzione. Stessa uscita di cassa, 19 anni, stesso rendimento lordo del 7,5%:
+
+| | **Dentro il fondo** | **Fuori (ETF, TER 0,25%)** |
+|---|---|---|
+| Capitale di partenza | 27.102 € | 21.354 € |
+| Esborso mensile | 210,97 € netti | 210,97 € |
+| Montante lordo 2045 | **242.022 €** | 181.299 € |
+| Imposta finale | 11.879 € (12%) | 29.080 € (26% sulla plusvalenza) |
+| **NETTO 2045** | **230.142 €** | **152.220 €** |
+
+> ### Uscire oggi costa 77.922 €.
+>
+> Quasi dieci volte il danno prodotto in sei anni e mezzo dal PIP. La reazione istintiva dopo aver scoperto l'errore — chiudere tutto — sarebbe un errore molto più grande di quello che vuole correggere.
+
+Le ragioni sono tre e si sommano: si perde il 23% subito, si perde la deduzione su ogni versamento futuro (1.363 €/anno), e si passa da un'imposta finale del 12% sui soli contributi a una del 26% su tutta la plusvalenza.
+
+### 12.3 Trasferimento ad altro fondo — l'unica uscita sensata, ma vale poco
+
+Il trasferimento (art. 14 c. 6) è **fiscalmente neutro** e **conserva l'anzianità**. È l'uscita "pulita". Due vincoli:
+
+- **Due anni di permanenza** nella forma attuale: prima data utile **~13 maggio 2028**.
+- Il guadagno è solo la differenza di ISC, e Allianz INSIEME è già economico.
+
+| Destinazione | Delta ISC | Montante 2045 | Differenza |
+|---|---|---|---|
+| Fondo negoziale (0,50%) | +0,20 punti | 248.638 € | **+6.617 €** |
+| Altro fondo aperto (0,60%) | +0,10 punti | 245.306 € | +3.284 € |
+| Fondo aperto caro (0,90%) | −0,20 punti | 235.594 € | −6.427 € |
+
+**I fondi negoziali costano meno di tutti, ma l'accesso dipende dal lavoro svolto.** L'adesione qui è individuale — contributi azienda 0,00 e TFR 0,00 — il che suggerisce lavoro autonomo o assenza di un fondo di categoria. Da verificare: è l'unica mossa che porta un guadagno reale, ancorché modesto.
+
+### 12.4 Le uscite che non costano nulla
+
+| Opzione | Costo | Effetto |
+|---|---|---|
+| **Cambio linea interno** (switch) | gratuito, nessuna imposta | Si esce dal *rischio*, non dal prodotto. Di solito un cambio gratuito all'anno |
+| **Sospensione dei versamenti** | gratuita | Il capitale resta investito. Si perde 1.363 €/anno di deduzione |
+| **Anticipazione spese sanitarie** | tassazione 15%-9% | Fino al 75%, in qualsiasi momento |
+| **Anticipazione prima casa** | 23% | Fino al 75%, **da dicembre 2027** (8 anni di anzianità) |
+| **Anticipazione altre esigenze** | 23% | Fino al 30%, da dicembre 2027 |
+
+### 12.5 Conclusione
+
+**La via d'uscita migliore è non uscire.** Il danno è stato prodotto da un prodotto che è già stato abbandonato; il contenitore attuale è efficiente e il vantaggio fiscale, su 19 anni, è troppo grande per essere buttato via.
+
+Se l'obiettivo è comunque lasciare Allianz, **l'unica strada razionale è il trasferimento dopo maggio 2028** — fiscalmente neutro, anzianità salva — e ha senso solo verso un fondo negoziale, per un guadagno atteso di circa 6.600 €. Verso un altro fondo aperto il gioco non vale la candela.
+
+---
+
+## 13. Verifica dei calcoli
+
+Tutti i numeri sono stati ricalcolati in modo indipendente. Ecco cosa regge e cosa no.
+
+### 13.1 Fatti documentali — verificati sulle schermate
+
+| Verifica | Esito |
+|---|---|
+| 838,036 quote × 32,340 € = 27.102,08 € | **OK**, coincide con l'estratto conto |
+| 24.992,00 + 1.286,30 = 26.278,30 € | **OK**, coincide |
+| Importo trasferito = TOT Contributi | **OK**, 26.278,30 in entrambi i documenti |
+| Versamento medio 3.887,70 €/anno < tetto 5.164,57 € | **OK**, coerente con deduzione integrale |
+
+### 13.2 Deduzioni aritmetiche — certe se le premesse reggono
+
+| Deduzione | Valore | Condizione di validità |
+|---|---|---|
+| Valore quota all'ingresso | 31,357 € | Vale se il numero di quote non è cambiato fra 13/05 e 09/09/2026 |
+| Durata contribuzione | 6,428 anni (77 mesi) | Dalla data di primo versamento fornita |
+| **IRR del periodo PIP** | **1,5635%/anno** | Verificato per bisezione e con NPV a zero |
+| Rendimento cumulato | +5,15% | Rapporto diretto |
+
+### 13.3 Ipotesi e stime — con il loro margine di errore
+
+| Voce | Ipotesi usata | Range testato | Il messaggio regge? |
+|---|---|---|---|
+| Andamento dei versamenti | 324,57 €/mese costanti | non testato | **Da verificare** — un piano irregolare sposta l'IRR |
+| Rendimento lordo futuro | 7,5% | 4% → 9% | **Sì**: montante 2045 fra 153k e 297k, sempre ≫ garantita |
+| Rendimento linea azionaria 2020 | +6,0% | 0% → +12% | **Sì**: costo-opportunità fra 7.121 € e 9.488 € |
+| Parziale gen-mag 2026 | +3,0% | 0% → +6% | **Sì**, incluso nel range sopra |
+| Inflazione 2025-2026 | +1,8% / +2,8% | ±0,7 punti | **Sì**: perdita reale fra −1.150 € e −1.334 € |
+| Linea di provenienza nel PIP | garantita o obbligazionaria | — | **Da confermare** documentalmente |
+| Aliquota marginale IRPEF | scenari 23/35/43% | — | **Da confermare** |
+
+### 13.4 Un errore trovato e corretto
+
+L'aliquota di uscita era stata calcolata come 11,77%, usando anni frazionari di partecipazione. **L'art. 11 c. 6 D.Lgs. 252/2005 conta anni interi**: a 25 anni la riduzione è di 10 × 0,30 = 3 punti, quindi **12,00%**. Impatto sul risultato finale: 228 €, trascurabile — ma il metodo va corretto.
+
+---
+
+## 14. Domande da fare al consulente
+
+In ordine di importanza economica.
+
+### 14.1 Verifiche che valgono soldi
+
+1. **L'anzianità dal 02/12/2019 è stata registrata correttamente da Allianz INSIEME?** Chiedere **conferma scritta**. È ciò che determina l'aliquota finale del 12% invece del 15%: su 98.994 € di base imponibile la differenza vale circa **3.000 €**. Non darlo per scontato perché il trasferimento è interno allo stesso gruppo.
+
+2. **Qual è l'ISC esatto della LINEA AZIONARIA di Allianz INSIEME?** Il range 0,55-0,80% viene da fonti secondarie. Farsi dare il dato ufficiale: ogni 0,10 punti vale circa **3.300 €** sui 19 anni.
+
+3. **Da quale linea di Orizzonte Previdenza è uscito il capitale, e quali costi sono stati applicati al trasferimento?** Farsi dare l'estratto di chiusura del PIP.
+
+4. **Ho accesso a un fondo pensione negoziale?** Se sì, il trasferimento dopo maggio 2028 vale circa **6.600 €**. Dipende dall'inquadramento lavorativo.
+
+5. **Qual è la mia aliquota marginale IRPEF?** Determina se la deduzione vale 896, 1.363 o 1.675 € l'anno.
+
+### 14.2 Verifiche sul passato
+
+6. **Perché le comunicazioni periodiche non sono mai arrivate?** È un obbligo del fondo. Chiedere l'invio di tutto l'arretrato.
+
+7. **Chi ha raccomandato la linea garantita nel 2019, e su quale profilo di rischio?** Nel dicembre 2019 l'orizzonte pensionistico era di 26 anni. Una linea a rischio minimo su quell'orizzonte è difficile da giustificare: la documentazione di adeguatezza raccolta all'epoca è il punto da far emergere.
+
+8. **La posizione è mai stata rivista in sei anni e mezzo?** Se non c'è traccia di revisioni, è un fatto rilevante.
+
+### 14.3 Scelte operative
+
+9. **Riprendere i versamenti:** importo, SDD, e verifica della capienza fiscale annua.
+10. **Esiste un percorso life-cycle automatico** che riduca gradualmente l'azionario dal 2040? Se sì, valutarlo contro la gestione manuale.
+11. **Il regolamento prevede il riscatto totale per cause diverse?** Utile saperlo anche solo per completezza.
+
+### 14.4 Una cautela
+
+> **Verificare se il consulente è legato ad Allianz.** Chi ha collocato Orizzonte Previdenza nel 2019 è la stessa rete che oggi gestisce INSIEME. Non è una ragione per non andarci — ma le risposte alle domande 6, 7 e 8 riguardano il suo stesso operato, e la domanda 4 (fondo negoziale) porta il cliente fuori dal gruppo. **Un consulente indipendente a parcella** — o quantomeno un secondo parere — costa qualche centinaio di euro su decisioni che ne valgono decine di migliaia.
+
+---
+
+## 15. Dati mancanti e come recuperarli
 
 | Dato | Dove | Perché serve |
 |---|---|---|
@@ -449,31 +646,41 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 
 ---
 
-## 13. Azioni consigliate
+## 16. Azioni consigliate
 
-**Priorità alta**
+**Da fare — alto valore**
 
-1. ~~**Verificare i contributi non dedotti.**~~ **RISOLTO.** L'intestataria conferma che i contributi sono stati dedotti: nessun rischio di doppia tassazione all'uscita, e il beneficio fiscale di §8 è acquisito. Resta da verificare, per completezza, che in ogni anno ci fosse **capienza fiscale** sufficiente ad assorbire l'intera deduzione.
+1. **Riprendere i versamenti.** È la leva più potente: 324,57 €/mese costano realmente 211 € (deduzione 35%) e producono un IRR effettivo del **10,2% annuo** netto dell'imposta finale. Su 19 anni valgono **147.429 €** di montante.
 
-2. **Decidere se il 100% azionario è corretto**, sulla base dell'età e dell'orizzonte. È l'unica scelta che può ancora produrre o distruggere decine di migliaia di euro. Se l'orizzonte è breve, il cambio di linea va fatto subito, non dopo il prossimo ribasso.
+2. **Farsi confermare per iscritto l'anzianità dal 02/12/2019.** Vale circa 3.000 € di imposta finale.
 
-3. **Conservare la documentazione del trasferimento e le certificazioni fiscali**: la prima è la prova dell'anzianità che vale la riduzione dell'aliquota dal 15% verso il 9%; le seconde giustificano le deduzioni già fruite in caso di controllo dell'Agenzia delle Entrate (termine di accertamento: 31 dicembre del quinto anno successivo alla presentazione della dichiarazione, art. 43 DPR 600/1973).
+3. **Restare sulla LINEA AZIONARIA.** Con 19 anni davanti è la scelta corretta: un crollo da −40% si riassorbe in 7,8 anni, con oltre undici anni di margine. Restare prudenti costerebbe circa 60.000 € sul solo capitale attuale.
 
-**Priorità media**
+**Da fare — verifica**
 
-4. **Recuperare le comunicazioni periodiche arretrate** da `Documentazione`. Il fondo ha l'obbligo di inviarle annualmente; l'intestataria dichiara di non averle ricevute. Se in dieci anni nessuna comunicazione ha evidenziato un rendimento reale negativo, è un fatto che vale la pena documentare.
+4. **Verificare l'accesso a un fondo negoziale.** È l'unica uscita che porta un guadagno reale: circa **6.600 €**, dopo maggio 2028, fiscalmente neutra.
 
-5. **Riprendere i versamenti se sono interrotti.** Con un ISC dello 0,70% e uno spread fiscale di 21-34 punti, il contenitore è ora efficiente: ogni euro versato rende molto più di prima. Lo strumento è diventato conveniente proprio adesso.
+5. **Recuperare le comunicazioni periodiche arretrate** e la documentazione di adeguatezza del 2019.
 
-**Priorità bassa / da valutare**
+6. **Conservare la documentazione del trasferimento e le certificazioni fiscali** — prova dell'anzianità e delle deduzioni fruite (termine di accertamento: 31 dicembre del quinto anno successivo alla presentazione, art. 43 DPR 600/1973).
 
-6. **Verificare l'accesso a un fondo negoziale.** Se l'intestataria è lavoratrice dipendente di un settore coperto da un fondo di categoria, l'ISC scende a ~0,50% contro lo 0,70% attuale. È un ulteriore 0,20 punti l'anno. Va però pesato contro il fatto che l'adesione è individuale (contributi azienda a zero), il che suggerisce lavoro autonomo o assenza di un fondo di riferimento.
+**Da NON fare**
 
-7. **Valutare un reclamo formale** (sezione `RECLAMI` del portale, poi COVIP) su due punti: la mancata ricezione delle comunicazioni periodiche, e l'adeguatezza della raccomandazione originaria — un PIP con ISC 1,50% su linea garantita per un orizzonte decennale. L'esito è incerto e va pesato contro il tempo richiesto, ma la documentazione va comunque raccolta.
+7. **Non riscattare.** Costerebbe **77.922 €** rispetto al restare, a parità di esborso netto mensile. È la reazione istintiva sbagliata.
+
+8. **Non trasferire verso un altro fondo aperto.** Allianz INSIEME è già sotto la media di categoria: il guadagno sarebbe nullo o negativo.
+
+9. **Non de-riskare adesso.** La riduzione graduale dell'azionario va programmata **intorno al 2040**, non oggi.
+
+**Da valutare**
+
+10. **Un secondo parere indipendente a parcella.** Su decisioni che valgono decine di migliaia di euro, qualche centinaio di euro per un consulente non legato al collocatore è denaro ben speso.
+
+11. **Reclamo formale** (sezione `RECLAMI`, poi COVIP) sulla mancata ricezione delle comunicazioni periodiche e sull'adeguatezza della raccomandazione del 2019. Esito incerto; la documentazione va comunque raccolta prima.
 
 ---
 
-## 14. Giudizio finale
+## 17. Giudizio finale
 
 | Aspetto | Valutazione |
 |---|---|
@@ -485,7 +692,8 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 | Sfruttamento del beneficio fiscale | **Buono** — IRR effettivo 9,7%-19,1%; è ciò che ha salvato l'operazione |
 | Decisione di trasferire (2026) | **Corretta** — 217 €/anno subito, 13.676 € a vent'anni |
 | Esecuzione del trasferimento | **Regolare** — 89 giorni, senza costi, anzianità salva |
-| Scelta della nuova linea (100% azionaria) | **Da verificare** — dipende dall'orizzonte |
+| Scelta della nuova linea (100% azionaria) | **Corretta** — con 19 anni di orizzonte è la scelta giusta |
+| Convenienza a uscire oggi dal fondo | **Nessuna** — il riscatto costerebbe 77.922 € |
 
 **In una riga:** sei anni e mezzo di previdenza complementare hanno reso l'1,56% l'anno contro un'inflazione del 2,99%, perché metà del rendimento lordo se lo sono preso i costi e la linea scelta era la più prudente disponibile; il trasferimento del maggio 2026 corregge la causa strutturale, e il vantaggio fiscale — che spettava comunque, su qualsiasi fondo — ha impedito che l'errore diventasse una perdita.
 
@@ -493,7 +701,7 @@ La distanza fra la colonna "azionario" e la colonna "garantito" a 20 anni — **
 
 ---
 
-## 15. Fonti e limiti metodologici
+## 18. Fonti e limiti metodologici
 
 **Limiti da dichiarare:**
 
