@@ -6,6 +6,15 @@
 > Le considerazioni fiscali hanno scopo informativo e **non sostituiscono il parere del
 > commercialista**: il trattamento concreto dipende dal regime contabile dell'impresa.
 
+> **⚠️ Aggiornamento — l'uso previsto è ora noto.** La macchina serve a uno **studio legale**
+> per: analisi contrattuale e due diligence con AI, dashboard gestionale e di cassa,
+> previsioni economico-finanziarie, analisi di strumenti finanziari. Con questo quadro il
+> verdetto sulla GPU passa da "sconsigliata" a **"non serve"**, e il baricentro del progetto
+> si sposta dall'hardware all'architettura e alla compliance.
+> **Leggere [architettura-ai-studio-legale.md](./architettura-ai-studio-legale.md)**, che
+> aggiorna le conclusioni dei §6 e §8 di questo documento. L'analisi tecnica ed
+> economico-finanziaria che segue resta valida.
+
 ---
 
 ## 1. Sintesi esecutiva
