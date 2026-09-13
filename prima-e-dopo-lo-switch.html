@@ -1,0 +1,531 @@
+<title>Prima e dopo lo switch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Libre+Franklin:wght@400;500;600;700&display=swap">
+
+<style>
+:root{
+  color-scheme: light;
+  --ground:#f6f7f9; --surface:#ffffff; --surface-2:#eef1f5;
+  --ink:#14161b; --ink-2:#5b6272; --ink-3:#8b92a3;
+  --rule:#dde1e8; --rule-2:#c6ccd8;
+  --s1:#2a78d6; --s2:#eb6834;
+  --neg:#a8271d; --pos:#166b3c; --neg-bg:#fbeeec; --pos-bg:#ecf5ef;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"Libre Franklin",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --ground:#121418; --surface:#1a1d23; --surface-2:#232730;
+    --ink:#edeff3; --ink-2:#a3aab8; --ink-3:#7b8290;
+    --rule:#2b303a; --rule-2:#3b424f;
+    --s1:#3987e5; --s2:#d95926;
+    --neg:#f0897f; --pos:#5fbf87; --neg-bg:#2a1c1a; --pos-bg:#17251d;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --ground:#121418; --surface:#1a1d23; --surface-2:#232730;
+  --ink:#edeff3; --ink-2:#a3aab8; --ink-3:#7b8290;
+  --rule:#2b303a; --rule-2:#3b424f;
+  --s1:#3987e5; --s2:#d95926;
+  --neg:#f0897f; --pos:#5fbf87; --neg-bg:#2a1c1a; --pos-bg:#17251d;
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--ground); color:var(--ink);
+  font-family:var(--body); font-size:16px; line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+  padding:0 20px; padding-block:0 64px;
+}
+.wrap{max-width:820px;margin:0 auto}
+p{margin:0 0 1.1em;max-width:63ch}
+h1,h2,h3{text-wrap:balance;margin:0}
+a{color:var(--s1)}
+
+/* ---------- header ---------- */
+header{padding-block:56px 36px;border-bottom:1px solid var(--rule)}
+.eyebrow{
+  font-size:12px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--ink-3);margin:0 0 18px;
+}
+h1{
+  font-family:var(--display);font-weight:500;
+  font-size:clamp(38px,7vw,60px);line-height:1.04;letter-spacing:-.015em;
+  margin-bottom:20px;
+}
+.standfirst{
+  font-family:var(--display);font-size:clamp(18px,2.4vw,21px);line-height:1.5;
+  color:var(--ink-2);max-width:52ch;margin:0;
+}
+
+/* ---------- stat row ---------- */
+.stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
+  background:var(--rule);border:1px solid var(--rule);
+  margin-block:36px 0;
+}
+.stat{background:var(--surface);padding:20px 18px 18px}
+.stat dt{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);margin:0 0 8px}
+.stat dd{
+  margin:0;font-family:var(--display);font-size:clamp(26px,4.4vw,34px);
+  font-weight:500;letter-spacing:-.01em;font-variant-numeric:tabular-nums;line-height:1.1;
+}
+.stat .note{display:block;font-family:var(--body);font-size:13px;font-weight:400;color:var(--ink-2);margin-top:7px;letter-spacing:0}
+.stat.is-neg dd{color:var(--neg)}
+.stat.is-pos dd{color:var(--pos)}
+@media (max-width:620px){.stats{grid-template-columns:1fr}}
+
+/* ---------- sections ---------- */
+section{padding-block:44px 0}
+h2{
+  font-family:var(--display);font-weight:500;font-size:clamp(26px,4vw,34px);
+  letter-spacing:-.012em;line-height:1.15;margin-bottom:16px;
+}
+h3{font-size:15px;font-weight:700;letter-spacing:.02em;margin:30px 0 10px}
+.lede{font-size:17px;color:var(--ink-2)}
+
+/* phase marker — the three phases are a real chronology */
+.phase{display:flex;align-items:baseline;gap:14px;margin-bottom:8px}
+.phase-n{
+  font-family:var(--display);font-size:15px;font-weight:600;color:var(--surface);
+  background:var(--ink);width:26px;height:26px;flex:0 0 26px;
+  display:flex;align-items:center;justify-content:center;border-radius:50%;
+  transform:translateY(2px);
+}
+.phase-date{
+  font-size:12px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--ink-3);
+}
+
+/* ---------- tables ---------- */
+.tw{overflow-x:auto;margin:20px 0 24px}
+table{border-collapse:collapse;width:100%;min-width:380px;font-size:15px}
+caption{
+  text-align:left;font-size:12px;font-weight:600;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--ink-3);padding-bottom:10px;
+}
+th,td{padding:11px 12px;text-align:left;border-bottom:1px solid var(--rule)}
+thead th{
+  font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--ink-3);border-bottom:1px solid var(--rule-2);
+}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.total td{font-weight:700;border-top:2px solid var(--rule-2);border-bottom:none;background:var(--surface-2)}
+tr.sub td{border-top:1px solid var(--rule-2);font-weight:600}
+.neg{color:var(--neg)}
+.pos{color:var(--pos)}
+td small{display:block;color:var(--ink-2);font-size:13px;margin-top:2px}
+
+/* ---------- charts ---------- */
+figure{margin:28px 0 30px}
+.fig-head{margin-bottom:14px}
+.fig-title{font-size:15px;font-weight:700;margin:0 0 4px}
+.fig-sub{font-size:14px;color:var(--ink-2);margin:0;max-width:60ch}
+.chart{
+  position:relative;background:var(--surface);
+  border:1px solid var(--rule);padding:14px 10px 8px;
+}
+.chart svg{display:block;width:100%;height:auto}
+.gridline{stroke:var(--rule);stroke-width:1}
+.axisline{stroke:var(--rule-2);stroke-width:1}
+.tick{fill:var(--ink-3);font-family:var(--body);font-size:11px;font-variant-numeric:tabular-nums}
+.dlabel{font-family:var(--body);font-size:12px;font-weight:700;font-variant-numeric:tabular-nums}
+.ln{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.ln-v{stroke:var(--ink-3);stroke-dasharray:5 4}
+.ln-1{stroke:var(--s1)}
+.ln-2{stroke:var(--s2)}
+.zone{fill:var(--surface-2)}
+.zlabel{fill:var(--ink-3);font-family:var(--body);font-size:10.5px;font-weight:600;letter-spacing:.07em}
+.marker{stroke:var(--rule-2);stroke-width:1;stroke-dasharray:3 3}
+.cross{stroke:var(--rule-2);stroke-width:1;opacity:0}
+.dot{opacity:0}
+figcaption{font-size:13px;color:var(--ink-3);margin-top:10px;max-width:60ch}
+
+.legend{display:flex;flex-wrap:wrap;gap:8px 20px;margin:14px 0 0;padding:0;list-style:none;font-size:13.5px}
+.legend li{display:flex;align-items:center;gap:8px;color:var(--ink-2)}
+.swatch{width:18px;height:3px;flex:0 0 18px;border-radius:2px}
+.sw-v{background:var(--ink-3)}
+.sw-1{background:var(--s1)}
+.sw-2{background:var(--s2)}
+
+.tip{
+  position:absolute;pointer-events:none;opacity:0;transition:opacity .09s;
+  background:var(--surface);border:1px solid var(--rule-2);
+  padding:9px 11px;font-size:13px;line-height:1.45;min-width:150px;
+  box-shadow:0 4px 14px rgb(0 0 0 / .10);z-index:3;
+}
+.tip b{display:block;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);margin-bottom:5px;font-weight:600}
+.tip .row{display:flex;justify-content:space-between;gap:14px;font-variant-numeric:tabular-nums}
+.tip .row i{font-style:normal;color:var(--ink-2)}
+.tip .row b{display:inline;text-transform:none;letter-spacing:0;font-size:13px;color:var(--ink);margin:0;font-weight:600}
+
+/* ---------- callout ---------- */
+.call{
+  border-left:3px solid var(--ink);background:var(--surface);
+  padding:18px 20px;margin:26px 0;
+}
+.call.warn{border-left-color:var(--neg);background:var(--neg-bg)}
+.call.good{border-left-color:var(--pos);background:var(--pos-bg)}
+.call p{margin:0;max-width:58ch}
+.call p+p{margin-top:.8em}
+.call strong{font-weight:700}
+
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;margin:18px 0 24px;font-size:15px}
+.kv dt{color:var(--ink-2)}
+.kv dd{margin:0;font-weight:600;font-variant-numeric:tabular-nums}
+
+footer{margin-top:52px;padding-top:26px;border-top:1px solid var(--rule);font-size:13.5px;color:var(--ink-3)}
+footer p{max-width:66ch;margin-bottom:.8em}
+footer h3{color:var(--ink-2);margin-top:0}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Fondo Pensione INSIEME · posizione individuale</p>
+  <h1>Prima e dopo lo switch</h1>
+  <p class="standfirst">Sei anni e mezzo di versamenti, due prodotti diversi, un trasferimento a maggio 2026. Cosa è successo davvero ai soldi — e cosa succederà da qui al 2045.</p>
+
+  <dl class="stats">
+    <div class="stat">
+      <dt>Versato dal 2019</dt>
+      <dd>24.992 €<span class="note">324,57 € al mese per 77 mesi</span></dd>
+    </div>
+    <div class="stat">
+      <dt>Vale oggi</dt>
+      <dd>27.102 €<span class="note">838,036 quote × 32,340 €</span></dd>
+    </div>
+    <div class="stat is-neg">
+      <dt>In potere d'acquisto</dt>
+      <dd>−1.238 €<span class="note">l'inflazione ha corso più del rendimento</span></dd>
+    </div>
+  </dl>
+</header>
+
+<section>
+  <h2>In due parole</h2>
+  <p class="lede">Il capitale è cresciuto in apparenza — da 24.992 € versati a 27.102 € — ma è cresciuto meno dei prezzi. Con la stessa cifra, oggi si compra meno di quanto si comprava versandola.</p>
+  <p>Il motivo non è un crollo dei mercati. È che per sei anni e mezzo i soldi sono stati dentro il prodotto più caro del mercato previdenziale italiano, su una linea a rischio minimo che rendeva poco. A maggio 2026 sono stati spostati su un prodotto molto più economico e su una linea azionaria. Quella decisione è corretta, e cambia tutto ciò che verrà dopo.</p>
+  <p>C'è però un contrappeso importante, e va detto subito: <strong>i versamenti sono stati dedotti dall'IRPEF.</strong> Quel risparmio fiscale — fra 5.700 e 10.700 € a seconda dell'aliquota — è ciò che ha trasformato un pessimo investimento in un'operazione comunque in utile.</p>
+</section>
+
+<section>
+  <div class="phase"><span class="phase-n">1</span><span class="phase-date">2 dicembre 2019 → 7 maggio 2026</span></div>
+  <h2>Prima dello switch: il PIP</h2>
+  <p>Il prodotto si chiamava <strong>Orizzonte Previdenza</strong> ed è un PIP, cioè un piano pensionistico di tipo assicurativo. Era — ed è — un prodotto di Allianz. Il versamento è stato interamente personale: nessun contributo del datore di lavoro, nessun TFR.</p>
+
+  <dl class="kv">
+    <dt>Durata</dt><dd>6 anni e 5 mesi (77 mesi)</dd>
+    <dt>Versato</dt><dd>24.992,00 €</dd>
+    <dt>Versamento medio</dt><dd>324,57 € al mese</dd>
+    <dt>Interessi maturati</dt><dd class="pos">+1.286,30 €</dd>
+    <dt>Rendimento annuo</dt><dd>1,56 %</dd>
+    <dt>Inflazione nello stesso periodo</dt><dd class="neg">2,99 % all'anno</dd>
+  </dl>
+
+  <h3>Perché ha reso così poco</h3>
+  <p>Due cause, che si sommano.</p>
+  <p><strong>La linea era troppo prudente.</strong> Il rendimento dell'1,56% all'anno è compatibile con la linea garantita o con quella obbligazionaria pura. Su un orizzonte che nel 2019 era ancora di ventisei anni, era una scelta difficile da giustificare.</p>
+  <p><strong>I costi erano alti.</strong> Un PIP costa fra l'1,5% e il 2,5% all'anno, prelevato su tutto il capitale. Per confronto, la media dei fondi pensione aperti è l'1,35% e quella dei fondi negoziali lo 0,50%.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Dove è finito il rendimento — 6 anni e mezzo</caption>
+      <tbody>
+        <tr><td>Rendimento lordo prodotto dalla gestione</td><td class="num">2.546 €</td></tr>
+        <tr><td>Commissioni trattenute dal gestore <small>1,50% l'anno su un capitale medio di 13.066 €</small></td><td class="num neg">−1.260 €</td></tr>
+        <tr class="total"><td>Interessi effettivamente accreditati</td><td class="num">1.286 €</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="call warn">
+    <p><strong>Per ogni euro finito in tasca all'intestataria, quasi un euro è finito in commissioni.</strong> Metà di tutto ciò che la gestione ha prodotto è rimasta al gestore.</p>
+  </div>
+</section>
+
+<section>
+  <div class="phase"><span class="phase-n">2</span><span class="phase-date">13 febbraio → 13 maggio 2026</span></div>
+  <h2>Il passaggio</h2>
+  <p>Non è stato un cambio di linea interno: è stato un <strong>trasferimento a un altro fondo</strong>. La posizione è uscita da Orizzonte Previdenza ed è entrata in Allianz INSIEME, un fondo pensione aperto.</p>
+
+  <dl class="kv">
+    <dt>Richiesta</dt><dd>13 febbraio 2026</dd>
+    <dt>Esecuzione</dt><dd>13 maggio 2026 (89 giorni)</dd>
+    <dt>Importo trasferito</dt><dd>26.278,30 €</dd>
+    <dt>Costi di uscita trattenuti</dt><dd class="pos">nessuno</dd>
+    <dt>Anzianità</dt><dd class="pos">conservata dal 2019</dd>
+    <dt>Imposte sul trasferimento</dt><dd class="pos">nessuna</dd>
+  </dl>
+
+  <div class="call good">
+    <p><strong>Il trasferimento è la cosa giusta fatta in questa storia.</strong> I costi annui passano da circa l'1,50% a circa lo 0,70%: sono 217 € all'anno risparmiati subito, che crescono insieme al capitale.</p>
+    <p>L'anzianità maturata dal 2019 non si perde — conta per ridurre l'imposta finale dal 15% verso il 9%. È il motivo per cui la documentazione del trasferimento va conservata.</p>
+  </div>
+</section>
+
+<section>
+  <div class="phase"><span class="phase-n">3</span><span class="phase-date">dal 13 maggio 2026</span></div>
+  <h2>Dopo lo switch: il fondo aperto</h2>
+  <p>I 26.278,30 € trasferiti hanno comprato <strong>838,036 quote</strong> della linea azionaria al valore di 31,357 € ciascuna. Da allora il valore quota è salito a 32,340 €.</p>
+
+  <dl class="kv">
+    <dt>Da maggio a settembre 2026</dt><dd class="pos">+3,13 % in 119 giorni</dd>
+    <dt>Equivalente annuo</dt><dd class="pos">+9,9 %</dd>
+    <dt>Costi del nuovo prodotto</dt><dd>0,55 – 0,80 % l'anno</dd>
+    <dt>Composizione della linea</dt><dd>95% azioni mondiali + 5% BOT</dd>
+  </dl>
+  <p>In quattro mesi il nuovo prodotto ha prodotto <strong>824 €</strong>, contro i 1.286 € prodotti dal PIP in sei anni e mezzo. Non è merito di una gestione geniale: è semplicemente la differenza fra una linea azionaria e una linea garantita, al netto di costi molto più bassi.</p>
+</section>
+
+<section>
+  <h2>L'andamento, anno per anno</h2>
+
+  <figure>
+    <div class="fig-head">
+      <p class="fig-title">Quanto è entrato, quanto valeva, quanto sarebbe valso</p>
+      <p class="fig-sub">La linea tratteggiata è il denaro versato. La linea blu è il valore reale della posizione. La linea arancione mostra quanto sarebbe valsa la stessa cifra, versata negli stessi giorni, sulla linea azionaria.</p>
+    </div>
+    <div class="chart" id="c1">
+      <svg viewBox="0 0 760 340" role="img" aria-label="Grafico dell'andamento 2019-2026: versato, valore reale e ipotesi linea azionaria">
+        <rect class="zone" x="701.6" y="20" width="30.4" height="276"></rect>
+        <line class="gridline" x1="64" y1="296" x2="732" y2="296"></line>
+        <line class="gridline" x1="64" y1="223.4" x2="732" y2="223.4"></line>
+        <line class="gridline" x1="64" y1="150.7" x2="732" y2="150.7"></line>
+        <line class="gridline" x1="64" y1="78.1" x2="732" y2="78.1"></line>
+        <text class="tick" x="56" y="300" text-anchor="end">0</text>
+        <text class="tick" x="56" y="227.4" text-anchor="end">10.000</text>
+        <text class="tick" x="56" y="154.7" text-anchor="end">20.000</text>
+        <text class="tick" x="56" y="82.1" text-anchor="end">30.000</text>
+        <line class="axisline" x1="64" y1="20" x2="64" y2="296"></line>
+        <line class="marker" x1="701.6" y1="20" x2="701.6" y2="296"></line>
+
+        <polyline class="ln ln-2" points="64.0,293.6 150.8,264.5 237.5,227.5 324.3,211.4 411.0,168.2 497.8,114.9 584.5,61.5 671.3,44.8 732.0,36.9"></polyline>
+        <polyline class="ln ln-v" points="64.0,293.6 150.8,265.4 237.5,237.1 324.3,208.8 411.0,180.5 497.8,152.2 584.5,123.9 671.3,114.5 732.0,114.5"></polyline>
+        <polyline class="ln ln-1" points="64.0,293.6 150.8,265.1 237.5,236.1 324.3,206.7 411.0,176.8 497.8,146.5 584.5,115.6 671.3,105.3 732.0,99.2"></polyline>
+
+        <text class="dlabel" x="726" y="30" text-anchor="end" fill="var(--s2)">35.668 €</text>
+        <text class="dlabel" x="694" y="94" text-anchor="end" fill="var(--s1)">27.102 €</text>
+        <text class="dlabel" x="694" y="128" text-anchor="end" fill="var(--ink-3)">24.992 €</text>
+
+        <text class="tick" x="64" y="316" text-anchor="start">2019</text>
+        <text class="tick" x="237.5" y="316" text-anchor="middle">2021</text>
+        <text class="tick" x="411" y="316" text-anchor="middle">2023</text>
+        <text class="tick" x="584.5" y="316" text-anchor="middle">2025</text>
+        <text class="tick" x="732" y="316" text-anchor="end">oggi</text>
+        <text class="tick" x="701.6" y="333" text-anchor="middle" style="font-weight:600">switch</text>
+
+        <line class="cross" id="x1" y1="20" y2="296"></line>
+        <circle class="dot" id="d1a" r="4.5" fill="var(--s1)" stroke="var(--surface)" stroke-width="2"></circle>
+        <circle class="dot" id="d1b" r="4.5" fill="var(--s2)" stroke="var(--surface)" stroke-width="2"></circle>
+      </svg>
+      <div class="tip" id="t1"></div>
+    </div>
+    <ul class="legend">
+      <li><span class="swatch sw-v"></span>Denaro versato</li>
+      <li><span class="swatch sw-1"></span>Valore reale della posizione</li>
+      <li><span class="swatch sw-2"></span>Se fosse stata sulla linea azionaria</li>
+    </ul>
+    <figcaption>La linea blu resta quasi incollata al versato per tutti e sei gli anni: è l'immagine del rendimento all'1,56%. La forbice con l'arancione è il costo della linea prudente.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>Perdite e ricavi: il conto vero</h2>
+  <p class="lede">Qui ci sono due conti distinti, e vanno tenuti separati per non confondersi. Il primo è cosa si è perso rispetto a quello che si poteva ottenere. Il secondo è se, alla fine, l'operazione è in utile o in perdita.</p>
+
+  <h3>Le perdite</h3>
+  <div class="tw">
+    <table>
+      <caption>Cosa è andato perso, e perché</caption>
+      <thead><tr><th>Voce</th><th class="num">Importo</th><th>Perché</th></tr></thead>
+      <tbody>
+        <tr><td>Commissioni al gestore</td><td class="num neg">−1.260 €</td><td>Costo dell'1,50% annuo del PIP</td></tr>
+        <tr><td>Potere d'acquisto</td><td class="num neg">−1.238 €</td><td>Inflazione +20,86%, rendimento +5,15%</td></tr>
+        <tr><td>Mancato guadagno</td><td class="num neg">−8.303 €</td><td>Linea prudente invece che azionaria</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>L'ultima riga è la più pesante ed è anche la più facile da fraintendere: <strong>non è denaro uscito dal conto</strong>. È la differenza fra quello che c'è e quello che ci sarebbe stato con una scelta diversa. Vale comunque un terzo di tutto il capitale versato.</p>
+
+  <h3>I ricavi</h3>
+  <div class="tw">
+    <table>
+      <caption>Il bilancio dell'operazione — ipotesi aliquota IRPEF 35%</caption>
+      <tbody>
+        <tr><td>Versato di tasca propria</td><td class="num">−24.992 €</td></tr>
+        <tr><td>Deduzione IRPEF incassata <small>i contributi sono stati dedotti, quindi è un risparmio reale già ottenuto</small></td><td class="num pos">+8.747 €</td></tr>
+        <tr class="sub"><td>Esborso netto effettivo</td><td class="num">−16.245 €</td></tr>
+        <tr><td>Valore della posizione oggi</td><td class="num pos">+27.102 €</td></tr>
+        <tr class="sub"><td>Risultato lordo</td><td class="num pos">+10.857 €</td></tr>
+        <tr><td>Imposta stimata all'uscita <small>12% sui contributi, dopo 25 anni di anzianità</small></td><td class="num neg">−2.999 €</td></tr>
+        <tr class="total"><td>Risultato netto</td><td class="num pos">+7.858 €</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="call">
+    <p><strong>Il prodotto è stato un pessimo investimento e comunque un buon affare.</strong> Non per merito del gestore: per merito del fisco.</p>
+    <p>E qui sta il punto che conta: quella deduzione spettava su <em>qualsiasi</em> fondo pensione, compresi quelli che costano un terzo. Non era il premio per aver scelto questo prodotto — era un diritto. I costi del PIP si sono mangiati una fetta di un regalo che lo Stato aveva già fatto.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Da qui al 2045</h2>
+  <p>Mancano <strong>19 anni</strong> alla pensione. È un orizzonte lungo, e cambia il giudizio su tutto: su questo arco di tempo la linea azionaria non è una scommessa, è la scelta corretta.</p>
+  <p>Il calo peggiore registrato da questa linea è stato il −14,68% del 2022. A un rendimento del 7,5% lordo servono <strong>2,4 anni</strong> per riassorbirlo. Anche un crollo grave come quello del 2008, cioè un −40%, sarebbe recuperato in 7,8 anni: rimarrebbero comunque undici anni di margine.</p>
+
+  <figure>
+    <div class="fig-head">
+      <p class="fig-title">Il montante fino al 2045</p>
+      <p class="fig-sub">Due scenari, entrambi sulla linea azionaria con costi allo 0,70%: riprendendo i versamenti di 324,57 € al mese, oppure lasciando fermo il capitale attuale.</p>
+    </div>
+    <div class="chart" id="c2">
+      <svg viewBox="0 0 760 340" role="img" aria-label="Proiezione del montante dal 2026 al 2045 con e senza nuovi versamenti">
+        <line class="gridline" x1="64" y1="296" x2="732" y2="296"></line>
+        <line class="gridline" x1="64" y1="240.8" x2="732" y2="240.8"></line>
+        <line class="gridline" x1="64" y1="185.6" x2="732" y2="185.6"></line>
+        <line class="gridline" x1="64" y1="130.4" x2="732" y2="130.4"></line>
+        <line class="gridline" x1="64" y1="75.2" x2="732" y2="75.2"></line>
+        <line class="gridline" x1="64" y1="20" x2="732" y2="20"></line>
+        <text class="tick" x="56" y="300" text-anchor="end">0</text>
+        <text class="tick" x="56" y="244.8" text-anchor="end">50.000</text>
+        <text class="tick" x="56" y="189.6" text-anchor="end">100.000</text>
+        <text class="tick" x="56" y="134.4" text-anchor="end">150.000</text>
+        <text class="tick" x="56" y="79.2" text-anchor="end">200.000</text>
+        <text class="tick" x="56" y="24" text-anchor="end">250.000</text>
+        <line class="axisline" x1="64" y1="20" x2="64" y2="296"></line>
+
+        <polyline class="ln ln-v" points="64.0,268.4 75.0,264.1 111.5,259.8 148.0,255.5 184.5,251.2 221.0,246.9 257.5,242.6 294.0,238.3 330.5,234.0 367.0,229.7 403.5,225.4 440.0,221.1 476.5,216.8 513.0,212.5 549.5,208.2 586.0,203.9 622.5,199.6 659.0,195.3 695.5,191.0 732.0,186.7"></polyline>
+        <polyline class="ln ln-2" points="64.0,266.1 75.0,264.0 111.5,261.9 148.0,259.6 184.5,257.1 221.0,254.4 257.5,251.6 294.0,248.6 330.5,245.4 367.0,241.9 403.5,238.2 440.0,234.3 476.5,230.1 513.0,225.6 549.5,220.8 586.0,215.7 622.5,210.3 659.0,204.4 695.5,198.2 732.0,191.6"></polyline>
+        <polyline class="ln ln-1" points="64.0,266.1 75.0,259.6 111.5,252.7 148.0,245.3 184.5,237.5 221.0,229.0 257.5,220.1 294.0,210.5 330.5,200.2 367.0,189.3 403.5,177.6 440.0,165.1 476.5,151.7 513.0,137.5 549.5,122.3 586.0,106.1 622.5,88.7 659.0,70.2 695.5,50.4 732.0,29.3"></polyline>
+
+        <text class="dlabel" x="726" y="24" text-anchor="end" fill="var(--s1)">241.618 €</text>
+        <text class="dlabel" x="726" y="207" text-anchor="end" fill="var(--s2)">94.592 €</text>
+        <text class="dlabel" x="726" y="180" text-anchor="end" fill="var(--ink-3)">98.994 €</text>
+
+        <text class="tick" x="64" y="316" text-anchor="start">2026</text>
+        <text class="tick" x="221" y="316" text-anchor="middle">2031</text>
+        <text class="tick" x="403.5" y="316" text-anchor="middle">2036</text>
+        <text class="tick" x="586" y="316" text-anchor="middle">2041</text>
+        <text class="tick" x="732" y="316" text-anchor="end">2045</text>
+
+        <line class="cross" id="x2" y1="20" y2="296"></line>
+        <circle class="dot" id="d2a" r="4.5" fill="var(--s1)" stroke="var(--surface)" stroke-width="2"></circle>
+        <circle class="dot" id="d2b" r="4.5" fill="var(--s2)" stroke="var(--surface)" stroke-width="2"></circle>
+      </svg>
+      <div class="tip" id="t2"></div>
+    </div>
+    <ul class="legend">
+      <li><span class="swatch sw-v"></span>Denaro versato in totale</li>
+      <li><span class="swatch sw-1"></span>Con i versamenti ripresi</li>
+      <li><span class="swatch sw-2"></span>Senza nuovi versamenti</li>
+    </ul>
+    <figcaption>Nello scenario con i versamenti, il rendimento accumulato supera il capitale versato intorno al 2040: da lì in poi la parte che cresce è più grande di quella che si mette.</figcaption>
+  </figure>
+
+  <h3>Quanto costa davvero riprendere i versamenti</h3>
+  <p>Poiché sono deducibili, versare 324,57 € al mese costa realmente — con aliquota al 35% — <strong>210,97 € al mese</strong>. Il resto lo mette lo Stato. Su 19 anni quel versamento produce 147.429 € di montante, con un rendimento effettivo del <strong>10,2% all'anno</strong> al netto anche dell'imposta finale.</p>
+
+  <div class="tw">
+    <table>
+      <caption>Come si chiude nel 2045 — scenario con versamenti ripresi</caption>
+      <tbody>
+        <tr><td>Montante lordo</td><td class="num">242.022 €</td></tr>
+        <tr><td>Totale versato in 26 anni</td><td class="num">98.994 €</td></tr>
+        <tr><td>Imposta finale (12% sui contributi)</td><td class="num neg">−11.879 €</td></tr>
+        <tr class="total"><td>Netto in mano</td><td class="num pos">230.142 €</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Un dettaglio che sorprende: <strong>l'imposta finale resta quasi ferma mentre il montante quadruplica.</strong> Si paga sui contributi versati, non sul guadagno — quindi tutto il rendimento futuro è di fatto esentasse. L'incidenza scende dal 6,4% del montante a dieci anni al 4,9% a diciannove.</p>
+
+  <div class="call">
+    <p><strong>Due cose da non fare.</strong> Non riscattare: a parità di esborso mensile, uscire oggi e reinvestire fuori costerebbe circa 77.922 € rispetto al restare. E non ridurre il rischio adesso — il passaggio graduale a comparti più prudenti va programmato intorno al 2040, non oggi.</p>
+  </div>
+</section>
+
+<footer>
+  <h3>Come sono stati ricavati questi numeri</h3>
+  <p>Tutte le cifre in nero derivano da due documenti: l'estratto conto al 9 settembre 2026 e il registro dei trasferimenti. Le quadrature tornano al centesimo: 838,036 quote × 32,340 € fanno esattamente i 27.102,08 € dell'estratto conto, e l'importo trasferito coincide con il totale contributi.</p>
+  <p><strong>Cosa è invece una stima.</strong> Il rendimento futuro del 7,5% lordo è un'ipotesi: nell'intervallo fra il 4% e il 9% il montante 2045 va da 153.000 a 297.000 €, ma il confronto fra linea azionaria e linea prudente regge su tutto l'intervallo. La linea di provenienza nel PIP (garantita o obbligazionaria) è dedotta dal profilo di rendimento, non letta da un documento. I costi del PIP e i rendimenti storici della linea azionaria vengono da fonti secondarie e vanno verificati sulla Scheda dei Costi ufficiale prima di qualsiasi uso formale. L'aliquota IRPEF è ipotizzata al 35%. Si assume infine che i versamenti siano stati regolari e costanti: un piano irregolare sposterebbe il rendimento calcolato, tipicamente al rialzo.</p>
+  <p>Documento a uso personale. Non è consulenza finanziaria né una raccomandazione di investimento.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var eur = function(v){ return v.toLocaleString('it-IT',{maximumFractionDigits:0}) + ' €'; };
+
+  var C1 = {
+    x:[64.0,150.8,237.5,324.3,411.0,497.8,584.5,671.3,732.0],
+    lab:['dic 2019','2020','2021','2022','2023','2024','2025','apr 2026','set 2026'],
+    a:{n:'Valore reale', v:[325,4252,8241,12293,16408,20587,24832,26261,27102], y:[293.6,265.1,236.1,206.7,176.8,146.5,115.6,105.3,99.2]},
+    b:{n:'Se azionario', v:[325,4343,9434,11643,17596,24928,32293,34584,35668], y:[293.6,264.5,227.5,211.4,168.2,114.9,61.5,44.8,36.9]},
+    c:{n:'Versato',      v:[325,4219,8114,12009,15904,19799,23694,24992,24992]}
+  };
+  var C2 = {
+    x:[64.0,75.0,111.5,148.0,184.5,221.0,257.5,294.0,330.5,367.0,403.5,440.0,476.5,513.0,549.5,586.0,622.5,659.0,695.5,732.0],
+    lab:['2026','2027','2028','2029','2030','2031','2032','2033','2034','2035','2036','2037','2038','2039','2040','2041','2042','2043','2044','2045'],
+    a:{n:'Con versamenti', v:[27102,32960,39216,45897,53033,60654,68793,77486,86770,96685,107275,118584,130663,143562,157339,172053,187768,204551,222475,241618],
+       y:[266.1,259.6,252.7,245.3,237.5,229.0,220.1,210.5,200.2,189.3,177.6,165.1,151.7,137.5,122.3,106.1,88.7,70.2,50.4,29.3]},
+    b:{n:'Senza versamenti', v:[27102,28945,30913,33015,35260,37658,40219,42954,45875,48994,52326,55884,59684,63742,68077,72706,77650,82930,88570,94592],
+       y:[266.1,264.0,261.9,259.6,257.1,254.4,251.6,248.6,245.4,241.9,238.2,234.3,230.1,225.6,220.8,215.7,210.3,204.4,198.2,191.6]},
+    c:{n:'Versato', v:[24992,28887,32782,36677,40571,44466,48361,52256,56151,60046,63940,67835,71730,75625,79520,83415,87309,91204,95099,98994]}
+  };
+
+  function wire(boxId, tipId, crossId, dotA, dotB, D){
+    var box = document.getElementById(boxId);
+    if(!box) return;
+    var svg = box.querySelector('svg'),
+        tip = document.getElementById(tipId),
+        cross = document.getElementById(crossId),
+        da = document.getElementById(dotA),
+        db = document.getElementById(dotB);
+
+    function hide(){ tip.style.opacity=0; cross.style.opacity=0; da.style.opacity=0; db.style.opacity=0; }
+
+    function move(ev){
+      var r = svg.getBoundingClientRect();
+      var px = ev.touches ? ev.touches[0].clientX : ev.clientX;
+      var vx = (px - r.left) / r.width * 760;
+      var i = 0, best = 1e9;
+      for (var k = 0; k < D.x.length; k++){
+        var d = Math.abs(D.x[k] - vx);
+        if (d < best){ best = d; i = k; }
+      }
+      var X = D.x[i];
+      cross.setAttribute('x1', X); cross.setAttribute('x2', X); cross.style.opacity = 1;
+      da.setAttribute('cx', X); da.setAttribute('cy', D.a.y[i]); da.style.opacity = 1;
+      db.setAttribute('cx', X); db.setAttribute('cy', D.b.y[i]); db.style.opacity = 1;
+
+      tip.innerHTML = '<b>' + D.lab[i] + '</b>'
+        + '<div class="row"><i>' + D.a.n + '</i><b>' + eur(D.a.v[i]) + '</b></div>'
+        + '<div class="row"><i>' + D.b.n + '</i><b>' + eur(D.b.v[i]) + '</b></div>'
+        + '<div class="row"><i>' + D.c.n + '</i><b>' + eur(D.c.v[i]) + '</b></div>';
+
+      var left = (X / 760) * r.width + 16;
+      if (left > r.width - 172) left = (X / 760) * r.width - 186;
+      if (left < 4) left = 4;
+      tip.style.left = left + 'px';
+      tip.style.top = '18px';
+      tip.style.opacity = 1;
+    }
+
+    svg.addEventListener('mousemove', move);
+    svg.addEventListener('touchstart', move, {passive:true});
+    svg.addEventListener('touchmove', move, {passive:true});
+    svg.addEventListener('mouseleave', hide);
+    svg.addEventListener('touchend', hide);
+  }
+
+  wire('c1','t1','x1','d1a','d1b', C1);
+  wire('c2','t2','x2','d2a','d2b', C2);
+})();
+</script>
