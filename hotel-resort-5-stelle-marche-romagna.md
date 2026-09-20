@@ -397,6 +397,57 @@ costo del debito** e sbloccare la garanzia bancaria, non finanziare il capex.
 
 ---
 
+## 11. Le migliori strutture ricettive oggi (selezione ragionata)
+
+Criteri: categoria ufficiale, riconoscimenti (Guida Michelin hotel, storicità),
+posizione e investimenti recenti.
+
+### Marche
+
+| Struttura | Località | Perché |
+|---|---|---|
+| Hotel Excelsior Spa & Lido | Pesaro | 5 stelle design sul lungomare, spa con piscina vista mare, spiaggia privata; unico marchigiano segnalato dalla Guida Michelin hotel |
+| Vista Place | Numana (Conero) | 5 stelle aperto nel 2025, 33 camere, piscina rooftop, spiaggia privata; primo 5 stelle della provincia di Ancona |
+| Grand Hotel Vittoria | Pesaro | 5 stelle dal 1908, villa Belle Époque, 27 camere; nei "Locali storici d'Italia" |
+| Villa Lattanzi | Torre di Palme, Fermo | 5 stelle in villa settecentesca, 18 camere, sulla collina a 4 km dal mare |
+| Fortino Napoleonico | Portonovo (Conero) | Fortezza del 1808 a pochi metri dal mare; 4 stelle ma posizione unica, primo a Portonovo su Tripadvisor |
+| In arrivo | Sirolo, Portonovo (Monte Baldino), Senigallia | Ex Conchiglia Verde a 5 stelle, 10 suite di lusso, nuovo 5 stelle |
+
+### Romagna
+
+| Struttura | Località | Perché |
+|---|---|---|
+| Grand Hotel Rimini | Rimini, Marina Centro | 5 stelle dal 1908, parco, piscine, spiaggia privata; 65 M€ di investimento Batani |
+| i-SUITE | Rimini | 5 stelle design, tutte suite; segnalato dalla Guida Michelin hotel |
+| Palace Hotel | Milano Marittima | 5 stelle Batani, riqualificato, spa, orientato anche a congressi e bassa stagione |
+| Hotel Waldorf – Premier Resort | Milano Marittima | 5 stelle con piscina e fine dining |
+| MarePineta Resort | Milano Marittima | 5 stelle nella pineta storica |
+| Grand Hotel Da Vinci | Cesenatico | 5 stelle in prima linea, piscina interna annuale, gruppo Batani |
+| Grand Hotel Des Bains | Riccione | 5 stelle storico sul lungomare |
+| The Box, The Promenade | Riccione | Boutique di design; The Box segnalato dalla Guida Michelin, The Promenade 5 stelle wellness |
+| Carducci 76 | Cattolica | Boutique con giardino e spa, segnalato dalla Guida Michelin |
+| Palazzo di Varignana | Colline di Bologna | Miglior resort dell'entroterra: spa, piscine, oliveto, vigneti |
+| Tenuta Saiano | Montebello, Valmarecchia | Country resort nell'entroterra riminese |
+
+### Top 5 assoluta
+
+1. Grand Hotel Rimini (storia, dimensione, investimento).
+2. Hotel Excelsior Pesaro (prodotto e riconoscimento Michelin).
+3. Vista Place Numana (posizione sul Conero, novità).
+4. Palace Hotel Milano Marittima (solidità Batani, apertura oltre la stagione).
+5. Villa Lattanzi Fermo (esclusività, rapporto qualità/prezzo).
+
+Nota operativa: Batani Select Hotels controlla tre dei 5 stelle romagnoli, Gest Group
+l'unico 5 stelle del Conero e quello in arrivo a Sirolo. Sono i due operatori di
+riferimento per chi vuole entrare in questi mercati.
+
+Fonti aggiuntive: [Tutte le Chiavi MICHELIN 2026 dell'Italia](https://guide.michelin.com/it/it/notizia/travel/tutte-le-chiavi-michelin-dell-italia) ·
+[La Romagna sulla guida Michelin — RavennaToday](https://www.ravennatoday.it/attualita/romagna-guida-michelin-hotel-lusso-dove.html) ·
+[Fortino Napoleonico — Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g2533394-d262089-Reviews-Hotel_Fortino_Napoleonico-Portonovo_Ancona_Province_of_Ancona_Marche.html) ·
+[Villa Lattanzi](https://www.villalattanzi.it/) · [Resort in Emilia-Romagna — Booking](https://www.booking.com/resorts/region/it/emilia-romagna.html)
+
+---
+
 ## Fonti
 
 **Mercato nazionale lusso e investimenti**
