@@ -448,6 +448,74 @@ Fonti aggiuntive: [Tutte le Chiavi MICHELIN 2026 dell'Italia](https://guide.mich
 
 ---
 
+## 12. Il lusso "privato" dell'entroterra: relais, borghi, tenute
+
+Segmento distinto dai 5 stelle costieri: strutture da 4 a 40 camere, spesso non
+classificate 5 stelle (residenze d'epoca, country house, agriturismi di lusso, 4 stelle),
+con uso esclusivo, tenuta agricola e clientela straniera alto-spendente.
+
+### Marche
+
+| Struttura | Zona | Caratteristiche |
+|---|---|---|
+| Villa Anitori Prestige Relais & Spa | Loro Piceno (MC), tra Sibillini e mare | 10 camere e suite, spa completa, piscina, ristorante gourmet in cantina |
+| Borgo Storico Seghetti Panichi | Castel di Lama (AP) | Borgo di sette secoli, villa fortificata, cappella del '500, parco di Ludwig Winter, primo giardino storico bioenergetico d'Europa |
+| Borgo Lanciano Resort & Spa | Castelraimondo (MC) | Albergo diffuso in borgo del XV secolo, spa di alto livello |
+| Relais Villa Giulia | Colline tra Fano e Pesaro | Dimora del 1892 vista mare, 12 camere + 5 appartamenti, piscina tra ulivi, azienda agricola bio, ristorante gourmet |
+| Villa Cattani Stuart | Pesaro, collina | Villa del 1630, 35 camere, eliporto, piscina; 4 stelle |
+| Colleverde Country House & Spa; Tenuta Santi Giacomo e Filippo | Urbino (Montefeltro) | Country house con piscina nella campagna urbinate |
+| Palazzo Viviani – Castello di Montegridolfo | Valconca, confine Marche-Romagna | Suite nel castello malatestiano, appartamenti nel borgo, piscina |
+| In vendita | Borgo di Campolungo (Ascoli), "Borgo Rosa" (40' da Ancona), castello di Tavoleto (Montefeltro) | Opportunità di sviluppo segnalate dal mercato immobiliare |
+
+### Romagna
+
+| Struttura | Zona | Caratteristiche |
+|---|---|---|
+| Borgo Condé Wine Resort | Predappio (FC) | Tenuta bio di 110 ha, 39 tra camere e suite, spa con piscina interna, tre ristoranti |
+| Tenuta Mara Wine Relais | San Clemente (RN), 15' dal mare | Adults only, 4 suite a tema, spa, Sangiovese biodinamico Demeter |
+| Il Borgo Casteldelci Relais & Spa | Alta Valmarecchia | Palazzo del '600, spa interna ed esterna a uso esclusivo, nei boschi |
+| San Leo Albergo Diffuso | San Leo (Valmarecchia) | Quattro edifici nel borgo fortificato |
+| Palazzo di Varignana | Colline di Bologna | Resort con spa, piscine, oliveti e vigneti; il più strutturato, a un'ora dalla Riviera |
+
+### Analisi economica del segmento
+
+- **Classificazione**: quasi nessuno è 5 stelle, perché i requisiti (reception 24 ore,
+  ascensori, metrature) costano più di quanto rendono in un edificio storico. Il bando
+  Marche ammette country house e residenze d'epoca (ATECO 55.20.51) e alberghi diffusi:
+  la forma è finanziabile.
+- **Ricavi**: uso esclusivo (matrimoni, retreat aziendali, buyout familiari) pesa spesso
+  un terzo o metà del fatturato; vino e olio della tenuta aggiungono margine. Stagione
+  aprile–ottobre con picchi maggio–giugno e settembre, complementare a quella balneare.
+- **Costi di ingresso**: borghi e castelli in vendita a prezzi che sulla costa non
+  comprano un albergo di 30 camere; capex alto per vincoli della Soprintendenza, ma
+  terreno a un terzo o un quinto della Toscana.
+- **Vuoto di mercato**: nelle Marche nessun operatore internazionale e nessuna tenuta con
+  posizionamento 800–1.500 € a notte (modello Reschio in Umbria, Borgo Santo Pietro in
+  Toscana). Spazio da first mover superiore a quello della costa.
+- **Rischi**: accessibilità (Sibillini a 90 minuti da Ancona), personale, sismica nel
+  cratere 2016 (maceratese e piceno, con incentivi alla ricostruzione), dipendenza da
+  eventi.
+
+### Zone da esplorare, in ordine di potenziale
+
+Montefeltro (Urbino, Tavoleto) · Piceno (Ripatransone, Offida, Castel di Lama) · Sibillini
+(Sarnano, Amandola, San Ginesio) · Valconca e Gradara · Valmarecchia (San Leo, Casteldelci)
+· colline forlivesi (Predappio, Bertinoro) · Brisighella.
+
+Fonti aggiuntive: [Villa Anitori — Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g2287680-d11687531-Reviews-Villa_Anitori_Prestige_Relais_Spa-Loro_Piceno_Province_of_Macerata_Marche.html) ·
+[Borgo Storico Seghetti Panichi](https://www.seghettipanichi.it/en/) ·
+[Relais Villa Giulia — Dimore Storiche Italiane](https://www.dimorestoricheitaliane.it/dimora/relais-villa-giulia/?lan=it) ·
+[Villa Cattani Stuart — Lonely Planet](https://www.lonelyplanetitalia.it/articoli/idee-per-il-weekend/viaggio-a-villa-cattani-stuart-un-grande-passato-incontra-il-top-dell-ospitalita-a-pesaro) ·
+[Palazzo Viviani Castello di Montegridolfo](https://www.montegridolfo.com/en/hotel-with-pool-valconca-hills) ·
+[Borgo Condé Wine Resort](https://www.borgoconde.it/en/index) ·
+[Tenuta Mara Wine Relais — Riviera di Rimini](https://riviera.rimini.it/en/art-and-culture/monuments/structures-dataer/10164-tenuta-mara) ·
+[Il Borgo Casteldelci](https://ilborgocasteldelci.com/) ·
+[San Leo Albergo Diffuso](https://www.lavalmarecchia.it/alberghi/san-leo/hotel-san-leo-albergo-diffuso.html) ·
+[Borgo Lanciano — Residenze d'Epoca](https://www.residenzedepoca.it/resort/marche/) ·
+[Borghi e castelli in vendita — Casait](https://www.casait.it/it/castelli-vendita.lp.php?x_ord=ultimi)
+
+---
+
 ## Fonti
 
 **Mercato nazionale lusso e investimenti**
