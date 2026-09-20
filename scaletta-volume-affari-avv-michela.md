@@ -183,6 +183,7 @@ iscrizione Cassa da oltre 6 anni (nessuna riduzione dei minimi).
 
 Lettura: su circa 60.000 € di volume d'affari, in tasca restano 25-28.000 €, cioè meno della
 metà. Nel forfettario il vantaggio è di circa 3.000 € l'anno a parità di volume, ma:
+
 - l'IVA sugli acquisti diventa un costo (non detraibile);
 - la clientela business preferisce fatture con IVA detraibile e ritenuta, quindi il forfettario
   favorisce chi lavora soprattutto con privati;
