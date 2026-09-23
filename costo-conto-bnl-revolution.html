@@ -1,0 +1,328 @@
+<title>Costo Conto Revolution</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#F3F5F4; --paper:#FFFFFF; --ink:#14232F; --ink-2:#4A5A66; --muted:#7B8A94;
+  --line:#DCE2E0; --line-2:#EBEFEE;
+  --accent:#0E6B5C; --accent-soft:#E1F0EC; --bar:#2F8A78; --bar-2:#9CC9BE;
+  --warn:#9A5B00; --warn-soft:#FBF0DC; --crit:#A8321F; --crit-soft:#F8E4E0; --good:#1D7A43;
+  --serif:"Instrument Serif", Georgia, "Times New Roman", serif;
+  --sans:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#0F1719; --paper:#162124; --ink:#E6ECEA; --ink-2:#AEBBB8; --muted:#81908D;
+    --line:#2A3739; --line-2:#1F2B2D;
+    --accent:#5CC4AE; --accent-soft:#17332E; --bar:#4FB39E; --bar-2:#2C6358;
+    --warn:#E8B45C; --warn-soft:#33281A; --crit:#F08A76; --crit-soft:#3A201C; --good:#6BCB8E;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#0F1719; --paper:#162124; --ink:#E6ECEA; --ink-2:#AEBBB8; --muted:#81908D;
+  --line:#2A3739; --line-2:#1F2B2D;
+  --accent:#5CC4AE; --accent-soft:#17332E; --bar:#4FB39E; --bar-2:#2C6358;
+  --warn:#E8B45C; --warn-soft:#33281A; --crit:#F08A76; --crit-soft:#3A201C; --good:#6BCB8E;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;padding:0 16px}
+.wrap{max-width:1180px;margin:0 auto;padding-block:32px 56px}
+header.top{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:flex-end;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:24px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,5vw,50px);line-height:1.05;margin:6px 0 0;text-wrap:balance}
+.lede{color:var(--ink-2);max-width:62ch;margin:10px 0 0}
+.docref{font-family:var(--mono);font-size:12px;color:var(--muted);text-align:right;line-height:1.7}
+.docref b{color:var(--ink-2);font-weight:500}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:28px;align-items:start}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}}
+
+/* inputs */
+.form{display:flex;flex-direction:column;gap:18px}
+fieldset{border:1px solid var(--line);background:var(--paper);border-radius:6px;margin:0;padding:16px 18px 18px}
+legend{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);padding:0 6px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) 116px;gap:12px;align-items:center;padding:7px 0;border-bottom:1px dashed var(--line-2)}
+.row:last-child{border-bottom:0}
+.row label{font-size:14px}
+.row small{display:block;color:var(--muted);font-size:12px;line-height:1.35}
+.row input[type=number],.row select{width:100%;font:500 14px var(--mono);color:var(--ink);background:var(--ground);border:1px solid var(--line);border-radius:4px;padding:6px 8px;text-align:right;font-variant-numeric:tabular-nums}
+.row select{text-align:left}
+.row.check{grid-template-columns:minmax(0,1fr) auto}
+.row input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
+input:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sample{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;background:var(--warn-soft);color:var(--warn);border-radius:6px;padding:10px 14px;font-size:13px}
+button{font:500 13px var(--sans);color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:6px 12px;cursor:pointer}
+button:hover{border-color:var(--accent);color:var(--accent)}
+
+/* results */
+.results{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);display:flex;flex-direction:column;gap:18px}
+@media (max-width:900px){.results{position:static}}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:20px}
+.totals{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.tot{background:var(--paper);padding:16px 18px}
+.tot .k{font-size:12px;color:var(--muted);font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em}
+.tot .v{font-family:var(--serif);font-size:40px;line-height:1.1;margin-top:4px;font-variant-numeric:tabular-nums}
+.tot .s{font-size:13px;color:var(--ink-2)}
+.tot.hi .v{color:var(--crit)}
+@media (max-width:420px){.totals{grid-template-columns:minmax(0,1fr)}}
+h2{font-family:var(--serif);font-weight:400;font-size:26px;margin:0 0 4px}
+.sub{color:var(--muted);font-size:13px;margin:0 0 14px}
+.bars{display:flex;flex-direction:column;gap:6px}
+.b{display:grid;grid-template-columns:minmax(0,170px) minmax(0,1fr) 78px;gap:10px;align-items:center;font-size:13px;position:relative;padding:3px 0;border-radius:3px}
+.b:hover{background:var(--line-2)}
+.b .l{color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.b .t{display:block;height:12px;background:transparent;position:relative}
+.b .f{display:block;height:100%;background:var(--bar);border-radius:0 4px 4px 0;min-width:2px}
+.b .n{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.b.opp .f{background:repeating-linear-gradient(135deg,var(--crit) 0 3px,transparent 3px 6px);border:1px solid var(--crit)}
+.b.opp .l{color:var(--crit)}
+@media (max-width:480px){.b{grid-template-columns:minmax(0,110px) minmax(0,1fr) 70px}}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--paper);font-size:12px;padding:6px 9px;border-radius:4px;max-width:260px;z-index:10;line-height:1.4}
+.cmp{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+.cmp .b{grid-template-columns:minmax(0,130px) minmax(0,1fr) 78px}
+.cmp .b.alt .f{background:var(--bar-2)}
+.save{margin-top:14px;padding:12px 14px;background:var(--accent-soft);border-radius:6px;font-size:14px}
+.save b{font-family:var(--mono);color:var(--accent)}
+ul.tips{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+ul.tips li{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line-2);font-size:14px}
+ul.tips li:last-child{border-bottom:0}
+.pill{justify-self:start;font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.05em;padding:2px 7px;border-radius:99px;white-space:nowrap}
+.pill.hi{background:var(--crit-soft);color:var(--crit)}
+.pill.md{background:var(--warn-soft);color:var(--warn)}
+.pill.lo{background:var(--accent-soft);color:var(--accent)}
+.amt{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--good);white-space:nowrap}
+.note{font-size:12px;color:var(--muted);line-height:1.55;max-width:80ch}
+.note p{margin:0 0 6px}
+details summary{cursor:pointer;font-size:13px;color:var(--accent)}
+.tblwrap{overflow-x:auto;margin-top:10px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+td,th{padding:6px 8px;border-bottom:1px solid var(--line-2);text-align:left}
+td.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+footer{margin-top:32px;border-top:1px solid var(--line);padding-top:16px}
+@media (prefers-reduced-motion:no-preference){.b .f{transition:width .25s ease}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Conto BNL Revolution 2020 · Prodotto D001</div>
+      <h1>Quanto ti costa davvero il conto, con le tue abitudini</h1>
+      <p class="lede">Inserisci come usi il conto. Il calcolo applica le tariffe del Documento di Sintesi e ti dice dove finiscono i soldi e cosa cambiare per primo.</p>
+    </div>
+    <div class="docref">Condizioni al <b>31/12/2023</b><br>Variazioni nell'anno: <b>0</b><br>Canone massimo: <b>118,56 €</b></div>
+  </header>
+
+  <div class="grid">
+    <form class="form" id="f" autocomplete="off">
+      <div class="sample" id="sampleBar"><span id="sampleTxt">I valori iniziali sono un <b>profilo di esempio</b>: sostituiscili con i tuoi.</span><button type="button" id="reset">Ripristina esempio</button></div>
+
+      <fieldset>
+        <legend>Canone e sconti</legend>
+        <div class="row check"><label for="u27">Hai meno di 27 anni (tutti i cointestatari)<small>Canone 4,98 € al mese</small></label><input type="checkbox" id="u27"></div>
+        <div class="row check"><label for="stip">Stipendio o pensione accreditati sul conto<small>Causale ABI 27</small></label><input type="checkbox" id="stip"></div>
+        <div class="row"><label for="ut">Utenze domiciliate (luce, acqua, gas)<small>Ne serve almeno una per lo sconto</small></label><input type="number" id="ut" min="0" step="1"></div>
+        <div class="row"><label for="mSp">Mesi in cui fai operazioni allo sportello<small>Ogni mese così il canone sale a 9,88 €</small></label><input type="number" id="mSp" min="0" max="12" step="1"></div>
+        <div class="row check"><label for="card">Carta di debito Bancomat<small>13,20 € all'anno</small></label><input type="checkbox" id="card"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Liquidità</legend>
+        <div class="row"><label for="gia">Giacenza media sul conto (€)<small>Sopra 5.000 € scatta il bollo di 34,20 €</small></label><input type="number" id="gia" min="0" step="500"></div>
+        <div class="row"><label for="ris">Riserva che vuoi tenere sul conto (€)<small>Di solito 2–3 mesi di spese</small></label><input type="number" id="ris" min="0" step="500"></div>
+        <div class="row"><label for="alt">Rendimento alternativo lordo (%)<small>Conto deposito o titoli di Stato a breve</small></label><input type="number" id="alt" min="0" max="10" step="0.1"></div>
+        <div class="row"><label for="tax">Tassazione del rendimento</label><select id="tax"><option value="0.26">26% conto deposito</option><option value="0.125">12,5% titoli di Stato</option></select></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Bonifici</legend>
+        <div class="row"><label for="bOnA">Online verso altre banche, al mese<small>0,75 € ciascuno</small></label><input type="number" id="bOnA" min="0" step="1"></div>
+        <div class="row"><label for="bOnB">Online verso clienti BNL, al mese<small>0,50 € ciascuno</small></label><input type="number" id="bOnB" min="0" step="1"></div>
+        <div class="row"><label for="bOrd">Ordini permanenti verso altre banche, al mese<small>3,00 € ciascuno</small></label><input type="number" id="bOrd" min="0" step="1"></div>
+        <div class="row"><label for="bSp">Allo sportello, all'anno<small>4,50 € ciascuno, più il canone maggiorato di quel mese</small></label><input type="number" id="bSp" min="0" step="1"></div>
+        <div class="row"><label for="bIst">Istantanei, al mese<small>1,50 € nel 2023, poi vietato dal Reg. UE 2024/886</small></label><input type="number" id="bIst" min="0" step="1"></div>
+        <div class="row check"><label for="istFee">Applica comunque 1,50 € agli istantanei<small>Attivalo se li vedi ancora addebitati in estratto conto</small></label><input type="checkbox" id="istFee"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Prelievi, pagamenti e comunicazioni</legend>
+        <div class="row"><label for="atm">Prelievi da ATM di altre banche, al mese<small>0,90 € ciascuno (ATM BNL gratis)</small></label><input type="number" id="atm" min="0" step="1"></div>
+        <div class="row"><label for="carta">Comunicazioni cartacee all'anno<small>Estratti conto e trasparenza, 1,00 € a invio</small></label><input type="number" id="carta" min="0" step="1"></div>
+        <div class="row"><label for="post">Bollettini postali pagati online, all'anno<small>2,30 € ciascuno</small></label><input type="number" id="post" min="0" step="1"></div>
+        <div class="row"><label for="cbill">Pagamenti CBILL/pagoPA, all'anno<small>1,30 € (utenze convenzionate) – 2,00 €</small></label><input type="number" id="cbill" min="0" step="1"></div>
+        <div class="row"><label for="tp">Addebiti Telepass, all'anno<small>1,55 € ciascuno</small></label><input type="number" id="tp" min="0" step="1"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Scoperto ed estero</legend>
+        <div class="row"><label for="scI">Scoperto medio quando vai in rosso (€)</label><input type="number" id="scI" min="0" step="50"></div>
+        <div class="row"><label for="scG">Giorni in rosso all'anno</label><input type="number" id="scG" min="0" max="365" step="1"></div>
+        <div class="row check"><label for="fido">Hai un fido concordato<small>13,40% oltre il fido, 16,50% senza fido</small></label><input type="checkbox" id="fido"></div>
+        <div class="row"><label for="fxN">Bonifici in valuta estera, all'anno<small>12,90 € + 1,5‰ (min. 4,13 €) + 1,80% di cambio</small></label><input type="number" id="fxN" min="0" step="1"></div>
+        <div class="row"><label for="fxI">Importo medio di questi bonifici (€)</label><input type="number" id="fxI" min="0" step="100"></div>
+        <div class="row"><label for="altCost">Costo annuo di un conto alternativo (€)<small>Per il confronto: 0 € per un conto online a canone zero</small></label><input type="number" id="altCost" min="0" step="1"></div>
+      </fieldset>
+    </form>
+
+    <div class="results" aria-live="polite">
+      <div class="totals">
+        <div class="tot"><div class="k">Costi del conto</div><div class="v" id="tFees">–</div><div class="s" id="tFeesS"></div></div>
+        <div class="tot hi"><div class="k">Con la liquidità ferma</div><div class="v" id="tAll">–</div><div class="s" id="tAllS"></div></div>
+      </div>
+
+      <div class="panel">
+        <h2>Dove vanno i soldi</h2>
+        <p class="sub">Euro all'anno, dalla voce più cara. La barra tratteggiata è il rendimento netto che perdi, non un addebito della banca.</p>
+        <div class="bars" id="bars"></div>
+        <details><summary>Vedi come tabella</summary><div class="tblwrap"><table id="tbl"></table></div></details>
+      </div>
+
+      <div class="panel">
+        <h2>Il tuo profilo, ottimizzato</h2>
+        <p class="sub">Stesse operazioni, fatte nel modo più economico previsto dal documento.</p>
+        <div class="cmp" id="cmp"></div>
+        <div class="save" id="save"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Cosa cambiare, in ordine di risparmio</h2>
+        <ul class="tips" id="tips"></ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="note">
+    <p><b>Fonte:</b> Documento di Sintesi BNL, conto corrente "BNL Revolution 2020", condizioni al 31/12/2023. Le tariffe potrebbero essere cambiate: chiedi alla banca il documento aggiornato.</p>
+    <p><b>Ipotesi di calcolo.</b> Il canone di un mese con operazioni allo sportello è sempre 9,88 €, anche per chi ha meno di 27 anni: il documento non chiarisce come si combinano le due condizioni. Il bollo di 34,20 € vale per le persone fisiche con giacenza media annua oltre 5.000 €. Il rendimento perso si calcola sulla liquidità oltre la riserva, al netto della tassazione scelta. Non include il bollo dello 0,20% su conti deposito o titoli. Gli interessi di scoperto si calcolano come importo × tasso × giorni / 365. Le commissioni sui pagamenti con carta all'estero non compaiono nel documento e sono escluse.</p>
+    <p>È una stima orientativa, non una consulenza finanziaria. I dati inseriti restano solo in questo browser.</p>
+  </footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+(function(){
+  const SAMPLE={u27:false,stip:true,ut:1,mSp:2,card:true,gia:12000,ris:3000,alt:2.5,tax:"0.26",
+    bOnA:3,bOnB:1,bOrd:1,bSp:2,bIst:2,istFee:false,atm:2,carta:4,post:3,cbill:6,tp:12,
+    scI:0,scG:0,fido:false,fxN:0,fxI:1000,altCost:0};
+  const KEY="costo-conto-revolution-v1";
+  const f=document.getElementById("f");
+  const ids=Object.keys(SAMPLE);
+  const eur=v=>v.toLocaleString("it-IT",{style:"currency",currency:"EUR",minimumFractionDigits:2,maximumFractionDigits:2});
+  const eur0=v=>v.toLocaleString("it-IT",{style:"currency",currency:"EUR",maximumFractionDigits:0});
+
+  function setForm(o){ids.forEach(k=>{const el=document.getElementById(k);if(!el)return;if(el.type==="checkbox")el.checked=!!o[k];else el.value=o[k];});}
+  function read(){const o={};ids.forEach(k=>{const el=document.getElementById(k);if(el.type==="checkbox")o[k]=el.checked;else if(el.tagName==="SELECT")o[k]=el.value;else{const n=parseFloat(el.value);o[k]=isFinite(n)&&n>0?n:0;}});return o;}
+  function isSample(o){return ids.every(k=>String(o[k])===String(SAMPLE[k]));}
+
+  function compute(p){
+    const items=[];
+    const mSp=Math.min(12,Math.max(p.mSp,p.bSp>0?Math.min(12,p.bSp):0));
+    const discount=p.u27||(p.ut>=1&&(p.stip||p.gia>2500));
+    const base=discount?4.98:6.98;
+    const canone=mSp*9.88+(12-mSp)*base;
+    items.push({k:"Canone mensile",v:canone,d:`${12-mSp} mesi × ${eur(base)}`+(mSp?` + ${mSp} mesi con sportello × 9,88 €`:"")});
+    if(p.card)items.push({k:"Carta di debito",v:13.20,d:"Canone annuo carta Bancomat"});
+    if(p.gia>5000)items.push({k:"Imposta di bollo",v:34.20,d:"Giacenza media oltre 5.000 €"});
+    items.push({k:"Bonifici online",v:p.bOnA*12*0.75+p.bOnB*12*0.50,d:`${p.bOnA*12} verso altre banche × 0,75 € + ${p.bOnB*12} verso BNL × 0,50 €`});
+    items.push({k:"Ordini permanenti",v:p.bOrd*12*3,d:`${p.bOrd*12} all'anno × 3,00 €`});
+    items.push({k:"Bonifici allo sportello",v:p.bSp*4.5,d:`${p.bSp} all'anno × 4,50 €`});
+    items.push({k:"Bonifici istantanei",v:p.istFee?p.bIst*12*1.5:0,d:p.istFee?`${p.bIst*12} × 1,50 € (tariffa 2023)`:"Gratis dal 2025 (Reg. UE 2024/886)"});
+    items.push({k:"Prelievi ATM altre banche",v:p.atm*12*0.9,d:`${p.atm*12} all'anno × 0,90 €`});
+    items.push({k:"Comunicazioni cartacee",v:p.carta*1,d:`${p.carta} invii × 1,00 €`});
+    items.push({k:"Bollettini e CBILL",v:p.post*2.3+p.cbill*1.3,d:`${p.post} bollettini × 2,30 € + ${p.cbill} CBILL × 1,30 €`});
+    items.push({k:"Telepass",v:p.tp*1.55,d:`${p.tp} addebiti × 1,55 €`});
+    const rate=p.fido?0.134:0.165;
+    items.push({k:"Interessi di scoperto",v:p.scI*rate*p.scG/365,d:`${eur(p.scI)} × ${(rate*100).toFixed(1).replace(".",",")}% × ${p.scG} giorni / 365`});
+    const fxOne=p.fxN?12.90+Math.max(4.13,p.fxI*0.0015)+p.fxI*0.018:0;
+    items.push({k:"Bonifici in valuta",v:p.fxN*fxOne,d:`${p.fxN} × (12,90 € + commissione 1,5‰ + cambio 1,80%)`});
+    const fees=items.reduce((s,i)=>s+i.v,0);
+    const excess=Math.max(0,p.gia-p.ris);
+    const opp=excess*Math.max(0,p.alt/100-0.0001)*(1-parseFloat(p.tax));
+    return {items,fees,opp,excess,mSp,discount,canone};
+  }
+
+  function optimize(p){
+    const o=Object.assign({},p);
+    o.ut=Math.max(1,p.ut);
+    o.bOnA=p.bOnA+p.bSp/12+p.bOrd; o.bOrd=0; o.bSp=0; o.mSp=0;
+    o.atm=0; o.carta=0; o.istFee=false;
+    o.gia=Math.min(p.gia,Math.max(p.ris,0)); o.ris=o.gia;
+    o.scG=0;
+    return o;
+  }
+
+  const tip=document.getElementById("tip");
+  function bindTip(el,text){
+    el.addEventListener("mousemove",e=>{tip.textContent=text;tip.hidden=false;const x=Math.min(e.clientX+14,window.innerWidth-tip.offsetWidth-8);tip.style.left=x+"px";tip.style.top=(e.clientY+14)+"px";});
+    el.addEventListener("mouseleave",()=>{tip.hidden=true;});
+  }
+  function bar(label,value,max,detail,cls){
+    const d=document.createElement("div");d.className="b"+(cls?" "+cls:"");
+    d.innerHTML=`<span class="l"></span><span class="t"><span class="f"></span></span><span class="n"></span>`;
+    d.querySelector(".l").textContent=label;
+    d.querySelector(".f").style.width=(max>0?Math.max(0.5,value/max*100):0)+"%";
+    d.querySelector(".n").textContent=eur(value);
+    bindTip(d,`${label}: ${eur(value)}${detail?" · "+detail:""}`);
+    return d;
+  }
+
+  function render(){
+    const p=read();
+    try{localStorage.setItem(KEY,JSON.stringify(p));}catch(e){}
+    document.getElementById("sampleTxt").innerHTML=isSample(p)?"I valori iniziali sono un <b>profilo di esempio</b>: sostituiscili con i tuoi.":"Stai vedendo il <b>tuo profilo</b>. I dati restano salvati solo in questo browser.";
+    const r=compute(p);
+    document.getElementById("tFees").textContent=eur0(r.fees);
+    document.getElementById("tFeesS").textContent=`${eur(r.fees/12)} al mese`;
+    document.getElementById("tAll").textContent=eur0(r.fees+r.opp);
+    document.getElementById("tAllS").textContent=r.opp>0?`di cui ${eur0(r.opp)} di rendimento perso su ${eur0(r.excess)} fermi`:"Nessuna liquidità in eccesso";
+
+    const rows=r.items.filter(i=>i.v>0.004).map(i=>({...i}));
+    if(r.opp>0.004)rows.push({k:"Rendimento perso (netto)",v:r.opp,d:`${eur0(r.excess)} oltre la riserva × ${String(p.alt).replace(".",",")}% − tasse`,opp:true});
+    rows.sort((a,b)=>b.v-a.v);
+    const max=rows.length?rows[0].v:0;
+    const bars=document.getElementById("bars");bars.innerHTML="";
+    rows.forEach(i=>bars.appendChild(bar(i.k,i.v,max,i.d,i.opp?"opp":"")));
+    const tbl=document.getElementById("tbl");
+    tbl.innerHTML="<tr><th>Voce</th><th>Calcolo</th><th style='text-align:right'>€/anno</th></tr>"+rows.map(i=>`<tr><td>${i.k}</td><td>${i.d}</td><td class="n">${eur(i.v)}</td></tr>`).join("")+`<tr><th colspan="2">Totale</th><th style="text-align:right" class="n">${eur(r.fees+r.opp)}</th></tr>`;
+
+    const po=optimize(p);const ro=compute(po);
+    const cur=r.fees+r.opp, best=ro.fees+ro.opp, altT=p.altCost;
+    const cmax=Math.max(cur,best,altT,1);
+    const cmp=document.getElementById("cmp");cmp.innerHTML="";
+    cmp.appendChild(bar("Come lo usi oggi",cur,cmax,"Costi + rendimento perso"));
+    cmp.appendChild(bar("BNL ottimizzato",best,cmax,"Senza sportello, prelievi ATM BNL, tutto online, liquidità investita","alt"));
+    cmp.appendChild(bar("Conto alternativo",altT,cmax,"Costo che hai indicato, con la liquidità investita","alt"));
+    const s1=cur-best, s2=cur-altT;
+    document.getElementById("save").innerHTML=`Ottimizzando il conto BNL risparmi <b>${eur0(s1)}</b> all'anno. Passando al conto alternativo, con la liquidità investita, il risparmio arriva a <b>${eur0(s2)}</b>.`;
+
+    const tips=[];
+    const add=(lvl,t,v)=>{if(v>0.5)tips.push({lvl,t,v});};
+    const bolloSave=p.gia>5000&&p.ris<=5000?34.20:0;
+    add("hi",`Sposta ${eur0(r.excess)} di liquidità in eccesso su un conto deposito o su titoli di Stato`+(bolloSave?" (e non paghi più il bollo sul conto)":""),r.opp+bolloSave);
+    const gSp=r.items.find(i=>i.k==="Bonifici allo sportello").v, extraCan=r.mSp*(9.88-(r.discount?4.98:6.98));
+    add("hi","Smetti di usare lo sportello: fai tutto online",gSp+extraCan-p.bSp*0.75);
+    if(!r.discount)add("md","Attiva lo sconto sul canone: accredito dello stipendio (o giacenza oltre 2.500 €) + un'utenza domiciliata",(12-r.mSp)*2);
+    add("md","Trasforma gli ordini permanenti in bonifici online programmati",p.bOrd*12*(3-0.75));
+    add("md","Preleva solo dagli ATM BNL",p.atm*12*0.9);
+    add("md","Contesta i costi dei bonifici istantanei: devono costare come quelli ordinari",p.istFee?p.bIst*12*1.5:0);
+    add("md","Rientra dallo scoperto o chiedi un prestito a tasso più basso",r.items.find(i=>i.k==="Interessi di scoperto").v);
+    add("lo","Passa a estratto conto e comunicazioni online",p.carta);
+    add("lo","Usa un conto multivaluta per i bonifici in valuta estera",r.items.find(i=>i.k==="Bonifici in valuta").v*0.7);
+    tips.sort((a,b)=>b.v-a.v);
+    const ul=document.getElementById("tips");
+    ul.innerHTML=tips.length?"":`<li><span class="pill lo">Ok</span><span>Il tuo profilo usa già il conto nel modo più economico.</span><span></span></li>`;
+    const lab={hi:"Alto",md:"Medio",lo:"Basso"};
+    tips.forEach(t=>{const li=document.createElement("li");li.innerHTML=`<span class="pill ${t.lvl}">${lab[t.lvl]}</span><span></span><span class="amt">−${eur0(t.v)}/anno</span>`;li.children[1].textContent=t.t;ul.appendChild(li);});
+  }
+
+  let start=SAMPLE;
+  try{const s=JSON.parse(localStorage.getItem(KEY)||"null");if(s)start=Object.assign({},SAMPLE,s);}catch(e){}
+  setForm(start);
+  f.addEventListener("input",render);f.addEventListener("change",render);
+  f.addEventListener("submit",e=>e.preventDefault());
+  document.getElementById("reset").addEventListener("click",()=>{setForm(SAMPLE);render();});
+  render();
+})();
+</script>
