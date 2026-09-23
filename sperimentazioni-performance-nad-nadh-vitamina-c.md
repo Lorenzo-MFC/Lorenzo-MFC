@@ -129,6 +129,49 @@ bagno freddo invece **attenua** l'ipertrofia se fatto subito dopo la pesistica).
 
 ---
 
+## 4-bis. Altre molecole in fase di sperimentazione (2025-2026)
+
+Le molecole si dividono in tre gruppi molto diversi tra loro dal punto di vista legale e del rischio.
+
+### A) Integratori legali con ricerca in corso (candidati per test in palestra)
+
+| Molecola | Cosa fa (in teoria) | Stato delle prove | Nota pratica |
+|---|---|---|---|
+| **Urolitina A** (Mitopure) | Stimola la *mitofagia*: il "riciclo" dei mitocondri danneggiati | È la più promettente del gruppo. RCT su adulti di mezza età: più forza e resistenza muscolare. Trial 2025 su runner allenati (1000 mg/giorno per 4 settimane): meno danno muscolare e fatica percepita più bassa, ma **nessun aumento netto della prestazione**. Meta-analisi 2026: effetti piccoli | Costosa (~60-100 €/mese); verificare lo status *novel food* UE del prodotto |
+| **Esteri chetonici** | Forniscono un carburante alternativo (beta-idrossibutirrato) | Risultati misti: alcuni studi neutri o negativi sulla resistenza; segnali sul recupero e sul mantenimento dell'equilibrio energetico nei periodi di carico elevato | Molto costosi (30-50 € a dose); gusto sgradevole |
+| **GlyNAC** (glicina + N-acetilcisteina) | Ripristina il glutatione, l'antiossidante interno | Piccoli trial su anziani: miglioramenti di forza, andatura e marcatori mitocondriali | Economico; da non usare ad alte dosi nei giovani (stesso problema degli antiossidanti visto per la vitamina C) |
+| **HMB** | Riduce la degradazione delle proteine muscolari | Utile soprattutto per anziani, principianti, periodi di immobilizzazione o dieta ipocalorica; poco effetto sugli allenati | 3 g/giorno |
+| **Spermidina** | Stimola l'autofagia | Soprattutto dati su animali e studi di osservazione; nessuna prova sulla performance | Solo in ottica "longevità" |
+| **Ca-AKG** (alfa-chetoglutarato) | Metabolismo energetico, invecchiamento | Topi sì; nell'uomo ancora quasi nulla | Aspettare |
+| **Taurina** | Nel 2023 considerata un "anti-aging" | Nel 2025 studi NIH e *Aging Cell* hanno ridimensionato l'idea che cali con l'età; per lo sport, benefici modesti a 1-3 g | Economica e sicura, ma niente miracoli |
+| **Ergotioneina** | Antiossidante presente nei funghi | Ricerca iniziale su cervello e invecchiamento | Non ancora rilevante per lo sport |
+
+### B) Farmaci in sviluppo clinico (solo con prescrizione medica, **non** da palestra)
+
+- **Bimagrumab** (anticorpo che blocca i recettori dell'activina/miostatina): nel trial di fase 2b BELIEVE (2025) insieme alla semaglutide ha fatto perdere peso quasi solo come grasso, preservando i muscoli. Da solo ha aumentato la massa magra di circa il 2,5%. È il fronte più interessante per i clienti in terapia con **GLP-1** (Ozempic/Wegovy/Mounjaro), che rischiano di perdere muscolo. **Opportunità di business**: programmi di allenamento di forza specifici "GLP-1 + muscolo", in collaborazione con medici.
+- **Elamipretide (SS-31)**: farmaco che agisce sulla membrana dei mitocondri; approvato negli USA per una malattia rara (sindrome di Barth). Non ha uso sportivo.
+- **Altri inibitori della miostatina** e farmaci per la sarcopenia: in studio per anziani e pazienti, non per sportivi sani. Per gli atleti sono vietati dal Codice WADA.
+
+### C) "Mercato grigio" e doping: **da evitare assolutamente**
+
+Circolano online come "peptidi di ricerca" o "*research chemicals*", spesso sui social del
+fitness:
+
+| Sostanza | Perché se ne parla | Problema |
+|---|---|---|
+| **SLU-PP-332** | "Esercizio in pillola" (agonista ERR); nei topi aumenta la resistenza | **Nessuno studio sull'uomo** (a giugno 2026); vietato dalla WADA come modulatore metabolico; i laboratori antidoping hanno già messo a punto metodi per rilevarlo |
+| **MOTS-c**, **5-amino-1MQ**, **BPC-157**, **TB-500** | Peptidi per "metabolismo", recupero, tendini | Nessun trial serio sull'uomo, prodotti spesso contaminati o sottodosati; vietati dalla WADA |
+| **AICAR**, **GW501516** (Cardarine) | "Mimetici dell'esercizio" | GW501516 è stato abbandonato dall'industria farmaceutica per **tumori negli animali**; entrambi vietati |
+| **SARMs** (Ostarine, RAD-140…) | Massa muscolare "senza steroidi" | Tossicità epatica, soppressione ormonale; vietati |
+| **Meldonium**, **trimetazidina** | Metabolismo cardiaco | Farmaci con obbligo di prescrizione; vietati dalla WADA |
+
+> **Per MFC**: vendere, consigliare o anche solo tollerare queste sostanze in palestra espone
+> a responsabilità penale (in Italia, legge 376/2000 sul doping), a danni reputazionali e
+> a rischi per la salute dei clienti. Una posizione pubblica chiara contro questi prodotti è
+> anche un elemento di **fiducia** verso i clienti.
+
+---
+
 ## 5. Come impostare una sperimentazione seria in palestra
 
 Se vuoi testare NR/NMN (quando autorizzato) o altri protocolli, fallo in modo misurabile:
@@ -227,3 +270,10 @@ diventa anche un **contenuto di marketing credibile** ("abbiamo testato, ecco i 
 - International Olympic Committee consensus statement on dietary supplements and the high-performance athlete (Maughan et al., BJSM 2018)
 - WADA, *Prohibited List* — metodo M2.2 (infusioni endovenose)
 - Regolamento (UE) 1924/2006 sui claim nutrizionali e sulla salute
+- *Effects of Urolithin A supplementation on muscle health outcomes in humans from RCTs*, Frontiers in Nutrition 2026 — [PubMed 42559151](https://pubmed.ncbi.nlm.nih.gov/42559151/)
+- *Urolithin A improves muscle strength, exercise performance, and biomarkers of mitochondrial health in a randomized trial in middle-aged adults*, Cell Reports Medicine 2022 — [PubMed 35584623](https://pubmed.ncbi.nlm.nih.gov/35584623/)
+- *Analysis and identification of in vitro metabolites of exercise mimetic SLU-PP-332 for doping-control purposes*, Drug Testing and Analysis 2026 — [PubMed 41688415](https://pubmed.ncbi.nlm.nih.gov/41688415/)
+- *Experimental evidence against taurine deficiency as a driver of aging in humans*, Aging Cell 2025 — [Wiley](https://onlinelibrary.wiley.com/doi/10.1111/acel.70191)
+- NIH (2025), *Taurine unlikely to be a good aging biomarker* — [nih.gov](https://www.nih.gov/news-events/news-releases/nih-researchers-conclude-taurine-unlikely-be-good-aging-biomarker)
+- *Bimagrumab plus semaglutide for the treatment of obesity: a randomized phase 2 trial (BELIEVE)*, Nature Medicine 2026 — [nature.com](https://www.nature.com/articles/s41591-026-04204-0)
+- Legge 14 dicembre 2000, n. 376 — Disciplina della tutela sanitaria delle attività sportive e della lotta contro il doping
