@@ -2,7 +2,7 @@
 
 **Business Operations Manager**
 
-Italy · +39 346 120 9241 · manzonifitnessclub@gmail.com · [LinkedIn URL] · [github.com/Lorenzo-MFC](https://github.com/Lorenzo-MFC)
+Milan, Italy · +39 346 120 9241 · manzonifitnessclub@gmail.com · [LinkedIn URL] · [github.com/Lorenzo-MFC](https://github.com/Lorenzo-MFC)
 
 > Everything in `[square brackets]` is a placeholder to replace with your real data
 > before sending. See [`README.md`](README.md) in this folder for how to fill it in.
@@ -11,9 +11,10 @@ Italy · +39 346 120 9241 · manzonifitnessclub@gmail.com · [LinkedIn URL] · [
 
 ## Professional Summary
 
-Hands-on operations manager with [X] years of experience running a service business
-end to end, including P&L, cash flow, staffing, member sales and process design at
-**Manzoni Fitness Club**. I turn day-to-day operations into measurable systems: documented
+Founder and owner-manager with **15+ years** running **Manzoni Fitness Club**, a boutique
+personal-training studio in Milan's Montenapoleone district. I handle the business end to
+end: P&L, cash flow, staffing, client sales, service quality and process design. My
+clients are mostly executives and finance professionals. I turn day-to-day operations into measurable systems: documented
 processes, KPI dashboards and monthly budget-vs-actual reviews that lower costs and
 increase recurring revenue. I am studying for professional certifications in
 **finance** and **blockchain/fintech**, and I use financial analysis and new
@@ -28,37 +29,45 @@ technology to make operations scale.
 | **Operations & Processes** | Process mapping (SIPOC, BPMN), SOP design, Lean / continuous improvement, capacity & shift planning, vendor and procurement management, quality & customer-service standards |
 | **Finance & Economics** | P&L ownership, budgeting & rolling forecasts, cash-flow and working-capital management, cost control, pricing strategy, unit economics (CAC, LTV, churn, ARPU), break-even analysis, investment appraisal (ROI, payback) |
 | **Management & Leadership** | Team recruiting, onboarding and scheduling, performance KPIs & OKRs, weekly operating reviews, conflict resolution, cross-functional coordination |
-| **Business Development** | New service lines, B2B/corporate partnerships, market & competitor analysis, membership sales funnels, digital marketing coordination |
-| **Compliance & Risk** | Health & safety, GDPR (customer data), insurance, contracts, sports-association rules (ASD/SSD) *[keep only what applies]* |
+| **Business Development** | New service lines, B2B/corporate partnerships, market & competitor analysis, client sales funnels, digital marketing coordination |
+| **Compliance & Risk** | Health & safety, GDPR (customer data), insurance, contracts, corporate governance (S.r.l.) |
 | **Tools** | Excel / Google Sheets (pivot tables, financial models), [gym/CRM management software], [accounting software], [Notion / Asana / Trello], [Power BI / Looker Studio] |
 
 ---
 
 ## Professional Experience
 
-### [Owner / General Manager / Operations Manager] — Manzoni Fitness Club (MFC)
-*[City], Italy · [MM/YYYY] – Present*
+### Founder & Owner (Titolare) — Manzoni Fitness Club · Manzoni Fitness S.r.l.
+*Milan, Italy (Montenapoleone district) · 2010 – Present*
 
-- **P&L ownership:** Ran full P&L for a club with [N] active members and €[X] in annual
-  revenue. Introduced monthly budget-vs-actual reporting and cut operating costs by
-  [X]% by renegotiating [utilities / cleaning / equipment-leasing] contracts.
-- **Retention & revenue:** Redesigned member onboarding and the first 90 days of
-  membership, raising renewal rate from [X]% to [Y]% and cutting monthly churn by [X]
-  percentage points.
-- **KPI system:** Built a weekly dashboard tracking revenue per member, class-slot
-  occupancy, CAC, LTV, staff utilisation and cash position, and used it to drive
-  pricing and scheduling decisions.
-- **People management:** Hired, trained and scheduled a team of [N] trainers and
-  front-desk staff. Wrote SOPs for opening/closing, cash handling, sales and customer
-  care, cutting new-hire ramp-up time by [X]%.
-- **Business development:** Launched [personal-training packages / corporate wellness
-  partnerships / nutrition coaching], adding €[X] in revenue within [N] months.
-- **Cash-flow planning:** Planned seasonal peaks and troughs (January sign-ups vs.
-  summer drop), managed supplier payment terms and financed equipment through
-  [leasing / financing], keeping [X] months of operating costs in reserve.
-- **Compliance:** Kept the club compliant with health & safety, GDPR and insurance
-  requirements [and ASD/SSD sports-association rules], with zero [incidents / fines]
-  in [N] years.
+*A 200 m² boutique personal-training studio in central Milan with a team of 3
+instructors and a premium clientele of executives and finance professionals.*
+
+- **Business launch:** Founded the studio in 2010 and built its positioning around
+  premium one-to-one training, with pricing and service levels to match a high-end
+  city-centre clientele.
+- **Quality management:** Built a model in which the owner personally trains and
+  supervises every personal trainer, with shared training methods and service standards
+  for all [N] clients.
+- **P&L ownership:** Run the full P&L (annual revenue €[X], [N] active clients).
+  Introduced monthly budget-vs-actual reporting and cut operating costs by [X]% by
+  renegotiating [rent / utilities / cleaning / equipment-leasing] contracts.
+- **Retention & revenue:** Redesigned client onboarding and the first 90 days of each
+  training package, raising the renewal rate from [X]% to [Y]%.
+- **KPI system:** Track revenue per client, trainer-slot occupancy, client acquisition
+  cost, lifetime value, trainer utilisation and cash position, and use them to set
+  pricing and schedules.
+- **People management:** Hire, train and schedule a team of 3 instructors [plus N
+  front-desk / support staff]. Wrote SOPs for opening/closing, payments, sales and
+  customer care, cutting new-trainer ramp-up time by [X]%.
+- **Business development:** Launched [5- and 10-session personal-training packages /
+  wellness & lifestyle coaching / corporate partnerships / deal-platform promotions],
+  adding €[X] in revenue within [N] months.
+- **Cash-flow planning:** Plan for seasonal peaks and troughs (January and September
+  sign-ups vs. the August drop), manage supplier payment terms and finance equipment
+  through [leasing / financing], keeping [X] months of operating costs in reserve.
+- **Compliance:** Keep the studio compliant with health & safety, GDPR (client data) and
+  insurance requirements, with zero [incidents / fines] in [N] years.
 
 ### [Job Title] — [Company]
 *[City] · [MM/YYYY] – [MM/YYYY]*
@@ -88,13 +97,13 @@ technology to make operations scale.
 
 ## Education & Certifications
 
-- **[Degree / Diploma]**, [Field of study] — [School / University], [Year]
+- **Degree in Sports Science (Scienze Motorie)** — [University], [Year]
 - **[Finance certification, in progress]**, e.g. [EFA – European Financial Advisor /
   CFA Level I / Financial Modelling & Valuation Analyst (FMVA)]. Expected [MM/YYYY]
 - **[Blockchain certification, in progress]**, e.g. [Certified Blockchain Expert /
   Blockchain for Business]. Expected [MM/YYYY]
-- [Fitness / management qualifications, e.g. CONI / federation certificates, first aid
-  / BLSD]
+- [Coaching & fitness qualifications, e.g. wellness / lifestyle coaching, CONI or
+  federation certificates, first aid / BLSD]
 
 ---
 

@@ -13,8 +13,8 @@ A Business Operations Manager is hired to improve **processes**, **economics** a
 |---|---|---|
 | Revenue & growth | Annual accounts, POS / management software | "...grew revenue from €X to €Y (+Z%)" |
 | Costs | Supplier invoices, utility bills, contracts | "...cut operating costs by X%" |
-| Retention / churn | Membership renewals ÷ expiring memberships | "...renewal rate from X% to Y%" |
-| Unit economics | Marketing spend ÷ new members = CAC; avg. monthly fee × avg. months = LTV | "...LTV/CAC ratio of X:1" |
+| Retention / churn | Package renewals ÷ expiring packages | "...renewal rate from X% to Y%" |
+| Unit economics | Marketing spend ÷ new clients = CAC; avg. monthly spend × avg. months as a client = LTV | "...LTV/CAC ratio of X:1" |
 | Efficiency | Staff hours, class occupancy, waiting times | "...saved X hours/week" |
 | Team | Headcount managed, turnover | "...led a team of N" |
 
@@ -28,7 +28,7 @@ Bullet formula: **action verb + what you did + measurable result**.
 2. Keep the resume to **1 page** (2 at most) and export it to PDF.
 3. Put your strongest 3 bullets first under each role.
 4. Before sending, delete the placeholder note at the top of the resume and any line
-   that doesn't apply (e.g. ASD/SSD if the club is not a sports association).
+   that doesn't apply.
 
 ## Privacy note
 
