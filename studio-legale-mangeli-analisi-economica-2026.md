@@ -227,6 +227,20 @@ acconti 2026 si calcolano sul 2025 (metodo storico). Prima di allora restano:
   forense impone l'adempimento fiscale e previdenziale.
 - L'IVA e il 4% sono somme dei clienti, che lo studio incassa per conto di Erario e Cassa.
 
+**Versamenti previsti e piano sostenibile**
+
+Previsti altri **~30.000 €** tra cartelle (anni precedenti) e Cassa Forense. Le cartelle non
+riducono il dovuto 2026, quindi a fine 2026 resterebbero scoperti **~325.000–380.000 €**.
+
+| Modo di gestire il residuo 2026 | Costo extra stimato | Uscita di cassa |
+|---|---|---|
+| Pagare alle scadenze (giugno/luglio 2027 + acconti) | nessuno | concentrata a metà 2027 |
+| Dichiarare correttamente, poi pagare l'avviso bonario in **20 rate trimestrali** (sanzione ridotta all'8,33%) | ~27.000–32.000 € + interessi | **~18.000–21.000 € a trimestre (~6–7.000 €/mese)** |
+| Non pagare e arrivare a cartella | sanzione 25% (~81.000–95.000 €) + interessi + oneri di riscossione | esecuzione forzata: pignoramento di conti e crediti verso clienti |
+
+Con un margine di circa 58.000 € al mese, anche la rateizzazione più lunga pesa circa il 10–12%
+del margine mensile.
+
 **Strade legali per ridurre o diluire il carico**
 - **Ravvedimento operoso**: sanzioni ridotte se si regolarizza spontaneamente.
 - **Rateizzazione** degli avvisi bonari e delle cartelle: protegge anche dal profilo penale
