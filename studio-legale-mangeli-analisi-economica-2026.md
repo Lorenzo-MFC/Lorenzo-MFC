@@ -227,6 +227,29 @@ acconti 2026 si calcolano sul 2025 (metodo storico). Prima di allora restano:
   forense impone l'adempimento fiscale e previdenziale.
 - L'IVA e il 4% sono somme dei clienti, che lo studio incassa per conto di Erario e Cassa.
 
+**Debiti pregressi: già rateizzati**
+
+Le cartelle esistenti sono state tutte rateizzate. Regole da tenere presenti:
+- il piano decade con **8 rate non pagate, anche non consecutive**;
+- in caso di decadenza il residuo diventa esigibile in un'unica soluzione e riprendono le
+  azioni esecutive;
+- finché il piano è regolare, la riscossione non avvia nuovi pignoramenti su quei debiti.
+
+Le rate vanno trattate come un costo fisso mensile, al pari dell'affitto: domiciliazione
+bancaria e scadenzario.
+
+**Prossimo appuntamento: giugno/luglio 2027**
+
+Insieme si pagano il **saldo 2026** e il **primo acconto 2027**, calcolato sull'imposta 2026.
+Con un 2026 molto più alto del 2025 è la scadenza più pesante.
+- Il versamento dalla dichiarazione si può rateizzare solo fino a dicembre, quindi in poche
+  rate.
+- Il secondo acconto di novembre non è rateizzabile.
+- Serve accantonare **da subito**, ogni mese, circa il 50% del margine su un conto fiscale
+  dedicato.
+- Se l'importo non è disponibile alla scadenza, l'avviso bonario permette 20 rate trimestrali
+  (vedi sotto).
+
 **Versamenti previsti e piano sostenibile**
 
 Previsti altri **~30.000 €** tra cartelle (anni precedenti) e Cassa Forense. Le cartelle non
