@@ -264,35 +264,6 @@ riducono il dovuto 2026, quindi a fine 2026 resterebbero scoperti **~325.000–3
 Con un margine di circa 58.000 € al mese, anche la rateizzazione più lunga pesa circa il 10–12%
 del margine mensile.
 
-**Strategia scelta per il 2026: attendere l'avviso bonario e rateizzarlo**
-
-Come funziona:
-1. Le dichiarazioni 2026 (Redditi, IVA, IRAP, Modello 5 Cassa) si presentano **complete e nei
-   termini**.
-2. Il controllo automatizzato rileva il mancato versamento e l'Agenzia invia l'avviso bonario.
-   Di solito arriva dopo **12–24 mesi** dalla dichiarazione (indicativo).
-3. Dalla notifica ci sono **60 giorni** per pagare la prima rata. Sanzione ridotta all'**8,33%**
-   più interessi, in **20 rate trimestrali**.
-
-Per non perdere la rateizzazione:
-- la prima rata va pagata entro il termine (tolleranza massima 7 giorni);
-- ogni rata va pagata prima della scadenza di quella successiva;
-- per gli scarti di importo la tolleranza è il 3%, massimo 10.000 €;
-- in caso di decadenza il residuo va a ruolo con sanzione piena.
-
-Cosa resta escluso e va pagato regolarmente:
-- contributi Cassa Forense e 4% integrativo;
-- ritenute e contributi dei dipendenti e collaboratori (lo studio è sostituto d'imposta);
-- rate delle cartelle già in corso.
-
-**Il rischio è l'effetto valanga**
-Se anche il 2027, il 2028 e gli anni seguenti seguono la stessa strada, i piani quinquennali si
-sovrappongono e le rate trimestrali si sommano. Proposta: usare l'avviso bonario **solo per il
-2026**. Dal 2027 si accantona ogni mese e si paga alle scadenze.
-
-Fino all'arrivo dell'avviso, la somma resta comunque sul conto fiscale. Lì può stare in un
-conto deposito a breve scadenza (§6), così copre in parte gli interessi.
-
 **Strade legali per ridurre o diluire il carico**
 - **Ravvedimento operoso**: sanzioni ridotte se si regolarizza spontaneamente.
 - **Rateizzazione** degli avvisi bonari e delle cartelle: protegge anche dal profilo penale
