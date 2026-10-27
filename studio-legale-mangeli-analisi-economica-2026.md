@@ -191,7 +191,55 @@ in ordine di rischio:
 
 ---
 
-## 9. Dati mancanti per affinare l'analisi
+## 9. Versamenti effettuati e debito residuo (aggiornamento)
+
+Nel 2026 lo studio ha versato finora **36.000 €** tra Cassa Forense e rate IVA. Rispetto al
+dovuto stimato, il residuo è questo:
+
+| Stima | Scenario A (710k = compensi netti) | Scenario B (710k con IVA e 4%) |
+|---|---|---|
+| Dovuto maturato al 27/10 (imposte sui redditi + Cassa + IVA/4% dove inclusi) | ~321.000 €* | ~367.000 € |
+| Già versato | 36.000 € | 36.000 € |
+| **Residuo maturato al 27/10** | **~285.000 €*** | **~331.000 €** |
+| Residuo stimato a fine 2026 | ~355.000 €* | ~410.000 € |
+
+\*Nello scenario A l'IVA incassata in aggiunta ai 710k non è nota e va sommata.
+
+Due voci riducono il residuo:
+- le **ritenute d'acconto** trattenute dai clienti, che sono IRPEF già versata per conto dello
+  studio;
+- l'**IVA sugli acquisti**, che è detraibile.
+
+**Quando si paga**
+Gran parte delle imposte sul reddito 2026 si paga con il saldo di giugno/luglio 2027. Gli
+acconti 2026 si calcolano sul 2025 (metodo storico). Prima di allora restano:
+- il secondo acconto del **30/11/2026**;
+- l'IVA periodica.
+
+**Cosa comporta non versare il dovuto**
+- Imposte dichiarate e non pagate: sanzione del **25%** più interessi, poi cartella ed
+  esecuzione forzata. Questa include il pignoramento dei conti e dei crediti verso i clienti.
+- IVA non versata oltre **250.000 €** per anno d'imposta: è reato (art. 10-ter D.Lgs. 74/2000).
+  Una rateazione in corso esclude la punibilità.
+- Dichiarazione non presentata con imposta evasa oltre **50.000 €** per singola imposta: è
+  reato (art. 5 D.Lgs. 74/2000).
+- Per l'avvocato c'è anche il profilo **deontologico**. L'art. 16 del Codice deontologico
+  forense impone l'adempimento fiscale e previdenziale.
+- L'IVA e il 4% sono somme dei clienti, che lo studio incassa per conto di Erario e Cassa.
+
+**Strade legali per ridurre o diluire il carico**
+- **Ravvedimento operoso**: sanzioni ridotte se si regolarizza spontaneamente.
+- **Rateizzazione** degli avvisi bonari e delle cartelle: protegge anche dal profilo penale
+  sull'IVA.
+- **Deduzioni**: previdenza complementare e contribuzione modulare volontaria Cassa Forense,
+  entro i limiti di legge.
+- **Struttura dello studio**: associazione o STA (§4), da valutare per i prossimi anni.
+- **Accantonamento automatico** su un conto fiscale dedicato (§6). La liquidità per pagare c'è:
+  il margine maturato è ~570.000 €.
+
+---
+
+## 10. Dati mancanti per affinare l'analisi
 
 1. I 710.000 € sono compensi netti o incassi lordi con IVA e 4%? Al netto delle ritenute?
 2. Dettaglio dei 140.000 € di costi (checklist del §5).
@@ -199,3 +247,5 @@ in ordine di rischio:
 4. Dati 2025 (incassi, costi, imposte pagate) per confronto e calcolo degli acconti.
 5. Crediti aperti oggi: fatturato non incassato e lavoro non fatturato.
 6. Comune e regione di residenza del titolare, per le addizionali.
+7. Ripartizione dei 36.000 € versati tra Cassa e IVA, e ritenute d'acconto subite nel 2026.
+8. Imposte dovute per il 2025: sono la base degli acconti 2026.
