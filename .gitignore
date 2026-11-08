@@ -1,0 +1,27 @@
+# Protezione dati sensibili: questo repository è PUBBLICO.
+# Questi file non vengono aggiunti per errore con "git add".
+# Attenzione: il caricamento dal sito di GitHub (Add file > Upload files) NON è bloccato.
+
+# Cartella per i dati riservati: si può usare in locale, non viene mai pubblicata
+dati-privati/
+
+# Fogli di calcolo ed esportazioni (estratti conto, gestionali, cassa)
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+*.ods
+*.numbers
+
+# Formati bancari
+*.ofx
+*.qif
+*.qfx
+*.mt940
+*.sta
+
+# Documenti (estratti conto e fatture in PDF, fatture elettroniche)
+*.pdf
+*.p7m
+# Fatture elettroniche FatturaPA (nome tipico: IT01234567890_00001.xml)
+IT*_*.xml
