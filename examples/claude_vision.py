@@ -21,6 +21,31 @@ PROMPT = "What is in the above image?"
 MAX_TOKENS = 16000
 
 
+def print_usage(message) -> None:
+    """Print token counts for each attempt the API made for this reply.
+
+    When a fallback runs, top-level usage covers only the final attempt;
+    usage.iterations lists every attempt (each one billed at its own model's
+    rates), so read the cost from there.
+    """
+    attempts = message.usage.iterations or []
+    if not attempts:
+        usage = message.usage
+        print(f"  tokens: input={usage.input_tokens} output={usage.output_tokens}")
+        return
+    for attempt in attempts:
+        # Compaction entries carry no model name.
+        model = getattr(attempt, "model", "-")
+        print(
+            f"  {attempt.type} on {model}: "
+            f"input={attempt.input_tokens} output={attempt.output_tokens}"
+        )
+    if message.stop_reason != "refusal" and any(
+        attempt.type == "fallback_message" for attempt in attempts
+    ):
+        print(f"  note: {MODEL} declined, so the fallback model {message.model} answered")
+
+
 def describe(client: anthropic.Anthropic, image_source: dict) -> str:
     """Send one image plus the prompt and return Claude's text answer."""
     message = client.beta.messages.create(
@@ -41,11 +66,8 @@ def describe(client: anthropic.Anthropic, image_source: dict) -> str:
         ],
     )
 
-    usage = message.usage
-    print(
-        f"[model={message.model} stop_reason={message.stop_reason} "
-        f"input_tokens={usage.input_tokens} output_tokens={usage.output_tokens}]"
-    )
+    print(f"[answered by {message.model}, stop_reason={message.stop_reason}]")
+    print_usage(message)
 
     # The reply can hold other block types (e.g. thinking), so keep only text.
     text = "".join(block.text for block in message.content if block.type == "text")
@@ -54,10 +76,15 @@ def describe(client: anthropic.Anthropic, image_source: dict) -> str:
     # (tool_use and pause_turn can't happen here: this script defines no tools.)
     match message.stop_reason:
         case "refusal":
-            # With fallbacks="default", this means the fallback model declined too.
+            # Still a refusal with fallbacks="default": the fallback declined too, the
+            # category has no recommended fallback, or the fallback was too busy to try.
+            # category and explanation can be null; show explanation, never parse it.
             details = message.stop_details
-            category = details.category if details and details.category else "not given"
-            return f"(Claude declined this request; category: {category})"
+            reason = (details.explanation or details.category) if details else None
+            answer = f"(Claude declined this request: {reason or 'no reason given'})"
+            if details and details.recommended_model:
+                answer += f"\n(you can retry this request on {details.recommended_model})"
+            return answer
         case "max_tokens":
             return f"{text}\n\n[Response truncated due to max_tokens limit ({MAX_TOKENS})]"
         case "model_context_window_exceeded":
