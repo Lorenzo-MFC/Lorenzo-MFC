@@ -99,6 +99,9 @@ certificates, fondi pensione).
 5. **Confronto di mercato**: nel 2026 diversi concorrenti offrono tassi simili o superiori
    senza obbligo di conto corrente; valutare i comparatori prima di vincolare.
 
+Per fare questi calcoli in automatico (rendimento netto e reale, svincolo anticipato,
+confronto tra offerte) c'è il calcolatore [`deposit_calc`](deposit_calc/README.md).
+
 ---
 
 ## Fonti

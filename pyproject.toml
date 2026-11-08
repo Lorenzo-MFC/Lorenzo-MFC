@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deposit-calc"
+version = "0.1.0"
+description = "Net and real return of Italian time deposits (conti deposito), with live ECB rate and inflation from the FRED API"
+readme = "deposit_calc/README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+deposit-calc = "deposit_calc.cli:main"
+
+[tool.setuptools]
+packages = ["deposit_calc"]

@@ -1,0 +1,33 @@
+{
+  "source": "credit-agricole-prodotti-finanziari-conti-deposito.md (research as of August 2026). The promotion ended on 2026-09-30: check current rates on credit-agricole.it before use.",
+  "offers": [
+    {
+      "bank": "Crédit Agricole",
+      "name": "4 mesi",
+      "gross_rate_pct": 3.75,
+      "term_months": 4,
+      "early_withdrawal": "forfeit_interest",
+      "valid_until": "2026-09-30",
+      "notes": "Up to 3.75%, only for new clients or new money from other banks. Requires a Crédit Agricole current account: add its yearly cost with annual_costs."
+    },
+    {
+      "bank": "Crédit Agricole",
+      "name": "6 mesi",
+      "gross_rate_pct": 3.25,
+      "term_months": 6,
+      "max_amount": 1000000,
+      "early_withdrawal": "forfeit_interest",
+      "valid_until": "2026-09-30",
+      "notes": "Rate applies up to 1,000,000 €. Requires a Crédit Agricole current account."
+    },
+    {
+      "bank": "Crédit Agricole",
+      "name": "9 mesi",
+      "gross_rate_pct": 2.75,
+      "term_months": 9,
+      "early_withdrawal": "forfeit_interest",
+      "valid_until": "2026-09-30",
+      "notes": "Requires a Crédit Agricole current account."
+    }
+  ]
+}
